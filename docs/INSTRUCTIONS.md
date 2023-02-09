@@ -43,8 +43,8 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 #### Materiaal analysefase
 
-- [How To Use Team Canvas]([url](https://theteamcanvas.com/use/))
-- [Learn about projects on Github]([url](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects))
+- [How To Use Team Canvas](https://theteamcanvas.com/use/)
+- [Learn about projects on Github](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
 
 ### Ontwerpen
