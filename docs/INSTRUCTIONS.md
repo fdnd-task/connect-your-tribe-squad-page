@@ -12,7 +12,7 @@ In het S07W2-01-Squadpage wordt uitgelegd wat je gaat doen.
 Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). Met deze data ga je met een team een squad page ontwerpen en maken zodat je met elkaar in contact kan blijven.
 
 Je ontwerpt en maakt met een team een squad page om in contact te kunnen blijven met FDND frontenders. 
-Alle teamleden maken zelf een pagina met Node en data uit de de [whois.fdnd.nl](https://whois.fdnd.nl) API. Op deze pagina kun je op een (interactieve) manieren mede-studenten opzoeken, gegevens bekijken, andere studenten kan pingen, of een vraag stellen, of ...
+Alle teamleden maken zelf een pagina met Node en de whois API. Op deze pagina kun je op een (interactieve) manieren mede-studenten opzoeken, gegevens bekijken, andere studenten kan pingen, of een vraag stellen, of ... en doorlinken naar het visitekaartje.
 Met het team maak je een squad page waarmee je naar de verschillende pagina's kan navigeren. Zo kun je op verschillende manieren FDND Frontenders in contact blijven. 
 
 <img width="598" alt="image" src="https://user-images.githubusercontent.com/1391509/217925272-d3ef936e-6bad-44dc-8a85-dc22d967ac18.png">
