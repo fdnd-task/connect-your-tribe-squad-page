@@ -1,49 +1,59 @@
 
 # Squad page
-Ontwerp en maak met je squad een squad-page met Node en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
+Ontwerp en maak met je squad een squadpage met Node en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
 
 ## Context
 Deze leertaak hoort bij sprint 7 "Connect Your Tribe". Dit is een leertaakdie je in een team uitvoert.
 
-In het S07W2-01-Squad-Page wordt uitgelegd wat je gaat doen.
+In het S07W2-01-Squadpage wordt uitgelegd wat je gaat doen.
 
 
 ## Briefing
-Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). Met deze data ga je met je squad een squad page ontwerpen en maken zodat je met elkaar in contact kan blijven.
+Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). Met deze data ga je met een team een squadpage ontwerpen en maken zodat je met elkaar in contact kan blijven.
 
 
 ## Doel van deze opdracht
-Je leert met een team een overzichtpagina te ontwerpen en bouwen met data uit een database.
+Je leert met een team een overzichtpagina te ontwerpen en bouwen op basis van een bestaande API.
 
 
 ## Werkwijze
-Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
+Voordat je met Node en JSON de squadpage kan gaan bouwen ga je in de analyse- en ontwerpfase met je team ideeën bedenken, schetsen en het project plannen. 
 
-
-
+Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
 
 ### Analyseren
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen. Voor je met deze leertaak kan beginnen moet je ontwikkelomgeving ingericht worden door Node te installeren. 
+In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen. 
+
+
+
 
 #### Aanpak analysefase
 
-1. ...
+2. Lees de instructies van deze leertaak zorgvuldig door
+3. Vul het teamcamvas in
+4. Maak een gezamenlijke repo en projectboard aan
+5. Bespreek met jouw team wat je aan werk verwacht en maak zoveel mogelijk taken en belangrijke datums in
+6. 
+
 
 #### Materiaal analysefase
 
-- ...
+- Teamcanvas
+- Creating a projecboard in Github
 
 
 
 
 
 ### Ontwerpen
-In de ontwerpfase ga je met een team de overzichtpagina bedenken en ontwerpen.
+In de ontwerpfase ga je met een team ideeen verzinnen over hoe je de data kan presenteren.
+
 
 #### Aanpak ontwerpfase
 
-1. ...
+1. Ideegeneratie overzichtspagina
+2. 
 
 #### Materiaal ontwerpfase
 
@@ -67,11 +77,12 @@ Je realiseert jouw beslissingen uit de ontwerpfase in Node, HTML en CSS.
 
 
 ### Integreren
-Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. Omdat we met Node werken is dit iets ingewikkelder dan voorheen, er moet namelijk een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
+Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. 
 
 #### Aanpak integreerfase
 
-1. ...
+1. Commit en Push jouw project naar GitHub
+2. Meld met behulp van GitHub aan bij cyclic.sh
 
 #### Materiaal integreerfase
 
@@ -81,7 +92,7 @@ Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren
 
 
 ### Testen
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen. Voor je met deze leertaak kan beginnen moet je ontwikkelomgeving ingericht worden door Node te installeren. 
+In de testfase controleer je of jouw aanpassingen werken zoals bedoeld en jouw overzichtspagina voldoet aan standaarden.
 
 #### Aanpak testfase
 
