@@ -1,162 +1,116 @@
 
 # Squad page
-
-Redesign met je squad een squadpagina op basis van een bestaande API.
+Ontwerp en maak met je squad een squad-page met Node en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
 
 ## Context
+Deze leertaak hoort bij sprint 7 "Connect Your Tribe". Dit is een leertaakdie je in een team uitvoert.
 
-Deze leertaak hoort bij sprint 7 "Connect Your Tribe". Dit is een autonome opdracht die je in een team uitvoert voor FDND.
+In het S07W2-01-Squad-Page wordt uitgelegd wat je gaat doen.
 
 
 ## Briefing
-*In de briefing staat wat de opdracht is en wat de opdrachtgever wil.*
+Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). Met deze data ga je met je squad een squad page ontwerpen en maken zodat je met elkaar in contact kan blijven.
 
-{Beschrijf de opdrachtgever}
-{Beschrijf de opdracht}
 
 ## Doel van deze opdracht
-*Wat leer je in deze taak.*
+Je leert met een team een overzichtpagina te ontwerpen en bouwen met data uit een database.
 
-{beschrijf de taak in actieve taal: Je leert hoe...}
-
-<table>
-    <tr>
-        <td colspan="4"><b>Week 1</b></td>
-    </tr>
-    <tr>
-        <td>Maandag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Briefing</td>
-    </tr>
-    <tr>
-        <td>Dinsdag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Debriefing</td>
-    </tr>
-    <tr>
-        <td colspan="4"><b>Week 2</b></td>
-    </tr>
-    <tr>
-        <td>Dinsdag, woensdag of donderdag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Feedbacksessie</td>
-    </tr>
-    <tr>
-        <td colspan="4"><b>Week 3</b></td>
-    </tr>
-    <tr>
-        <td>Donderdag</td>
-        <td>{datum}</td>
-        <td>13:00 uur *</td>
-        <td>Oplevering</td>
-    </tr>
-</table>
-* vanaf 13:00 uur
 
 ## Werkwijze
-*De werkwijze volgt de fasering van de Development Life Cycle.*
-
-{geef de opdracht, in meer of mindere mate van sturing afhankelijk van het niveau van de taak}
-
 Deze opdracht gaat over alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
+
+
+
+
 ### Analyseren
-*In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren.*
+In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen. Voor je met deze leertaak kan beginnen moet je ontwikkelomgeving ingericht worden door Node te installeren. 
 
-<details>
-<summary>Aanpak</summary>
+#### Aanpak analysefase
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. ...
 
 #### Materiaal analysefase
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- ...
 
-</details>
+
+
+
 
 ### Ontwerpen
-*In de ontwerpfase neem je ontwerpbeslissingen en zorg je dat je precies weet wat je moet gaan bouwen.*
+In de ontwerpfase ga je met een team de overzichtpagina bedenken en ontwerpen.
 
-<details>
-<summary>Aanpak</summary>
+#### Aanpak ontwerpfase
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. ...
 
 #### Materiaal ontwerpfase
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- ...
 
-</details>
+
+
 
 ### Bouwen
-*In de bouwfase realiseer je de beslissingen uit de ontwerpfase.*
+Je realiseert jouw beslissingen uit de ontwerpfase in Node, HTML en CSS.
 
-<details>
-<summary>Aanpak</summary>
+#### Aanpak bouwfase
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. ...
 
 #### Materiaal bouwfase
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- ...
 
-</details>
+
+
 
 ### Integreren
-*In de integratiefase voer je de aanpassingen door zodat iedereen ze kan zien.*
+Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. Omdat we met Node werken is dit iets ingewikkelder dan voorheen, er moet namelijk een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
 
-<details>
-<summary>Aanpak</summary>
+#### Aanpak integreerfase
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. ...
 
-#### Materiaal integratiefase
+#### Materiaal integreerfase
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- ...
 
-</details>
+
+
 
 ### Testen
-*In de testfase controleer je of jouw aanpassingen werken zoals bedoeld.*
+In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen. Voor je met deze leertaak kan beginnen moet je ontwikkelomgeving ingericht worden door Node te installeren. 
 
-<details>
-<summary>Aanpak</summary>
+#### Aanpak testfase
 
-1. {geef de stappen}
-2. {die in deze fase}
-3. {doorlopen worden}
+1. ...
 
 #### Materiaal testfase
 
-- [Resource](https://example.com)
-- [Resource](https://example.com)
-- [Resource](https://example.com)
+- ...
 
-</details>
+
+
+
 
 ## Criteria
-*Definitions of done*
 
-{beschrijf de definitions of done}
+Focus sprint 7 - De focus in deze sprint ligt op teambuilding, samenwerken en hoe je een dynamische website kan maken waar bezoekers ook iets achter kunnen laten.
 
-Focus sprint 7 - De focus in deze sprint ligt op team building, samenwerken en hoe je een dynamische website kan maken waar bezoekers ook iets achter kunnen laten.	Het doel van deze sprint is binding tussen studenten creeeren. Met deze squad ga je het doen! Samen studeren, leren en elkaar helpen. En iets gezamenlijks maken met een database dingen. Een sneak peak naar de rest van het semester.
+Doel van deze opdracht:
+* Je leert met een team een overzichtpagina te ontwerpen en bouwen met data uit een database.
 
+Voor deze leertaak gelden de gedragscriteria: 
+* M: Je kiest binnen projecten passende fases van de development-lifecycle
+* M: Je combineert aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving
+* S: Je werkt in teams, vraagt begeleiding waar nodig en geeft feedback aan teamleden
+* S: Je daagt verantwoording voor eigen resultaten, verwerkt ontvangen feedback en wijst teamleden op hun verantwoording
+* P: Je schetst om gedachten en processen te verkennen en abstracte begrippen over te brengen
+
+Deze opdracht is done als:
+- [ ] Je hebt een squad overzichtpagina gemaakt met Node
+- [ ] Je kaartje gebruikt gegevens uit de REST API op whois.fdnd.nl
+- [ ] Je kaartje is gepubliceerd via cyclic.sh
+- [ ] Het eindresultaat gedocumenteerd in de Wiki aan de hand van de DLC
