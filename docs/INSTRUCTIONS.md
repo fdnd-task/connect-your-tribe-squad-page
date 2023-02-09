@@ -1,5 +1,5 @@
 
-# Squad page
+# Squadpage
 Ontwerp en maak met je squad een squadpage met Node en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
 
 ## Context
