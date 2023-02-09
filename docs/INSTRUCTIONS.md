@@ -1,6 +1,6 @@
 
-# Squadpage
-Ontwerp en maak met je squad een squadpage met Node en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
+# Squad page
+Ontwerp en maak met een team een squad page met Node en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
 
 ## Context
 Deze leertaak hoort bij sprint 7 "Connect Your Tribe". Dit is een leertaakdie je in een team uitvoert.
@@ -9,7 +9,13 @@ In het S07W2-01-Squadpage wordt uitgelegd wat je gaat doen.
 
 
 ## Briefing
-Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). Met deze data ga je met een team een squadpage ontwerpen en maken zodat je met elkaar in contact kan blijven.
+Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). Met deze data ga je met een team een squad page ontwerpen en maken zodat je met elkaar in contact kan blijven.
+
+Je ontwerpt en maakt met een team een squad page om in contact te kunnen blijven met FDND frontenders. 
+Alle teamleden maken zelf een pagina met Node en data uit de de [whois.fdnd.nl](https://whois.fdnd.nl) API. Op deze pagina kun je op een (interactieve) manieren mede-studenten opzoeken, gegevens bekijken, andere studenten kan pingen, of een vraag stellen, of ...
+Met het team maak je een squad page waarmee je naar de verschillende pagina's kan navigeren. Zo kun je op verschillende manieren FDND Frontenders in contact blijven. 
+
+<img width="598" alt="image" src="https://user-images.githubusercontent.com/1391509/217925272-d3ef936e-6bad-44dc-8a85-dc22d967ac18.png">
 
 
 ## Doel van deze opdracht
@@ -17,7 +23,7 @@ Je leert met een team een overzichtpagina te ontwerpen en bouwen op basis van ee
 
 
 ## Werkwijze
-Voordat je met Node en JSON de squadpage kan gaan bouwen ga je in de analyse- en ontwerpfase met je team ideeën bedenken, schetsen en het project plannen. 
+Voordat je een squad page kan gaan bouwen ga je in de analyse- en ontwerpfase met je team ideeën bedenken, schetsen en het project plannen. 
 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
@@ -26,24 +32,19 @@ Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), 
 In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen. 
 
 
-
-
 #### Aanpak analysefase
 
 2. Lees de instructies van deze leertaak zorgvuldig door
 3. Vul het teamcamvas in
 4. Maak een gezamenlijke repo en projectboard aan
-5. Bespreek met jouw team wat je aan werk verwacht en maak zoveel mogelijk taken en belangrijke datums in
+5. Bespreek met jouw team wat je aan werk verwacht en maak alvast zoveel mogelijk taken en belangrijke datums in
 6. 
 
 
 #### Materiaal analysefase
 
-- Teamcanvas
-- Creating a projecboard in Github
-
-
-
+- [How To Use Team Canvas]([url](https://theteamcanvas.com/use/))
+- [Learn about projects on Github]([url](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects))
 
 
 ### Ontwerpen
@@ -53,7 +54,8 @@ In de ontwerpfase ga je met een team ideeen verzinnen over hoe je de data kan pr
 #### Aanpak ontwerpfase
 
 1. Ideegeneratie overzichtspagina
-2. 
+2. Werk je schets netjes uit in Figma, Illustrator of ga meteen loos in de browser.
+
 
 #### Materiaal ontwerpfase
 
