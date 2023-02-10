@@ -9,21 +9,18 @@ In het S07W2-01-Squadpage wordt uitgelegd wat je gaat doen.
 
 
 ## Briefing
-Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). Met deze data ga je met een team een squad page ontwerpen en maken zodat je met elkaar in contact kan blijven.
-
-Je ontwerpt en maakt met een team een squad page om in contact te kunnen blijven met FDND frontenders. 
-Alle teamleden maken zelf een pagina met Node en de whois API. Op deze pagina kun je op een (interactieve) manieren mede-studenten opzoeken, gegevens bekijken, andere studenten kan pingen, of een vraag stellen, of ... en doorlinken naar het visitekaartje.
-Met het team maak je een squad page waarmee je naar de verschillende pagina's kan navigeren. Zo kun je op verschillende manieren FDND Frontenders in contact blijven. 
-
-<img width="598" alt="image" src="https://user-images.githubusercontent.com/1391509/217925272-d3ef936e-6bad-44dc-8a85-dc22d967ac18.png">
-
+Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). In een team ga je met deze data een squad page ontwerpen en maken zodat je met elkaar in contact kan blijven.
 
 ## Doel van deze opdracht
 Je leert met een team een overzichtpagina te ontwerpen en bouwen op basis van een bestaande API.
 
 
 ## Werkwijze
-Voordat je een squad page kan gaan bouwen ga je in de analyse- en ontwerpfase met je team ideeën bedenken, schetsen en het project plannen. 
+
+Alle teamleden ontwerpen en maken een squad page waarmee je op een (interactieve) manier mede-studenten kan opzoeken, gegevens bekijken, andere studenten pingen, of een vraag stellen, of iets anders.
+Met het team kies je het beste, mooiste of meest originele ontwerp en presenteert deze aan de squad. 
+
+Voordat je een squad page kunt gaan bouwen ga je in de analyse- en ontwerpfase met je team ideeën bedenken, schetsen en het project plannen. 
 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
