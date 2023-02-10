@@ -31,21 +31,19 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 #### Aanpak analysefase
 
-2. Lees de instructies van deze leertaak zorgvuldig door
-3. Vul het teamcamvas in
-4. Maak een gezamenlijke repo en projectboard aan
-5. Bespreek met jouw team wat je aan werk verwacht en maak alvast zoveel mogelijk taken en belangrijke datums in
-6. 
+1. Lees de instructies van deze leertaak zorgvuldig door.
+2. Onderzoek wat je allemaal kan doen met de WHOIS API.
+3. Bespreek met jouw team wat je aan werk verwacht, hoe jullie gaan samenwerken en plan de belangrijke momenten. (je kan hiervoor een Github Projectboard gebruiken0
 
 
 #### Materiaal analysefase
 
-- [How To Use Team Canvas](https://theteamcanvas.com/use/)
+- [WHOIS API](https://whois.fdnd.nl)
 - [Learn about projects on Github](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
 
 ### Ontwerpen
-In de ontwerpfase ga je met een team ideeen verzinnen over hoe je de data kan presenteren.
+In de ontwerpfase ga je met je team ideeen verzinnen voor presenteren van alle Frontenders.
 
 
 #### Aanpak ontwerpfase
