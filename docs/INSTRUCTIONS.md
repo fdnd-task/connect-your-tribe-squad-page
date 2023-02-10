@@ -17,10 +17,9 @@ Je leert met een team een overzichtpagina te ontwerpen en bouwen op basis van ee
 
 ## Werkwijze
 
-Alle teamleden ontwerpen en maken een squad page waarmee je op een (interactieve) manier mede-studenten kan opzoeken, gegevens bekijken, andere studenten pingen, of een vraag stellen, of iets anders.
-Met het team kies je het beste, mooiste of meest originele ontwerp en presenteert deze aan de squad. 
-
-Voordat je een squad page kunt gaan bouwen ga je in de analyse- en ontwerpfase met je team ideeën bedenken, schetsen en het project plannen. 
+Met je team ga je verschillende ideeeen bedenken en schetsen voor een squad page waarmee je op een (interactieve) manier mede-studenten kan opzoeken, gegevens bekijken, andere studenten pingen, of een vraag stellen, of iets anders.
+Vervolgens gaan alle teamleden een van deze ideeen uitwerken met Node en JSON.
+Met het team kies je daarna het beste, mooiste of meest originele ontwerp en presenteert deze aan de squad. 
 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
