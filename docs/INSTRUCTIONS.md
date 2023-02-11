@@ -17,10 +17,10 @@ Je leert met een team een overzichtpagina te ontwerpen en bouwen op basis van ee
 
 ## Werkwijze
 
-Met je team ga je verschillende ideeeen bedenken en schetsen voor een squad page. 
-Met de squad page moet je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
-Vervolgens gaan alle teamleden een van deze ideeen uitwerken met Node en JSON.
-Met het team kies je daarna het beste, mooiste of meest originele ontwerp en presenteert deze aan de squad. 
+Met je team bedenk en schets je verschillende ideeeën voor een squad page. 
+Met de squad page wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
+Vervolgens werken alle teamleden een ander idee uit met Node en JSON.
+Jouw team kiest daarna het beste, mooiste of meest originele ontwerp en deze presenteren jullie aan de squad. 
 
 Voor deze opdracht doorloop je alle fases van de DLC [analyseren](#analyseren), [ontwerpen](#ontwerpen), [bouwen](#bouwen), [integreren](#integreren) en [testen](#testen).
 
@@ -32,8 +32,8 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 #### Aanpak analysefase
 
 1. Lees de instructies van deze leertaak zorgvuldig door.
-2. Onderzoek wat je allemaal kan doen met de WHOIS API.
-3. Bespreek met jouw team wat je aan werk verwacht, hoe jullie gaan samenwerken en plan de belangrijke momenten. (je kan hiervoor een Github Projectboard gebruiken0
+2. Onderzoek wat je allemaal kan doen met de [WHOIS API](https://whois.fdnd.nl).
+3. Bespreek met jouw team wat je aan werk verwacht, hoe jullie gaan samenwerken en plan de belangrijke momenten in. (je kan hiervoor een Github Projectboard gebruiken)
 
 
 #### Materiaal analysefase
@@ -43,8 +43,7 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 
 ### Ontwerpen
-In de ontwerpfase ga je met je team ideeen verzinnen voor presenteren van alle Frontenders.
-
+In de ontwerpfase ga je met je team verschillende ideeeën voor een squad page bedenken en schetsen. 
 
 #### Aanpak ontwerpfase
 
@@ -60,7 +59,8 @@ In de ontwerpfase ga je met je team ideeen verzinnen voor presenteren van alle F
 
 
 ### Bouwen
-Je realiseert jouw beslissingen uit de ontwerpfase in Node, HTML en CSS.
+In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
+
 
 #### Aanpak bouwfase
 
