@@ -17,7 +17,8 @@ Je leert met een team een overzichtpagina te ontwerpen en bouwen op basis van ee
 
 ## Werkwijze
 
-Met je team ga je verschillende ideeeen bedenken en schetsen voor een squad page. Met deze overzichtspagina moet je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, andere studenten pingen, of een vraag stellen, of iets anders.
+Met je team ga je verschillende ideeeen bedenken en schetsen voor een squad page. 
+Met deze overzichtspagina moet je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
 Vervolgens gaan alle teamleden een van deze ideeen uitwerken met Node en JSON.
 Met het team kies je daarna het beste, mooiste of meest originele ontwerp en presenteert deze aan de squad. 
 
