@@ -118,7 +118,10 @@ Voor deze leertaak gelden de gedragscriteria:
 * P: Je schetst om gedachten en processen te verkennen en abstracte begrippen over te brengen
 
 Deze opdracht is done als:
-- [ ] Je hebt een squad overzichtpagina gemaakt met Node
-- [ ] Je kaartje gebruikt gegevens uit de REST API op whois.fdnd.nl
-- [ ] Je kaartje is gepubliceerd via cyclic.sh
-- [ ] Het eindresultaat gedocumenteerd in de Wiki aan de hand van de DLC
+- [ ] Je hebt een squad page gemaakt met Node en de WHOIS API
+- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je werk gedocumenteerd in de Readme en Wiki
+- [ ] Je hebt in eigen woorden uitgelegd wat Node is, wat Express is en wat EJS is
+- [ ] Je hebt de Node-code in eigen woorden uitgelegd
+- [ ] Je squad page is gepubliceerd via cyclic.sh
+
+
