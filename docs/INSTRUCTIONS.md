@@ -74,21 +74,17 @@ In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
 
 
 ### Integreren
-Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. Omdat we met Node werken is dit iets ingewikkelder dan voorheen, er moet namelijk een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
-
-
-
+Als je online wil testen moet je je project publiceren op internet. Omdat we met Node werken kan dat niet met Github Pages omdat daar alleen statische pagina's kunnen worden gehost. Voor een Node project moet een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
 
 #### Aanpak integreerfase
 
 1. Commit en Push jouw project naar GitHub
 2. Login bij [cyclic.sh](https://www.cyclic.sh/)
-3. Klik op Deploy om een nieuwe App aan t emaken
+3. Klik op Deploy om een nieuwe App aan te maken
 4. Selecteer het tabblad _Link Your Own_ om jouw project te publiceren.
 5. Zoek de juiste repositor. Cyclic importeert jouw code en voert npm start uit.
-6. Er wordt een unieke naam voor jouw project gegenereerd
-7. Op jouw Cyclic pagina zie je alle apps die je hebt aangemaakt
-8. Open je squad page in je browser, check of alles werkt en voeg de url van de App toe aan jouw repository op GitHub. 
+6. Er wordt een unieke naam voor jouw project gegenereerd. Op jouw Cyclic pagina zie je alle apps die je hebt aangemaakt
+7. Open je squad page in je browser, check of alles werkt en voeg de url van de App toe aan jouw repository op GitHub. 
 
 
 #### Materiaal integreerfase
