@@ -125,9 +125,9 @@ Voor deze leertaak gelden de gedragscriteria:
 
 Deze opdracht is done als:
 - [ ] Je hebt een squad page gemaakt met Node en de WHOIS API
-- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je werk gedocumenteerd in de Readme en Wiki
-- [ ] Je hebt in eigen woorden uitgelegd wat Node is, wat Express is en wat EJS is
-- [ ] Je hebt comments in je Node-code waarmee je in eigen woorden uitlegd wat de code doet
+- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je werk en je proces gedocumenteerd in de Readme en Wiki
+- [ ] Je hebt in je Wiki met eigen woorden uitgelegd wat Node is, wat Express is en wat EJS doet
+- [ ] Je hebt comments in je Node-code waarmee je in eigen woorden uitlegt wat de code doet
 - [ ] Je squad page is gepubliceerd via cyclic.sh
 
 
