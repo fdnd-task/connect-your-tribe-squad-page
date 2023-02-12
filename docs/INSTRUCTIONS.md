@@ -47,25 +47,14 @@ In de ontwerpfase ga je met je team verschillende ideeeën voor een squad page b
 
 #### Aanpak ontwerpfase
 
-1. Ideegeneratie overzichtspagina
-2. Werk je schets netjes uit in Figma, Illustrator of ga meteen los in de browser.
-
-
-#### Materiaal ontwerpfase
-
-- ...
-
+1. Ideegeneratie: Eerst bedenk je met je team verschillende ideeeën voor een squad page.
+2. Maak een breakdown van de schets, bedenk welke data je uit de WHOIS API kan gebruiken voor je ontwerp. 
+3. Werk je schets netjes uit in Figma, Illustrator of ga meteen los in de browser.
 
 
 
 ### Bouwen
 In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
-
-Met je team heb je verschillende ideeen bedacht en geschetst. 
-
-#### Aanpak bouwfase
-
-1. ...
 
 #### Materiaal bouwfase
 
