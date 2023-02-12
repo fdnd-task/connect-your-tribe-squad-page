@@ -74,16 +74,24 @@ In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
 
 
 ### Integreren
-Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. 
+Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren van jouw project op internet. Omdat we met Node werken is dit iets ingewikkelder dan voorheen, er moet namelijk een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
+
+
+
 
 #### Aanpak integreerfase
 
 1. Commit en Push jouw project naar GitHub
-2. Meld met behulp van GitHub aan bij cyclic.sh
+2. Meld je met behulp van GitHub aan bij [cyclic.sh](https://www.cyclic.sh/)
+3. Klik op Deploy en selecteer het tabblad _Link Your Own_ om jouw project te publiceren.
+4. Zoek de juiste repositor. Cyclic importeert jouw code en voert npm start uit.
+5. Er wordt een unieke naam voor jouw project gegenereerd
+6. Open je squad page in je browser, check of alles werkt en voer daarna deze url in bij jouw repository op GitHub. 
+
 
 #### Materiaal integreerfase
 
-- ...
+- [Cyclic Hosting](https://www.cyclic.sh/)
 
 
 
@@ -121,7 +129,7 @@ Deze opdracht is done als:
 - [ ] Je hebt een squad page gemaakt met Node en de WHOIS API
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je werk gedocumenteerd in de Readme en Wiki
 - [ ] Je hebt in eigen woorden uitgelegd wat Node is, wat Express is en wat EJS is
-- [ ] Je hebt de Node-code in eigen woorden uitgelegd
+- [ ] Je hebt comments in je Node-code waarmee je in eigen woorden uitlegd wat de code doet
 - [ ] Je squad page is gepubliceerd via cyclic.sh
 
 
