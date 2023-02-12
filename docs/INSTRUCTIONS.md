@@ -61,6 +61,7 @@ In de ontwerpfase ga je met je team verschillende ideeeën voor een squad page b
 ### Bouwen
 In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
 
+Met je team heb je verschillende ideeen bedacht en geschetst. 
 
 #### Aanpak bouwfase
 
@@ -68,7 +69,9 @@ In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
 
 #### Materiaal bouwfase
 
-- ...
+- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+- [EJS - Embedded JavaScript templating](https://ejs.co)
+- [Control Flow in JavaScript: Loops](https://dev.to/pszponder/control-flow-in-javascript-loops-26bd)
 
 
 
@@ -95,16 +98,8 @@ Als je online wil testen moet je je project publiceren op internet. Omdat we met
 
 
 ### Testen
-In de testfase controleer je of jouw aanpassingen werken zoals bedoeld en jouw overzichtspagina voldoet aan standaarden.
-
-#### Aanpak testfase
-
-1. ...
-
-#### Materiaal testfase
-
-- ...
-
+In de testfase controleer je of jouw squad page voldoet aan standaarden. 
+Jouw team kiest daarna het beste, mooiste of meest originele ontwerp en deze presenteren jullie aan de squad. 
 
 
 
