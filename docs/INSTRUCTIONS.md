@@ -124,11 +124,11 @@ Voor deze leertaak gelden de gedragscriteria:
 * P: Je schetst om gedachten en processen te verkennen en abstracte begrippen over te brengen
 
 Deze opdracht is done als:
-- [ ] Je hebt een squad page gemaakt met Node en de WHOIS API
+- [ ] Je hebt een squad page ontworpen en gemaakt met Node en de WHOIS API
+- [ ] Je squad page is online gepubliceerd
 - [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je proces bijgehouden in de Wiki
 - [ ] Je hebt comments in je Node-code waarmee de code is uitgelegd
-- [ ] Je hebt comments in de EJS bestanden waarmee een _loop_ en/of andere _Control Flow_ is uitlegd
+- [ ] Je hebt comments in de EJS bestanden waarmee een _loop_ of andere _Control Flow_ is uitgelegd
 - [ ] Je hebt in de Readme bij 'Kenmerken' uitgelegd wat Node is, wat Express is en wat EJS doet
-- [ ] Je squad page is gepubliceerd via cyclic.sh
 
 
