@@ -82,11 +82,13 @@ Als je helemaal klaar bent en alles lokaal werkt ga je verder met het publiceren
 #### Aanpak integreerfase
 
 1. Commit en Push jouw project naar GitHub
-2. Meld je met behulp van GitHub aan bij [cyclic.sh](https://www.cyclic.sh/)
-3. Klik op Deploy en selecteer het tabblad _Link Your Own_ om jouw project te publiceren.
-4. Zoek de juiste repositor. Cyclic importeert jouw code en voert npm start uit.
-5. Er wordt een unieke naam voor jouw project gegenereerd
-6. Open je squad page in je browser, check of alles werkt en voer daarna deze url in bij jouw repository op GitHub. 
+2. Login bij [cyclic.sh](https://www.cyclic.sh/)
+3. Klik op Deploy om een nieuwe App aan t emaken
+4. Selecteer het tabblad _Link Your Own_ om jouw project te publiceren.
+5. Zoek de juiste repositor. Cyclic importeert jouw code en voert npm start uit.
+6. Er wordt een unieke naam voor jouw project gegenereerd
+7. Op jouw Cyclic pagina zie je alle apps die je hebt aangemaakt
+8. Open je squad page in je browser, check of alles werkt en voeg de url van de App toe aan jouw repository op GitHub. 
 
 
 #### Materiaal integreerfase
