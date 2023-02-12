@@ -48,7 +48,7 @@ In de ontwerpfase ga je met je team verschillende ideeeën voor een squad page b
 #### Aanpak ontwerpfase
 
 1. Ideegeneratie overzichtspagina
-2. Werk je schets netjes uit in Figma, Illustrator of ga meteen loos in de browser.
+2. Werk je schets netjes uit in Figma, Illustrator of ga meteen los in de browser.
 
 
 #### Materiaal ontwerpfase
