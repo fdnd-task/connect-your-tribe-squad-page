@@ -56,6 +56,14 @@ In de ontwerpfase ga je met je team verschillende ideeeën voor een squad page b
 ### Bouwen
 In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
 
+#### Aanpak bouwfase
+
+ 1. Fork deze leertaak en clone deze op jouw computer.
+ 2. Open deze leertaak in jouw editor (bijv. Visual Studio Code).
+ 3. Open de terminalen voer het commando npm install. Je gebruikt NPM om een express inclusief alle afhankelijkheden te installeren.
+ 4. Kopieer de files van je visitekaartje opdracht naar deze leertaak om met Node en JSON aan de slag te kunnen. (index.js, /views en /public
+ 5. ...
+
 #### Materiaal bouwfase
 
 - [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
