@@ -82,7 +82,7 @@ Als je online wil testen moet je je project publiceren op internet. Omdat we met
 2. Login bij [cyclic.sh](https://www.cyclic.sh/)
 3. Klik op Deploy om een nieuwe App aan te maken
 4. Selecteer het tabblad _Link Your Own_ om jouw project te publiceren.
-5. Zoek de juiste repositor. Cyclic importeert jouw code en voert npm start uit.
+5. Zoek de juiste repository. Cyclic importeert jouw code en voert npm start uit.
 6. Er wordt een unieke naam voor jouw project gegenereerd. Op jouw Cyclic pagina zie je alle apps die je hebt aangemaakt
 7. Open je squad page in je browser, check of alles werkt en voeg de url van de App toe aan jouw repository op GitHub. 
 
