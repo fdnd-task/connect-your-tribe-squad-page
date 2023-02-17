@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #05053f;
+
+}
+
+.hva {
+    width: 9.3em;
+    margin: 1.2em 1.5em 0 1em;
+
+}
+
+.fdnd {
+    width: 8.3em;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+}
+
+.logo__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.frontend {
+    border-left: 0.8px solid white;
+    margin-top: 1.3em;
+    padding: 0.3em 0 0 1.2em;
+    font-size: 0.8em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+}
+
+.content {
+    position: relative;
+}
+
+.content .text {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content .text a {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6be8ca;
+    display: inline-block;
+    margin: 0 65px 0;
+    transition: all ease 0.5s;
+}
+
+.content .text a:nth-child(odd),
+.content .text a:nth-child(even):hover {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6be8ca;
+}
+
+.content .text a:nth-child(odd):hover {
+    color: #9f77ed;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9f77ed;
+}
+
+
+.content .text .line {
+    white-space: nowrap;
+    animation: infiniteText 15s linear infinite;
+    cursor: pointer;
+    animation-play-state: running;
+    margin-bottom: 20px;
+}
+
+@keyframes infiniteText {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.content .text .line2 {
+    animation-direction: reverse;
+}
+
+.content .text .line2 span {
+    margin: 0 2em 0;
+}
+
+.content .text .line3 span {
+    margin: 0 1em 0;
+}
+
+.content .text .line:hover {
+    animation-play-state: paused;
+}
+
+main section {
+    margin-top: 3em;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+article {
+    position: relative;
+    width: 14rem;
+    height: 19rem;
+    padding: 1rem;
+    color: slate;
+    text-align: center;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 1rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1.5px solid rgba(105, 105, 105, 0.1);
+}
+
+article h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 2em;
+}
+
+article img {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 50%;
+}
+
+article a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14rem;
+    height: 19rem;
+    border-radius: 1rem;
+    display: block;
+}
+
+article a:hover {
+    background: rgba(61, 90, 140, 0.133);
+}
+
+article a span {
+    display: none;
+}
+
+button {
+    padding: 0.5em 2em;
+    background-color: #6be8ca;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #9f77ed;
+    color: #05053f;
+}
+
+.button__text {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
