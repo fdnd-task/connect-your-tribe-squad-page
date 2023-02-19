@@ -56,80 +56,183 @@ body {
 
 }
 
-.content {
-    position: relative;
-}
-
-.content .text {
-    position: relative;
-    top: 0;
-    left: 0;
-    display: inline-block;
-    width: 100%;
-    overflow-x: hidden;
-    margin-top: 1em;
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 a {
-    text-decoration: none;
-}
-
-.content .text a {
-    font-size: 70px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #6be8ca;
     display: inline-block;
-    margin: 0 65px 0;
-    transition: all ease 0.5s;
+    text-decoration: none;
+    margin: 0 1em 0 1em;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
-.content .text a:nth-child(odd),
-.content .text a:nth-child(even):hover {
+.A {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #6be8ca;
 }
 
-.content .text a:nth-child(odd):hover {
-    color: #9f77ed;
+.B {
+    color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #9f77ed;
 }
 
-
-.content .text .line {
-    white-space: nowrap;
-    animation: infiniteText 15s linear infinite;
-    cursor: pointer;
-    animation-play-state: running;
-    margin-bottom: 20px;
+.C {
+    color: #6be8ca;
 }
 
-@keyframes infiniteText {
+
+
+
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    gap: 2em;
+}
+
+.marquee:hover .marquee__item {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.marquee__item {
+    display: inline-block;
+    will-change: transform;
+    -webkit-animation: marquee 25s linear infinite;
+    animation: marquee 25s linear infinite;
+}
+
+@-webkit-keyframes marquee {
     0% {
         transform: translateX(0);
     }
 
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
-.content .text .line2 {
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee {
+    font-size: 5em;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+
+.marquee2 {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee2:hover .marquee__item2 {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+.marquee__seperator {
+    margin: 0 2rem;
+}
+
+.marquee__item2 {
+    display: inline-block;
+    will-change: transform;
+    -webkit-animation: marquee 25s linear infinite;
+    animation: marquee 25s linear infinite;
     animation-direction: reverse;
 }
 
-.content .text .line2 span {
-    margin: 0 2em 0;
+@-webkit-keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
-.content .text .line3 span {
-    margin: 0 1em 0;
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
-.content .text .line:hover {
+.marquee2 {
+    font-size: 5em;
+    padding: 1rem 0;
+    color: #fff;
+}
+
+
+.marquee3 {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee3:hover .marquee__item3 {
+    -webkit-animation-play-state: paused;
     animation-play-state: paused;
+}
+
+.marquee__seperator {
+    margin: 0 2rem;
+}
+
+.marquee__item3 {
+    display: inline-block;
+    will-change: transform;
+    -webkit-animation: marquee 25s linear infinite;
+    animation: marquee 25s linear infinite;
+}
+
+@-webkit-keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee3 {
+    font-size: 5em;
+    padding: 1rem 0;
+    color: #fff;
 }
 
 main section {
@@ -148,8 +251,6 @@ article {
     padding: 1rem;
     color: slate;
     text-align: center;
-
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.06);
     border-radius: 1rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
