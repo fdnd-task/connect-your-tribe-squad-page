@@ -26,38 +26,38 @@
         <form action="" class="search" id="search-bar"></form>
         <input type="search" placeholder="Search someone.." class="search__input"></div> -->
 
+    <section>
+        <h2 class="sort"><i class="ri-sort-desc filter"></i> Filter op</h2>
 
-
-
-
-    <div class="content">
-        <div class="text">
-            <div class="line">
-                <a href="/?squad=squad-a-2022">Squad A</a>
-                <a href="/?squad=squad-a-2022">Squad A</a>
-                <a href="/?squad=squad-a-2022">Squad A</a>
-                <a href="/?squad=squad-b-2022">Squad B</a>
-                <a href="/?squad=squad-b-2022">Squad B</a>
-                <a href="/?squad=squad-b-2022">Squad B</a>
-            </div>
-            <div class="line line2">
-                <a href="/?squad=squat-c-2022">Squad C</a>
-                <a href="/?squad=squat-c-2022">Squad C</a>
-                <a href="/?squad=squat-c-2022">Squad C</a>
-                <a href="/?squad=squad-b-2022">Squad B</a>
-                <a href="/?squad=squad-b-2022">Squad B</a>
-                <a href="/?squad=squad-b-2022">Squad B</a>
-            </div>
-            <div class="line line3">
-                <a href="/?squad=squad-a-2022">Squad A</a>
-                <a href="/?squad=squad-a-2022">Squad A</a>
-                <a href="/?squad=squad-a-2022">Squad A</a>
-                <a href="/?squad=squat-c-2022">Squad C</a>
-                <a href="/?squad=squat-c-2022">Squad C</a>
-                <a href="/?squad=squat-c-2022">Squad C</a>
+        <div class="content">
+            <div class="text">
+                <div class="line">
+                    <a href="/?squad=squad-a-2022">Squad A</a>
+                    <a href="/?squad=squad-a-2022">Squad A</a>
+                    <a href="/?squad=squad-a-2022">Squad A</a>
+                    <a href="/?squad=squad-b-2022">Squad B</a>
+                    <a href="/?squad=squad-b-2022">Squad B</a>
+                    <a href="/?squad=squad-b-2022">Squad B</a>
+                </div>
+                <div class="line line2">
+                    <a href="/?squad=squat-c-2022">Squad C</a>
+                    <a href="/?squad=squat-c-2022">Squad C</a>
+                    <a href="/?squad=squat-c-2022">Squad C</a>
+                    <a href="/?squad=squad-b-2022">Squad B</a>
+                    <a href="/?squad=squad-b-2022">Squad B</a>
+                    <a href="/?squad=squad-b-2022">Squad B</a>
+                </div>
+                <div class="line line3">
+                    <a href="/?squad=squad-a-2022">Squad A</a>
+                    <a href="/?squad=squad-a-2022">Squad A</a>
+                    <a href="/?squad=squad-a-2022">Squad A</a>
+                    <a href="/?squad=squat-c-2022">Squad C</a>
+                    <a href="/?squad=squat-c-2022">Squad C</a>
+                    <a href="/?squad=squat-c-2022">Squad C</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <main>
         <section>
@@ -65,7 +65,8 @@
             <% squad.members.forEach(member=> { %>
                 <article>
                     <% if (member.avatar) { %>
-                        <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
+                        <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>"
+                            onerror="this.onerror=null;this.src='/img/placeholder.jpeg';" />
                         <% }else{ %>
                             <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
                             <% } %>
