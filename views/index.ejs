@@ -87,8 +87,7 @@
               <a href="<%= member.website %>" target="_blank"> <%= member.name %> <%= member.prefix %> <%= member.surname %></a>
               <span class="post__headerSpecial">
                 <span class="material-icons post__badge"> verified </span>@<% if (member.nickname) { %><%= member.nickname %>
-                  <% }else{ %>
-                    <% member.slug %>
+                  <% }else{ %><%= member.slug %>
                     <% } %>
               </span>
             </h3>
