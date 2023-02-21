@@ -466,6 +466,24 @@ body.darkmode {
     border-radius: 4px;
 }
 
+.darkmode .A:hover {
+    color: white;
+    -webkit-text-stroke-color: white;
+}
+
+
+.darkmode .B:hover {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.darkmode .C:hover {
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
 @media screen and (min-width: 64em) {
 
     main section {
@@ -503,6 +521,24 @@ body.darkmode {
             "... newsletter ... description cta"
             "marquee marquee marquee marquee marquee"
 
+    }
+
+    .A:hover {
+        color: #9f77ed;
+        -webkit-text-stroke-color: #9f77ed;
+    }
+
+
+    .B:hover {
+        color: #9f77ed;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #9f77ed;
+    }
+
+    .C:hover {
+        color: #9f77ed;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #9f77ed;
     }
 
     .sort2 {
