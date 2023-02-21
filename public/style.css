@@ -9,6 +9,17 @@ body {
   --twitter-background: #e6ecf0;
 }
 
+.fdnd {
+  font-weight: 600;
+  border: 1px solid var(--twitter-color);
+  border-radius: 7px;
+  box-shadow: calc(-1*5px) 5px 0 0 var(--twitter-color);
+  color: var(--twitter-color);
+  text-transform: lowercase;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+}
+
 .sidebarOption {
   display: flex;
   align-items: center;
