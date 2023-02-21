@@ -1,6 +1,6 @@
 # Squadpage "Twitter feed" Squad C
 
-![image](https://user-images.githubusercontent.com/112856292/220220705-04a29b48-d217-456a-bc45-f7b8fbe182fd.png)
+![image](https://user-images.githubusercontent.com/112856292/220222036-b5a55526-afbc-4cd6-a052-89d5a38a8c4d.png)
 
 
 ## Inhoudsopgave
