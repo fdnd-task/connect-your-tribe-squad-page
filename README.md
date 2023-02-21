@@ -1,6 +1,7 @@
-# Squadpage voorbeeld
+# Squadpage "Twitter feed" Squad C
 
-Een live-coded voorbeeld tijdens de talk op 15 feb 2023.
+![image](https://user-images.githubusercontent.com/112856292/220220705-04a29b48-d217-456a-bc45-f7b8fbe182fd.png)
+
 
 ## Inhoudsopgave
 
