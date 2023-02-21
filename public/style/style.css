@@ -4,7 +4,7 @@
 :root {
     /* COLORS */
     --color: #9176FF;
-    --dark-color: #2b2b2b;
+    --dark-color: #060606;
     --dark-icon-color: #fff;
     --light-color: #05053f;
     --light-icon-color: #6be8ca;
@@ -22,6 +22,77 @@ body {
     height: 100vh;
     background-color: var(--light-color);
     font-family: Helvetica, Arial, sans-serif;
+}
+
+.bigger_screen {
+    display: none;
+}
+
+.grain {
+    position: relative;
+    height: 100vh;
+    text-align: left;
+    isolation: isolate;
+}
+
+.grain:before {
+    content: "";
+    position: fixed;
+    top: -150%;
+    left: -100%;
+    z-index: -1;
+    width: 350%;
+    height: 350%;
+    background-image: url("../img/grain.png");
+    opacity: 0.25;
+}
+
+.grain::before {
+    animation: grain 5s steps(10) infinite;
+}
+
+@keyframes grain {
+
+    0%,
+    100% {
+        transform: translate(0);
+    }
+
+    10% {
+        transform: translate(-5%, -10%);
+    }
+
+    20% {
+        transform: translate(-15%, 5%);
+    }
+
+    30% {
+        transform: translate(7%, -25%);
+    }
+
+    40% {
+        transform: translate(-5%, 25%);
+    }
+
+    50% {
+        transform: translate(-15%, 5%);
+    }
+
+    60% {
+        transform: translate(15%);
+    }
+
+    70% {
+        transform: translateY(15%);
+    }
+
+    80% {
+        transform: translate(3%, 35%);
+    }
+
+    90% {
+        transform: translate(-10%, 10%);
+    }
 }
 
 /* HEADER */
@@ -63,7 +134,7 @@ body {
     margin-left: 0.5em;
 }
 
-.sort {
+.sort2 {
     font-size: 2em;
     font-weight: 600;
     color: white;
@@ -163,8 +234,8 @@ h2 {
     overflow: hidden;
     white-space: nowrap;
     gap: 2em;
+    margin-top: 0.2em;
     font-size: 5em;
-    padding: 1rem 0;
     color: #fff;
 }
 
@@ -218,10 +289,10 @@ article {
     height: 19em;
     padding: 1rem;
     text-align: center;
-    background: #1a1a4e;
+    background: #17174a;
     border-radius: 1rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 2px solid #6be8ca;
+    border: 1px solid #9176FF;
     overflow: hidden;
 }
 
@@ -235,7 +306,7 @@ article {
 
 article h2 {
     font-size: 1rem;
-    font-family: 'poppins';
+    font-family: 'Poppins';
     font-weight: 700;
     color: white;
     margin-bottom: 2em;
@@ -260,7 +331,7 @@ article a {
     display: block;
 }
 
-article a:hover {
+article:hover {
     width: 14em;
     height: 19em;
     background: rgba(61, 90, 140, 0.133);
@@ -273,7 +344,7 @@ article a span {
 
 .card__button {
     padding: 0.5em 2em;
-    background-color: #9176FF;
+    background-color: #6be8ca;
     border: none;
     border-radius: 4px;
 }
@@ -289,136 +360,9 @@ article a span {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
-.marquee2 {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.marquee2:hover .marquee__item2 {
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-}
-
-.marquee__seperator {
-    margin: 0 2rem;
-}
-
-.marquee__item2 {
-    display: inline-block;
-    will-change: transform;
-    -webkit-animation: marquee 25s linear infinite;
-    animation: marquee 25s linear infinite;
-    animation-direction: reverse;
-}
-
-@-webkit-keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-.marquee2 {
-    font-size: 5em;
-    padding: 1rem 0;
-    color: #fff;
-}
-
-
-.marquee3 {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.marquee3:hover .marquee__item3 {
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-}
-
-.marquee__seperator {
-    margin: 0 2rem;
-}
-
-.marquee__item3 {
-    display: inline-block;
-    will-change: transform;
-    -webkit-animation: marquee 25s linear infinite;
-    animation: marquee 25s linear infinite;
-}
-
-@-webkit-keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-@keyframes marquee {
-    0% {
-        transform: translateX(0);
-    }
-
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-.marquee3 {
-    font-size: 5em;
-    padding: 1rem 0;
-    color: #fff;
-} */
-
-
-
-
-
 /* -------------- BUTTON SMILEY -------------- */
 
 .btn__indicator {
-    width: 3em;
-    height: 3em;
     border-radius: 50%;
     position: relative;
     transition: transform .3s ease;
@@ -433,6 +377,7 @@ article a span {
     color: var(--light-icon-color);
     font-size: 1.5rem;
     margin-top: 0.8em;
+    margin-right: 1em;
 }
 
 /* -------------- ANIMATION ------------ */
@@ -519,4 +464,209 @@ body.darkmode {
     background-color: white;
     border: none;
     border-radius: 4px;
+}
+
+@media screen and (min-width: 64em) {
+
+    main section {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 1rem;
+        justify-content: space-evenly;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    .date {
+        display: none;
+    }
+
+    p {
+        color: white;
+    }
+
+    .showcase,
+    .showcase>*:not(.link) {
+        padding: 0;
+    }
+
+    .showcase {
+        text-align: left;
+        display: grid;
+        grid-template-columns: 8rem 12rem 10rem 1fr 1fr;
+        grid-template-rows: 8rem min-content min-content 1fr 1fr;
+        grid-template-areas:
+            "... ... ... title title"
+            "... ... ... ... subtitle"
+            "... newsletter ... description cta"
+            "marquee marquee marquee marquee marquee"
+
+    }
+
+    .sort2 {
+        display: none;
+    }
+
+
+    .link-dashboard {
+        grid-area: dashboard;
+    }
+
+    .title {
+        grid-area: title;
+        line-height: 1;
+        pointer-events: none;
+        color: white;
+        font-size: 8vw;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .subtitle {
+        grid-area: subtitle;
+        line-height: 1;
+        margin-top: 0.5rem;
+        font-size: 4vw;
+        padding-bottom: 2rem;
+        letter-spacing: 1.5;
+        margin-left: -0.4em;
+    }
+
+    .vertical-text {
+        grid-area: newsletter;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        justify-self: end;
+        color: white;
+    }
+
+    .vertical-text-inner {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+    }
+
+    .description {
+        grid-area: description;
+        max-width: 80%;
+    }
+
+    .marquee {
+        grid-area: marquee;
+        margin-bottom: 0.5em;
+    }
+
+    .vertical-center {
+        display: flex;
+        align-self: center;
+    }
+
+    .sort {
+        grid-area: cta;
+        font-size: 3em;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 5em;
+        margin-left: 4em;
+    }
+
+    .btn__icon {
+        font-size: 2.5rem;
+        margin-top: 0.8em;
+        margin-right: 2em;
+    }
+
+    .hva {
+        width: 10em;
+        margin: 1.2em 0.8em 0 1em;
+
+    }
+
+    .frontend {
+        border-left: 0.8px solid white;
+        margin-top: 1.3em;
+        padding: 0.3em 0 0 1.2em;
+        font-size: 0.9em;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+    }
+
+
+    @media (prefers-reduced-motion: no-preference) {
+        .has-in-common {
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-timing-function: cubic-bezier(0.37, 0, 0.63, 1);
+            animation-delay: var(--delay);
+        }
+
+        .to-right,
+        .to-bottom {
+            display: block;
+            opacity: 0;
+        }
+
+        .to-right {
+            animation-name: toRight;
+        }
+
+        .to-bottom {
+            animation-name: toBottom;
+        }
+
+        .scale-rotate {
+            scale: 0;
+            animation-name: scaleRotate;
+            animation-duration: 0.5s;
+        }
+
+        @keyframes toRight {
+            from {
+                opacity: 1;
+                transform: translateX(-100%);
+            }
+
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        @keyframes toBottom {
+            from {
+                opacity: 1;
+                transform: translateY(-100%);
+            }
+
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        @keyframes scaleIn {
+            from {
+                scale: 0;
+            }
+
+            to {
+                scale: 1;
+            }
+        }
+
+        @keyframes scaleRotate {
+            from {
+                scale: 0;
+                rotate: 60deg;
+            }
+
+            to {
+                scale: 1;
+                rotate: 0deg;
+            }
+        }
+    }
 }
