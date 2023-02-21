@@ -95,7 +95,7 @@
           </div>
           <div class="post__headerDescription">
             <% if (member.bio) { %>
-              <p><%= member.bio.html %></p>
+              <p><%- member.bio.html %></p>
               <% }else{ %>
                 <p>Hi, I am <%= member.name %> <%= member.prefix %> <%= member.surname %> and I am a first year FDND student :)</p>
                 <% } %>
@@ -139,7 +139,7 @@
     <div class="widgets__widgetContainer">
       <h2>Who to follow</h2>
       <blockquote class="twitter-tweet">
-        <p lang="nl" dir="ltr">Wij zijn zojuist vol lof gevisiteerd door de NVAO. Het oordeel,
+        <p lang="en" dir="ltr">Wij zijn zojuist vol lof gevisiteerd door de NVAO. Het oordeel,
            de Ad Frontend Design &amp; Development aan de HvA mag september 2021 starten! Nederland heeft een 
         <a href="https://twitter.com/hashtag/frontend?src=hash&amp;ref_src=twsrc%5Etfw">#frontend</a> opleiding!
         <a href="https://t.co/WXlocWb3mW">https://t.co/WXlocWb3mW</a></p>

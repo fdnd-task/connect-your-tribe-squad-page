@@ -9,6 +9,10 @@ body {
   --twitter-background: #e6ecf0;
 }
 
+h1, h2{
+  font-size: 1.2em;
+}
+
 .fdnd {
   font-weight: 600;
   border: 1px solid var(--twitter-color);
