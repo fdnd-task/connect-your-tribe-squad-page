@@ -1,138 +1,146 @@
-<%- include('./partials/head.ejs') %>
-
-    <!-- <a href="/?squad=squad-a-2022">Squad A</a>
-        <a href="/?squad=squad-b-2022">Squad B</a>
-        <a href="/?squad=squat-c-2022">Squad C</a>
-        <hr />
-
-        <a href="/?squad=<%= squad.slug %>&orderBy=name">Sorteer op naam</a>
-        <hr /> -->
-
-    <header>
-        <div class="logo__text">
-            <img class="hva" src="/img/HvA-logo-02.png" alt="logo hva" />
-            <h2 class="frontend"> Frontend <br> Design & Development</h2>
-
-        </div>
-    </header>
+<%- include('./partials/head') %>
 
 
+  </head>
 
-    <div>
-        <img class="fdnd" src="/img/logo_fdnd.png" alt="logo fdnd" />
+  <div class="navbar">
+
+    <div class="logo__text">
+      <img class="hva" src="/img/HvA-logo-02.png" alt="logo hva" />
+      <h2 class="frontend"> Frontend <br> Design & Development</h2>
     </div>
 
-    <!-- <div class="container__search">
-        <form action="" class="search" id="search-bar"></form>
-        <input type="search" placeholder="Search someone.." class="search__input"></div> -->
+    <div class="btn">
+      <div class="btn__indicator">
+        <div class="btn__icon-container">
+          <i class="btn__icon fa-regular"></i>
+        </div>
+      </div>
+    </div>
 
+  </div>
+
+  <div class="logo__container">
+    <img class="fdnd" src="/img/logo_fdnd_2.png" alt="logo fdnd" />
+    <img class="fdnd2" src="/img/logo_fdnd.png" alt="logo fdnd" />
+  </div>
+
+  <h1>Squad page</h1>
+  <h3 class="date">2022/2023</h3>
+
+
+
+  <h2 class="sort"><i class="ri-sort-desc filter"></i> Filter</h2>
+
+
+  <div class="marquee">
+    <div class="marquee__item">
+      <ul>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+      </ul>
+    </div>
+    <div class="marquee__item">
+      <ul>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+        <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+        <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- <div class="marquee2">
+      <div class="marquee__item2">
+        <ul>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+
+        </ul>
+
+      </div>
+      <div class="marquee__item2">
+        <ul>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="marquee3">
+      <div class="marquee__item3">
+        <ul>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        </ul>
+
+      </div>
+      <div class="marquee__item3">
+        <ul>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+          <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
+          <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
+          <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
+        </ul>
+
+      </div> -->
+  </div>
+
+  <main>
     <section>
-        <h2 class="sort"><i class="ri-sort-desc filter"></i> Filter op</h2>
+      <h2>
+        <%= squad.name %>
+      </h2>
+      <!-- Hier komen de members -->
+      <% squad.members.forEach(member=> { %>
+        <article>
+          <% if (member.avatar) { %>
+            <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>"
+              onerror="this.onerror=null;this.src='/img/placeholder.jpeg';" />
+            <% }else{ %>
+              <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
+              <% } %>
+                <h2 class="name__card">
+                  <%= member.name %>
+                    <%= member.prefix %>
+                      <%= member.surname %>
+                        </h3>
 
-
-
-
-        <div class="marquee">
-            <div class="marquee__item">
-                <ul>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                </ul>
-            </div>
-            <div class="marquee__item">
-                <ul>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                </ul>
-            </div>
-        </div>
-
-
-        <div class="marquee2">
-            <div class="marquee__item2">
-                <ul>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-
-                </ul>
-
-            </div>
-            <div class="marquee__item2">
-                <ul>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                </ul>
-
-            </div>
-        </div>
-
-        <div class="marquee3">
-            <div class="marquee__item3">
-                <ul>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                </ul>
-
-            </div>
-            <div class="marquee__item3">
-                <ul>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                    <li><a class="B" href="/?squad=squad-b-2022">Squad B</a></li>
-                    <li><a class="C" href="/?squad=squat-c-2022">Squad C</a></li>
-                    <li><a class="A" href="/?squad=squad-a-2022">Squad A</a></li>
-                </ul>
-
-            </div>
-        </div>
-
+                        <button class="card__button"><a href="<%= member.gitHubHandle %>"></a>
+                          <h3 class="button__text">Github</h3>
+                        </button>
+        </article>
+        <% }) %>
     </section>
+  </main>
 
-    <main>
-        <section>
-            <!-- Hier komen de members -->
-            <% squad.members.forEach(member=> { %>
-                <article>
-                    <% if (member.avatar) { %>
-                        <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>"
-                            onerror="this.onerror=null;this.src='/img/placeholder.jpeg';" />
-                        <% }else{ %>
-                            <img src="/img/placeholder.jpeg" alt="Placeholder avatar" />
-                            <% } %>
-                                <h2>
-                                    <%= member.name %>
-                                        <%= member.prefix %>
-                                            <%= member.surname %>
-                                </h2>
 
-                                <button><a href="<%= member.gitHubHandle %>"></a>
-                                    <h3 class="button__text">Github</h3>
-                                </button>
-                </article>
-                <% }) %>
-        </section>
-    </main>
 
-    <%- include('./partials/foot.ejs') %>
-        </div>
+
+
+
+
+
+  <%- include('./partials/foot') %>

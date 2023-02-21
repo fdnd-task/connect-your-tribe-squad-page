@@ -1,31 +1,47 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+<h2>Redesign visitekaartje </h2>
+<br>
+<img width="1394" alt="Schermafbeelding 2023-02-12 om 15 43 38" src="https://user-images.githubusercontent.com/112857444/218317907-caf285f3-8d40-48e1-9788-70ebee38be88.png">
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-## Inhoudsopgave
+<h3>📚Inhoudsopgave</h3>
+<ul>
+<li><a href="#Opdracht"> 👨🏼‍💼 Opdracht</a></li> 
+<li><a href="#Designchallenge"> 🚀 Design challenge</a></li>  
+<li><a href="#Gebruik"> 👩🏽‍💻 Gebruik website</a></li>  
+<li><a href="#Checklist"> ✅ Checklist</a></li> 
+<li><a href="#Kenmerken"> 📱 Kenmerken</a></li> 
+</ul>
 
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+<h3 id="#Opdracht"> 👨🏼‍💼 Opdracht</h3>
+In deze opdracht was het de bedoeling om een eerder gemaakt visitekaartje uit week 1 opieuw te ontwerpen en bouwen. Ik heb deze opdracht voor het eerst met Node gewerkt.  
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+<h3 id="#Designchallenge"> 🚀 Design challenge</h3>
+Het concept is een swipekaart voor bedrijven. Tegenwoordig wordt er vaak gekeken naar je foto en binnen enkele seconden beslist diegene of het een ja of een nee is, ook met CV's. Ik heb geprobeerd om meerdere flips te integreren in mijn visitekaartje met JS. Daarnaast was het werken met Node een hele uitdaging voor mij. 
 
-## Installatie
-<!-- Bij Installatie staat stap-voor-stap beschreven hoe je de development omgeving moet inrichten om aan de repository te kunnen werken. -->
+        
+<h3 id="#Gebruik"> 👩🏽‍💻 Gebruik website</h3>
+Bij dit visitekaartje kan je mij niet afwijzen op basis van hoe ik eruit zie. Als je op groen klikt, krijg je een kaartje te zien met de tekst "It's a match!" Als je op de i klikt, krijg je informatie over mij te zien en als je op de X klikt krijg je een waarschuwingsteken te zien met de tekst "Weet je zeker dat je Sanne wilt laten lopen?".
+        
+<h3 id="#Checklist"> ✅ Checklist</h3>
+Helaas krijg ik de terugknoppen niet werkend, hier moet ik mij verder in verdiepen. Voor de rest heb ik alles gedaan wat ik wilde doen. 
+        
+<h3 id="#Kenmerken"> 📱 Kenmerken</h3>
+Dit project is gemaakt met HTML, CSS en JavaScript. Verder staat hieronder een korte lijst met gebruikte tools.
 
-## Gebruik
+<h4>Tools</h4>
+<ul>
+        <li> 🖥️ Visual Studio Code</li>
+</ul>
 
-## Bronnen
+<h4>Gebruikte technieken</h4>
+<ul>
+<li>📟 HTML</li>
+        <li>🎨 CSS</li>
+        <li>🕹️ JavaScript</li>
+        <li>🥜 Node </li>
+  </ul>      
+
 
 ## Licentie
 
