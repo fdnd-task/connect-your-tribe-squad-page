@@ -1,6 +1,10 @@
 <h2>Redesign visitekaartje </h2>
 <br>
-<img width="1394" alt="Schermafbeelding 2023-02-12 om 15 43 38" src="https://user-images.githubusercontent.com/112857444/218317907-caf285f3-8d40-48e1-9788-70ebee38be88.png">
+<img width="1506" alt="Schermafbeelding 2023-02-21 om 15 35 50" src="https://user-images.githubusercontent.com/112857444/220374267-fbad48a7-ecc1-42e8-a2ea-ff66ea58075c.png">
+
+<br>
+
+<img width="1509" alt="Schermafbeelding 2023-02-21 om 15 35 32" src="https://user-images.githubusercontent.com/112857444/220374293-9c3daba8-19bc-4dcb-83fb-967c5f722ff6.png">
 
 
 <h3>📚Inhoudsopgave</h3>
