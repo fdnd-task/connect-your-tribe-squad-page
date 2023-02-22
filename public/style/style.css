@@ -214,7 +214,9 @@ h2 {
 }
 
 .B {
-    color: #6be8ca;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #6be8ca;
 }
 
 .B:hover {
@@ -227,6 +229,10 @@ h2 {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #9f77ed;
+}
+
+.active {
+  color: #6be8ca
 }
 
 .marquee {
