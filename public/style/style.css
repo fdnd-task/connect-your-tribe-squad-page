@@ -631,7 +631,6 @@ body.darkmode {
         font-weight: normal;
     }
 
-
     @media (prefers-reduced-motion: no-preference) {
         .has-in-common {
             animation-duration: 1s;
