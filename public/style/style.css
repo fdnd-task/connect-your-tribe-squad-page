@@ -334,7 +334,8 @@ article a {
 article:hover {
     width: 14em;
     height: 19em;
-    background: rgba(61, 90, 140, 0.133);
+    background: #303673;
+    transition: 0.3s ease-in-out;
 
 }
 
