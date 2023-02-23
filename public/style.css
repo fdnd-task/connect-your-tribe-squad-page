@@ -25,11 +25,42 @@ h2 {
   font-size: 2rem;
 }
 
+/* Dit heeft Jalal gemaakt */
 .sidebarOption {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
+
+.sidebarOption > ul{
+  margin-left: 3em;
+}
+
+.sidebarOption > ul > li{
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.sidebarOption > ul > li > a{
+  text-decoration: none;
+}
+
+.sidebarOption > ul > li > a:hover{
+color: var(--twitter-color);
+}
+
+.sidebarOption:nth-of-type(2){
+  position: relative;
+  bottom: .7em;
+}
+
+.sidebarOption:nth-of-type(3){
+  position: relative;
+  bottom: .7em;
+}
+
+/* TOT HIER heeft Jalal gemaakt */
 
 .sidebarOption .material-icons,
 .fa-twitter {
@@ -38,6 +69,12 @@ h2 {
 
 .squad-title {
   font-weight: bold;
+  font-size: 1.25em;
+}
+
+.squad-title2{
+  font-weight: lighter;
+  font-weight: 500;
   font-size: 1.25em;
 }
 
@@ -309,7 +346,28 @@ hr {
   border-radius: 20px;
 }
 
+/* Dit heeft Jalal gemaakt */
+
+.widgets__widgetContainer > article{
+display: flex;
+flex-direction: column;
+gap: 1.5em;
+}
+
+.widgets__widgetContainer > article:nth-child(2){
+  margin-top: 2em;
+}
+
 .widgets__widgetContainer h2 {
   font-size: 18px;
   font-weight: 800;
+  padding-left: .5em;
+}
+
+.widgets__widgetContainer > article > a:hover{
+  color: var(--twitter-color);
+}
+
+.widgets__widgetContainer > article > div{
+  display: flex;
 }
