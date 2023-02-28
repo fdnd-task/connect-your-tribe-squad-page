@@ -36,16 +36,13 @@ app.get('/', function (request, response) {
   })
 })
 
-//Route voor een squad overzicht
+//Route voor een squad overzicht om studenten te zoeken
 app.get('/squad/:id', function (request, response) {
   // console.log("query",request.query);
   console.log("params",request.params)
 
   // const url = "https://whois.fdnd.nl/api/v1/member/koop-reynders"
-  // "slug": "squad-a-2022",
-  // "slug": "squad-b-2022",
-  // "slug": "squat-c-2022",
-  // "slug": "founders-2021",
+  // const url = "https://whois.fdnd.nl/api/v1/squad/squat-c-2022"
   let id = request.params.id;
   let order = "name";
   let direction = "ASC";
@@ -57,6 +54,11 @@ app.get('/squad/:id', function (request, response) {
     console.log("data",data)
     response.render('squad', data)
   })
+})
+
+//Route voor memebers om namen te zoeken
+app.get('/members', function (request, response) {
+  response.render('members')
 })
 
 
@@ -82,3 +84,12 @@ async function fetchJson(url, payload = {}) {
     .then((response) => response.json())
     .catch((error) => error)
 }
+
+/** 
+ * Gebruikte bronnen
+ * 
+ * Nodemon reload, automatically.
+ * https://nodemon.io
+ * nodemon ./app.js
+ * 
+*/

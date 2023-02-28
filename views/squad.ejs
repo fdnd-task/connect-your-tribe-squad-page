@@ -6,13 +6,13 @@
   </header>
   
   <form>
-    <label for="fdndmembers">Search member:</label>
+    <label for="fdndmembers">Search <%= squad.name %> members:</label>
     <input type="text" 
       list="members" 
       id="fdndmembers" 
       name="fdndmembers" 
       autocomplete="off" 
-      placeholder="Search members" />
+      placeholder="Search <%= squad.name %> members" />
     <datalist id="members">
       <% squad.members.forEach(member => { %>
           <option value="<%= member.name %> <%= member.prefix %> <%= member.surname %>"></option>
@@ -46,9 +46,15 @@
     window.location.href = "#"+dashName;
   });
 
-  /* Gebruikte bronnen */
-  //3 Ways To Create HTML Element In JavaScript https://softauthor.com/create-html-element-in-javascript/
-  //Element.insertAdjacentHTML() https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+  /**
+   * Gebruikte bronnen 
+   * 3 Ways To Create HTML Element In JavaScript 
+   * https://softauthor.com/create-html-element-in-javascript/
+   * 
+   * Element.insertAdjacentHTML() 
+   * https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+   * 
+  */
 
 </script>
 
