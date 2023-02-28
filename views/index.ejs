@@ -1,0 +1,35 @@
+<%- include('./partials/head') %>
+
+<main>
+  <header>
+      <h1>FDND<span>Wie<span>Is</span>Wie</span></h1>
+  </header>
+  
+  <form>
+    <label for="searchSquad">Search squads:</label>
+    <div class="select">
+      <select name="searchSquad" id="searchSquad">
+        <option value="">Select:</option>
+        <% squads.forEach(squad => { %>
+          <% if (squad.name != "Minor Web") { %>
+            <option value="./squad/<%= squad.slug %>" > <%= squad.name %></option>
+          <% } %>
+        <% }) %>
+        <option value="./members">All members</option>
+      </select>
+      <span class="focus"></span>
+    </div>
+</form>
+
+</main>
+
+
+<script>
+  // Formulier get squad
+  document.querySelector('#searchSquad').addEventListener('change', (event) => {
+    // console.log(event.target.value);
+    window.location.href = event.target.value;
+  });
+</script>
+
+<%- include('./partials/foot') %>

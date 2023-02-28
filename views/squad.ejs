@@ -1,0 +1,61 @@
+<%- include('./partials/head') %>
+
+<main>
+  <header>
+      <h1>FDND <%= squad.name %><span>Wie<span>Is</span>Wie</span></h1>
+  </header>
+  
+  <form>
+    <label for="fdndmembers">Search <%= squad.name %> members:</label>
+    <input type="text" 
+      list="members" 
+      id="fdndmembers" 
+      name="fdndmembers" 
+      autocomplete="off" 
+      placeholder="Search <%= squad.name %> members" />
+    <datalist id="members">
+      <% squad.members.forEach(member => { %>
+          <option value="<%= member.name %> <%= member.prefix %> <%= member.surname %>"></option>
+        <% }) %>
+    </datalist>
+  </form>
+
+  <ul>
+      <li>
+        <img src="/members/<%= squad.slug %>.JPG" alt="" />
+       <h3><%= squad.name %></h3> 
+      </li>
+  </ul>
+
+</main>
+
+<script>
+  // Formulier afhandeling
+  document.querySelector('#fdndmembers').addEventListener('change', (event) => {
+    let name=event.target.value;
+    let dashName = name.replace(/\s+/g, '-');
+    // console.log(imgName);
+
+    const markup = `
+        <li id="${dashName}">
+            <img src="/members/${dashName}.JPG"" alt=""></img>
+            <h3>${name}</h3>
+        </li>
+    `;
+    document.querySelector('ul').insertAdjacentHTML("afterbegin",markup);
+    window.location.href = "#"+dashName;
+  });
+
+  /**
+   * Gebruikte bronnen 
+   * 3 Ways To Create HTML Element In JavaScript 
+   * https://softauthor.com/create-html-element-in-javascript/
+   * 
+   * Element.insertAdjacentHTML() 
+   * https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
+   * 
+  */
+
+</script>
+
+<%- include('./partials/foot') %>

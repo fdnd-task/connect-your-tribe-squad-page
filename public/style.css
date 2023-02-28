@@ -1,0 +1,199 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  --highlight: purple;
+  --outline: 0.4rem;
+  --border: 0.15em;
+}
+body{
+  background: #efefef;
+  /* background: pink; */
+  padding: 0.5rem;
+  font-family: Open Sans, sans-serif;
+}
+main{
+  scroll-snap-points-y: repeat(3rem);
+  scroll-snap-type: y mandatory;
+}
+/* 
+  HEADER 
+*/
+header{
+  position: sticky;
+  z-index: -1;
+  top: 0;
+}
+h1{
+  font-size: 4rem;
+  letter-spacing: -0.3rem;
+  overflow-x: hidden;
+  margin: 0;
+  text-transform: uppercase;
+}
+h1 > span{
+  display: block;
+  font-size: 7rem;
+  letter-spacing: -0.6rem;
+  margin-top: -1.5rem;
+}
+h1 > span > span{
+  color: var(--highlight)
+}
+h2{
+  font-size: 3rem;
+}
+/* 
+  LIJST FOTO'S
+*/
+ul{
+  padding: 0;
+  /* z-index: 1; */
+}
+li{
+  position: relative;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: white;
+  list-style: none;
+  scroll-snap-align: start;
+  aspect-ratio: 16 / 9;
+}
+img{
+  width: 100%;
+}
+img+h3{
+  position: absolute;
+  left: 0;
+  bottom: 1rem;
+  background: white;
+  display: inline-block;
+  /* margin-top: -10em; */
+  padding: 0.5rem 1rem;
+}
+
+/* 
+  FORM 
+*/
+form{
+  background-color: white;
+  padding: 0;
+  z-index: 1;
+  position: sticky;
+  top: 0.4em;
+}
+label{
+  display: none;
+}
+    /*
+      INPUT AND DATALIST
+    */
+    input{
+      font-size: 2em;
+      padding: 0.2em;
+      /* font-weight: 500; */
+      width: 100%;
+      top: 10px;
+      color: black;
+      border: var(--outline) solid #333;
+      border-radius: var(--outline);
+    }
+    input:focus-visible {
+      outline: var(--outline) solid var(--highlight);
+    }
+    datalist option{
+      font-size: 2em;
+    }
+
+    /* 
+      SELECT
+      Select Styles with Pure CSS
+      https://moderncss.dev/custom-select-styles-with-pure-css/
+    */
+    /* Reset Styles */
+    select {
+      /* A reset of styles, 
+        including removing the default dropdown arrow */
+      /* Hide the Native Select */
+      /* Add if not using autoprefixer */
+      -webkit-appearance: none;
+      appearance: none;
+      /* Additional resets for further consistency */
+      background-color: transparent;
+      border: none;
+      padding: 0 1em 0 0;
+      margin: 0;
+      width: 100%;
+      font-family: inherit;
+      font-size: inherit;
+      cursor: inherit;
+      line-height: inherit;
+      outline: none;
+    }
+    /* Custom Select Box Styles */
+    .select {
+      width: 100%;
+      height: 2em;
+      /* min-width: 15ch;
+      max-width: 30ch; */
+      padding: 0.25em 0.5em;
+      font-size: 2em;
+      cursor: pointer;
+      line-height: 1.4;
+      border: var(--outline) solid black;
+      border-radius: var(--outline);
+      background-color: #fff;
+      background-image: linear-gradient(to top, #ddd, #fff 33%);
+      /* Custom Select Dropdown Arrow */
+      display: grid;
+      grid-template-areas: "select";
+      align-items: center;
+      position: relative; /* we need to make one more addition to .select to ensure that it's relative to our select by  */
+    }
+    /* Pijltje */
+    .select::after {
+      content: "";
+      width: 0.8em;
+      height: 0.6em;
+      background-color: black;
+      clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+      justify-self: end;
+    }
+    select,
+    .select:after {
+      grid-area: select;
+    }
+    /* :focus State */
+    select:focus + .focus {
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      right: -1px;
+      bottom: -1px;
+      border: var(--outline) solid var(--highlight);
+      border-radius: inherit;
+    }
+
+
+
+
+@media (min-width: 61rem) {
+
+  ul{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; 
+      align-items:flex-start;
+      gap: 0.5rem;
+  }
+  li{
+      /* margin: 0.5rem; */
+      flex: 1 1 30%;
+      /* width: 30%; */
+  }
+  li:nth-child(4){
+      /* flex-grow: 2; */
+      flex-basis: 50%;
+  }
+  
+
+}
