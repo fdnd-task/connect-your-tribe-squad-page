@@ -1,0 +1,9 @@
+<%- include('./partials/head') %>
+
+<ul>
+  <% data.forEach(person => { %>
+  <li><a href="./person/<%= person.id %>"><%=person.name %></a></li>
+  <% }) %>
+</ul>
+
+<%- include('./partials/foot') %>
