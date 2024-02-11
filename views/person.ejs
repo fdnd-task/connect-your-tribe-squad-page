@@ -6,11 +6,4 @@
 
 <p>Squad: <%= person.squad_id %>
 
-<h2>Squads</h2>
-<ul>
-  <% squads.forEach(squad => { %>
-  <li>Squad <%= squad.name %>, id <%= squad.id %>, tribe_id <%= squad.tribe_id %></li>
-  <% }) %>
-</ul>
-
 <%- include('./partials/foot') %>
