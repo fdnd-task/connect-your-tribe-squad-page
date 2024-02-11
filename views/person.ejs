@@ -1,14 +1,16 @@
 <%- include('./partials/head') %>
 
-<article class="person">
-  <header>
-    <h1>Hello</h1>
-    <p>my name is</p>
-  </header>
+<a href="/">Back</a>
 
-  <p><%= person.name %></p>
+<h2><%= person.name %></h2>
 
-  <footer></footer>
-</article>
+<p>Squad: <%= person.squad_id %>
+
+<h2>Squads</h2>
+<ul>
+  <% squads.forEach(squad => { %>
+  <li>Squad <%= squad.name %>, id <%= squad.id %>, tribe_id <%= squad.tribe_id %></li>
+  <% }) %>
+</ul>
 
 <%- include('./partials/foot') %>
