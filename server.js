@@ -1,28 +1,33 @@
 // Importeer het npm pakket express uit de node_modules map
 import express from 'express'
+
 // Importeer de zelfgemaakte functie fetchJson uit de ./helpers map
 import fetchJson from './helpers/fetch-json.js'
 
 // Stel het basis endpoint in
 const apiUrl = 'https://fdnd.directus.app/items'
 
+// Haal alle squad data op uit de WHOIS API
+const squadData = await fetchJson('https://fdnd.directus.app/items/squad')
+
 // Maak een nieuwe express app aan
 const app = express()
 
 // Stel ejs in als template engine
 app.set('view engine', 'ejs')
+
 // Stel de map met ejs templates in
 app.set('views', './views')
 
-// Gebruik de map 'public' voor statische resources
+// Gebruik de map 'public' voor statische resources, zoals stylesheets, afbeeldingen en client-side JavaScript
 app.use(express.static('public'))
 
 // Maak een GET route voor de index
 app.get('/', function (request, response) {
-  // Haal alle personen uit de FDND API op
-  fetchJson(apiUrl + '/Person').then((data) => {
-    // Render index.ejs uit de views map en geef uit FDND API opgehaalde data mee
-    response.render('index', data)
+  // Haal alle personen uit de WHOIS API op
+  fetchJson(apiUrl + '/person').then((apiData) => {
+    // Render index.ejs uit de views map en geef de opgehaalde data mee als variabele, genaamd persons
+    response.render('index', {persons: apiData.data, squads: squadData.data})
   })
 })
 
@@ -32,12 +37,12 @@ app.post('/', function (request, response) {
   response.redirect(303, '/')
 })
 
-// Maak een GET route voor person met een request parameter id
+// Maak een GET route voor een detailpagina met een request parameter id
 app.get('/person/:id', function (request, response) {
-  // Gebruik de request parameter id en haal de juiste persoon uit de FDND API op
-  fetchJson(apiUrl + '/Person/' + request.params.id).then((data) => {
-    // Render index.ejs uit de views map en geef uit FDND API opgehaalde data mee
-    response.render('person', data)
+  // Gebruik de request parameter id en haal de juiste persoon uit de WHOIS API op
+  fetchJson(apiUrl + '/person/' + request.params.id).then((apiData) => {
+    // Render person.ejs uit de views map en geef de opgehaalde data mee als variable, genaamd person
+    response.render('person', {person: apiData.data, squads: squadData.data})
   })
 })
 

@@ -1,8 +1,16 @@
 <%- include('./partials/head') %>
 
+<h2>Students</h2>
 <ul>
-  <% data.forEach(person => { %>
-  <li><a href="./person/<%= person.id %>"><%=person.name %></a></li>
+  <% persons.forEach(person => { %>
+  <li><a href="./person/<%= person.id %>"><%= person.name %></a>, squad_id <%= person.squad_id %></li>
+  <% }) %>
+</ul>
+
+<h2>Squads</h2>
+<ul>
+  <% squads.forEach(squad => { %>
+  <li>Squad <%= squad.name %>, id <%= squad.id %>, tribe_id <%= squad.tribe_id %></li>
   <% }) %>
 </ul>
 
