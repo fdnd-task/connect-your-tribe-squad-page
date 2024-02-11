@@ -9,16 +9,16 @@ In het S07W2-01-Squadpage wordt uitgelegd wat je gaat doen.
 
 
 ## Briefing
-Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). In een team ga je met deze data een squad page ontwerpen en maken, zodat je met elkaar in contact kan blijven.
+Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). In een team ga je met deze data een website voor je squad ontwerpen en maken, zodat je met elkaar in contact kan blijven.
 
 ## Doel van deze opdracht
-Je leert met een team een overzichtpagina te ontwerpen en bouwen op basis van een bestaande API.
+Je leert met een team een website ontwerpen en bouwen op basis van een bestaande API.
 
 
 ## Werkwijze
 
-Met je team bedenk en schets je verschillende ideeën voor een squad page. 
-Met de squad page wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
+Met je team bedenk en schets je verschillende ideeën voor een website voor je squad. 
+Met de website wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
 Vervolgens werken alle teamleden een ander idee uit met Node en JSON.
 Jouw team kiest daarna het beste, mooiste of meest originele ontwerp en deze presenteren jullie aan de squad. 
 
@@ -43,11 +43,11 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 
 ### Ontwerpen
-In de ontwerpfase ga je met je team verschillende ideeën voor een squad page bedenken en schetsen. 
+In de ontwerpfase ga je met je team verschillende ideeën voor een website voor je squad bedenken en schetsen. 
 
 #### Aanpak ontwerpfase
 
-1. Ideegeneratie: Eerst bedenk je met je team verschillende ideeën voor een squad page.
+1. Ideegeneratie: Eerst bedenk je met je team verschillende ideeën voor de website.
 2. Maak een breakdown van de schets, bedenk welke data je uit de WHOIS API kan gebruiken voor je ontwerp. 
 3. Werk je schets netjes uit in Figma, Illustrator of ga meteen los in de browser.
 
@@ -95,7 +95,7 @@ Als je online wil testen moet je je project publiceren op internet. Omdat we met
 
 
 ### Testen
-In de testfase controleer je of jouw squad page voldoet aan standaarden. 
+In de testfase controleer je of jouw website voldoet aan standaarden. 
 Jouw team kiest daarna het beste, mooiste of meest originele ontwerp en deze presenteren jullie aan de squad. 
 
 
@@ -103,23 +103,11 @@ Jouw team kiest daarna het beste, mooiste of meest originele ontwerp en deze pre
 
 ## Definition of done
 
-Focus sprint 7 - De focus in deze sprint ligt op teambuilding, samenwerken en hoe je een dynamische website kan maken waar bezoekers ook iets achter kunnen laten.
-
-Doel van deze opdracht:
-* Je leert met een team een overzichtpagina te ontwerpen en bouwen met data uit een database.
-
-Voor deze leertaak gelden de gedragscriteria: 
-* M: Je kiest binnen projecten passende fases van de development-lifecycle
-* M: Je combineert aangeboden principes en conventies op het gebied van frontend, interface design en vormgeving
-* S: Je werkt in teams, vraagt begeleiding waar nodig en geeft feedback aan teamleden
-* S: Je daagt verantwoording voor eigen resultaten, verwerkt ontvangen feedback en wijst teamleden op hun verantwoording
-* P: Je schetst om gedachten en processen te verkennen en abstracte begrippen over te brengen
-
 Deze opdracht is done als:
-- [ ] Je hebt een squad page ontworpen en gemaakt met Node en de WHOIS API
-- [ ] Je squad page is online gepubliceerd
-- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je hebt je proces bijgehouden in de Wiki
+- [ ] Je hebt een website voor je squad ontworpen en gemaakt met Node en de WHOIS API
+- [ ] Je website is online gepubliceerd
+- [ ] Je hebt gewerkt volgens de verschillende fases van de development-lifecycle en je iteratieve werkwijze is gedocumenteerd in de Wiki
 - [ ] Je hebt comments in je Node-code waarmee de code is uitgelegd
-- [ ] Je hebt comments in de EJS bestanden waarmee een _loop_ of andere _Control Flow_ is uitgelegd
+- [ ] Je hebt comments in de EJS bestanden waarmee een _loop_ en/of andere code is uitgelegd
 - [ ] Je hebt in de Readme bij 'Kenmerken' uitgelegd wat Node is, wat Express is en wat EJS doet
 
