@@ -33,13 +33,17 @@ In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voere
 
 1. Lees de instructies van deze leertaak zorgvuldig door.
 2. Onderzoek wat je allemaal kan doen met de [WHOIS API](https://whois.fdnd.nl).
-3. Bespreek met jouw team wat je aan werk verwacht, hoe jullie gaan samenwerken en plan de belangrijke momenten in. (Je kan hiervoor een Github Projectboard gebruiken)
+3. Bespreek met jouw team wat je aan werk verwacht, en vul een [teamvanvas](https://github.com/fdnd-task/your-tribe-team-canvas) in
+4. Bedenk hoe jullie gaan samenwerken en plan de belangrijke momenten in. Gebruik Github Projectboard om dit te organiseren
+
 
 
 #### Materiaal analysefase
 
 - [WHOIS API](https://whois.fdnd.nl)
 - [Learn about projects on Github](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+- [teamvanvas](https://github.com/fdnd-task/your-tribe-team-canvas)
+
 
 
 ### Ontwerpen
