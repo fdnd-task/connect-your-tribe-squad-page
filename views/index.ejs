@@ -5,8 +5,8 @@
 
 <section class="class-switch">
   <ul class="slides">
-    <input type="radio" id="control-1" name="control" checked>
-    <input type="radio" id="control-2" name="control">
+    <input type="radio" id="control-1" name="control" >
+    <input type="radio" id="control-2" name="control" checked>
     <input type="radio" id="control-3" name="control">
 
     <div class="navigator slide-1">
@@ -52,10 +52,11 @@
 
 <div class="dropdown">
   <div class="select">
-    <span class="selected">Provincie</span>
+    <div class="selected">Provincie</div>
     <div class="caret"></div>
   </div>
   <ul class="menu">
+    <li>-</li>
     <li>Noord-Holland</li>
     <li>Zuid-Holland</li>
     <li>Utrecht</li>
@@ -71,6 +72,7 @@
     <div class="caret"></div>
   </div>
   <ul class="menu">
+    <li>-</li>
     <li>A-Z</li>
     <li>Z-A</li>
   </ul>
@@ -82,6 +84,7 @@
     <div class="caret"></div>
   </div>
   <ul class="menu">
+    <li>-</li>
     <li>16-20</li>
     <li>21-25</li>
     <li>26-30</li>
@@ -95,6 +98,7 @@
     <div class="caret"></div>
   </div>
   <ul class="menu">
+    <li>-</li>
     <li>M</li>
     <li>V</li>
 
@@ -108,12 +112,12 @@
 <section class="card-container">
   <% persons.forEach(person => { %>
     <div class="card">
-      <img src="" alt="">
+      <%= person.avatar %>
       <ul>
         <li>Naam: <%= person.name %> <%= person.prefix %> <%= person.surname %></li>
-        <li>Leeftijd: <%= person.custom %></li>
+        <li>Leeftijd: <%= person.custom.leeftijd %></li>
         <li>Geslacht:</li>
-        <li>Provincie</li>
+        <li>Provincie:</li>
     </ul>
     </div>
   <% }) %>

@@ -17,9 +17,6 @@ menu.classList.toggle('menu-open');
 options.forEach(option => {
     option.addEventListener('click', () => {
         option.classList.toggle('active');
-
-        let selectedOptions = Array.from(menu.querySelectorAll('.active')).map(option => option.innerText);
-        selected.innerText = selectedOptions.join(', ');
     });
 });
 });
