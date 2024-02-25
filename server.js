@@ -19,6 +19,9 @@ app.set('views', './views')
 // Gebruik de map 'public' voor statische resources, zoals stylesheets, afbeeldingen en client-side JavaScript
 app.use(express.static('public'))
 
+// Zorg dat werken met request data makkelijker wordt
+app.use(express.urlencoded({extended: true}))
+
 // Maak een GET route voor de index
 app.get('/', function (request, response) {
   // Haal alle personen uit de WHOIS API op
