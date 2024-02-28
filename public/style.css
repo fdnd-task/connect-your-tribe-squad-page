@@ -308,6 +308,9 @@ ul.slides {
     justify-content: center;
     align-items: center;
     transition: all 0.7s ease;
+
+    opacity: 0;
+    visibility: hidden;
 }
 
 .star1,.star2,.star3,.star4{

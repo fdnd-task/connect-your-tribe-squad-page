@@ -8,6 +8,8 @@ dropdowns.forEach(dropdown => {
     let selected = dropdown.querySelector('.selected');
 
 
+
+
 select.addEventListener('click', () => {
 select.classList.toggle('select-clicked');
 caret.classList.toggle('caret-rotate');
@@ -21,28 +23,53 @@ options.forEach(option => {
 });
 });
 
+
+
+
 let i = 0;
 let stars = document.querySelector('.star1 + .star2 + star3 + star4');
 let aarde = document.querySelector('.aarde');
 let raket = document.querySelector('.rocket');
 let number = document.querySelector('.number');
 let site = document.querySelector('.website');
-let preloader = document.querySelector('.preloader')
+let preloader = document.querySelector('.preloader');
+let stopButton = document.querySelector('button');
+
+let preloaded = false;
 
 
 
-let interval = setInterval(function(){
-    number.innerHTML = i+'<span>%</span>';
-    number.style.height = i+'%';
-    i++
-    if(i == 101){
-        clearInterval(interval)
-    setTimeout(function(){
-        preloader.style.opacity = '0';
-        preloader.style.visibility = 'hidden';
-        site.style.opacity = '1';
-        site.style.visibility = 'visible';
-      
-    })
-    }
-},40)
+if(localStorage.getItem("preloaded")) {
+    preloaded = localStorage.getItem("preloaded");
+}
+
+
+if (preloaded) {
+    hidePreloader();
+} else {
+    preloader.style.opacity = '1';
+    preloader.style.visibility = 'visible';
+    let interval = setInterval(function(){
+        number.innerHTML = i+'<span>%</span>';
+        number.style.height = i+'%';
+        i++
+        if(i == 101){
+            clearInterval(interval)
+        setTimeout(function(){
+            
+            hidePreloader();
+            preloaded = true;
+            localStorage.setItem("preloaded", preloaded);
+
+        })
+        }
+    },35)
+
+}
+
+function hidePreloader() {
+    preloader.style.opacity = '0';
+    preloader.style.visibility = 'hidden';
+    site.style.opacity = '1';
+    site.style.visibility = 'visible';
+}
