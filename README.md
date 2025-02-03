@@ -1,9 +1,10 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
+# Squad page
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Ontwerp en maak een website voor je squad met Node en JSON.
 
-## Inhoudsopgave
+De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
+
+## Inhoudsopgave Squad page
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
