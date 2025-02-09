@@ -31,13 +31,13 @@ Je bent al ingedeeld in een team, zoek in Directus op in welk team je zit, en fi
 In Directus kun je de JSON data sorteren, filteren en doorzoeken Een filter toepassen doe je door de parameter `?filter` mee te geven aan de url. Dit is bijvoorbeeld team Rocket:  [https://fdnd.directus.app/items/person/?filter={"team":"Team Rocket"}](https://fdnd.directus.app/items/person/?filter=%7B%22team%22:%22Team%20Rocket%22%7D)
 
 Ga met je team aan een eigen tafel zitten en schrijf je naam en id op het whiteboard.
-Vul daarna in de [WHOIS admin](https://whois.fdnd.nl/admin/) je favoriete design kleur, favoriete HTML tag en attribuut, favoriete CSS property en JS web api.
+Vul daarna in de [WHOIS admin](https://whois.fdnd.nl/admin/) je favoriete design kleur, favoriete HTML tag en attribuut, favoriete CSS property en JS feature.
 
 #### Bron
 - Zie de documentatie van Directus over filteren: https://directus.io/docs/guides/connect/query-parameters#filter
 - [MDN HTML reference](https://developer.mozilla.org/docs/Web/HTML/Reference)
 - [MDN CSS reference](https://developer.mozilla.org/docs/Web/CSS/Reference)
-- [MDN Web API](https://developer.mozilla.org/docs/Web/API)
+- [MDN JS feature](https://developer.mozilla.org/docs/Web/API)
 
 
 ### Analyseren
@@ -66,22 +66,77 @@ Open deze leertaak in Visual Studio Code, voer eerst een `npm install` uit om al
 <!--Wat gaat er volgende week gebeuren met commits en pushen? Dan moet je wel even afspraken maken-->
 
 ## Ideeen bedenken
-In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenken en schetsen. 
+In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenken en schetsen.
 
-1. Ideegeneratie: Eerst bedenk je met je team verschillende ideeën voor de website.
-2. Maak een breakdown van de schets, bedenk welke data je uit de WHOIS API kan gebruiken voor je ontwerp. 
-3. Werk je schets netjes uit in Figma
+het is belangrijk omeerst te weten wat je allemaal kan met de data uit de WHOIS API. Onderzoek met je team hoe je met Directus kan sorteren, filteren en zoeken. Doe de opdrachtjes met je team op 1 computer en schrijf op het whiteboard hoe dit werk in Directus:
+
+<!--Met je team spelen met de Directus whois api...-->
+
+### Sorteren
+Sorteren betekent dat je de volgorde aanpast. Begin met alle personen die in de database zitten in een browser te tonen: https://fdnd.directus.app/items/person/
+
+Hoe is deze lijst gesorteerd?
+
+<!-- Op Id. -->
+
+Je kan op alle velden van de WHOIS sorteren.
+
+Sorteer nu de lijst alfabetisch, voeg de parameter `?sort=name` toe aan de url in je browser.
+
+Wie is het oudst bij FDND? Sorteer op geboortedag, voeg de parameter `?sort=birthdate` toe. 
+
+Wie is de jongste op de lijst? Je kan de sort order omdraaien. Kijk op https://directus.io/docs/guides/connect/query-parameters#sort hoe dat moet. 
+
+### Filteren
+Filteren van data hebben we al een keer gedaan. Als je data filtert krijg je een deelverzameling.
+
+Filter eens op alle studenten die als favoriete HTML element `body` hebben ingevuld, voeg de parameter `?filter={"fav_tag":"body"}`. Aj, zijn er geen interessante mensen die de body tag hebben ingevuld? Filter dan op het HTML element dat jezelf hebt ingevuld, nu krijg je alle mensen die dit element hebben ingevuld. Wie heeft dezelfde als jij?
+
+Filter op alle studenten die als favoriete kleur rood hebben ingevuld, voeg de parameter `?filter={"fav_color":"red"}`
+
+Oh wacht ... dat werkt niet. Wat moet je dan voor kleur gebruiken? de `#` doet het niet, gebruik daarvoor `%23`, special char voor de #. Lukt het nu?
+
+Waar kan je nog meer op filteren? Filter op alle mensen in de database van wie de naam begint met een `k`. Voeg de paramater `?filter={"name":{"_starts_with":"K"}}` toe aan de url. 
+
+Je kan dus ook nog _filter rules_ meegeven aan Directus. Wat kan je hier nog meer mee doen? Check https://directus.io/docs/guides/connect/filter-rules en probeer er een paar uit. Schrijf wat je hebt geleerd op het whiteboard. 
+
+Filter nu op alle studenten die in hun bio het woord "frontend" hebben staan. Frontenders ahoy!
+
+<!-- `?filter={"bio":{"_icontains":"frontend"}}` -->
+
+### Zoeken
+Je kan ook zoeken in de database. De zoekfunctie van Directus speurt in alle velden. 
+
+Zoek maar eens op een hobby, voeg de parameter `?search=frisbee` toe aan de url. Weer geen interessante mensen gevonden? Zoek dan maar op je eigen naam ... ego.
+
+<!--
+**Oefenen met de query parameters/filters van Directus zelf (wat opdrachten aan de hand van de documentatie van Directus)**
+Woensdag oefenen met query params in hun eigen routes toevoegen en gebruiken? 
+-->
+
+
+### Schetsen
+Nu je een beetje hebt gespeeld met filteren, sorteren en zoeken kunnen jullie misschien wel wat ideeeen bedenken hoe je alle frontenders in de database zou kunnen tonen en wat leuke filters zijn om te laten zien. 
+
+<!-- Met de website wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders. -->
+
+Eerst bedenk met je team verschillende ideeën voor jullie website. Je kan hiervoor de formulier velden gebruiken die al bestaan. Maar misschien heb je nog een veel beter of gekker idee? Dan kunnen we ook nieuwe velden toevoegen. 
+
+![](ideeen.png)
+
+Schets met je team minimaal 6 verschillende ideeen op het whiteboard. Noteer bij elk idee hoe je de data kan filteren of sorteren, en welke velden in de WHOIS je daarvoor nodig hebt, of moeten worden aangemaakt. 
+
+Kies daarna allemaal een idee om deze week aan te werken. Maak in een gezamenlijk Figma file een high-res ontwerp van je idee. Help elkaar met styling en gebruik dezelfde stijl elementen. 
+
+Vrijdag ga je met je team kijken wat jullie hebben gemaakt en maken jullie een nieuw ontwerp om daarna gezamenlijk aan te werken. 
+
+
 
 <!-- In de eerste week van deze opdracht ideeen bedenken met whois data, leren hoe je  met directus kan filteren en sorteren. (get)
 In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken. 
 -->
 
-Wat kan je allemaal met de whosi data op Directus? 
-<!--Met je team spelen met de Directus whois api...
 
-**Oefenen met de query parameters/filters van Directus zelf (wat opdrachten aan de hand van de documentatie van Directus)**
-Woensdag oefenen met query params in hun eigen routes toevoegen en gebruiken? 
--->
 
 
 
