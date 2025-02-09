@@ -2,7 +2,7 @@
 # Connect Your Tribe - Squad page
 
 ## Squad page ontwerpen
-Over het ontwerpen van een interface met veel data
+In deze workshop ga je met een team ideeen bedenken en uitwerken in een ontwerp. 
 
 ### Aanpak
 
@@ -63,7 +63,7 @@ Zorg ervoor dat je de reflectie van sprint 4 meeneemt in jullie teamafspraken. T
 Jullie gaan de eerste week op je eigen repo werken. Vrijdag brengen jullie de ideeen samen en gaan jullie op 1 repo verder werken. 
 <!--Wat gaat er dan gebeuren met commits en pushen? Dan moet je wel even afspraken maken-->
 
-### Ideeen bedenken
+## Ideeen bedenken
 In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenken en schetsen. 
 
 1. Ideegeneratie: Eerst bedenk je met je team verschillende ideeën voor de website.

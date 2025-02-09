@@ -2,7 +2,7 @@
 # Connect Your Tribe - Squad page
 
 ## User Generated Content
-over het posten en bewaren van data
+In deze workshop leer je hoe je data naar Directus kan posten met behup van een formulier.
 
 ### Aanpak
 

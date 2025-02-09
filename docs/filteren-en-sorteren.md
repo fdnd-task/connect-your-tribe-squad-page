@@ -2,9 +2,8 @@
 # Connect Your Tribe - Squad page
 
 ## Filteren en sorteren
-over het Filteren en Sorteren van data. 
 
-In deze wekshop ga je leren hoe je de data uit Directus kan filteren en sorteren en hoe je dit in je NodeJS project dat fetchen en met Express en Liquid kan verwerken 
+In deze workshop leer je hoe je de data uit Directus kan filteren en sorteren en hoe je dit in je NodeJS project kan fetchen, en met Express en Liquid kan verwerken. 
 
 ### Aanpak
 
