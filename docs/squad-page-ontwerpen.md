@@ -16,30 +16,32 @@ Kunnen we morgen oefenen met de query parameters/filters van Directus zelf (wat 
 
 Met een team van 3 ga je met de WHOIS data een website ontwerpen en maken, zodat je met elkaar in contact kan blijven. Met de website wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
 
-Eerst gaan we teams maken en de Sprint Planning doorlopen. Daarna ga je met je team ideeen bedenken, ontwerpen en beginnen met bouwen. 
+Eerst gaan we teams maken en de Sprint Planning doorlopen. Daarna ga je met je team ideeen bedenken, ontwerpen en beginnen met bouwen.
 
 ## Sprint Planning
 
 Tijdens de Sprint Planning ga je met je team de opdracht analyseren.
 
 ### Team maken
-Je wordt ingedeeld in een team van 3 studenten uit jouw squad. Ga met je team aan eigen een tafel zitten. 
+Je wordt ingedeeld in een team van 3 studenten uit jouw squad. 
 
 Welk team zit jij? 
 Je bent al ingedeeld in een team, zoek in Directus op in welk team je zit, en filter wie jouw teamgenoten zijn. 
 
 In Directus kun je de JSON data sorteren, filteren en doorzoeken Een filter toepassen doe je door de parameter `?filter` mee te geven aan de url. Dit is bijvoorbeeld team Rocket:  [https://fdnd.directus.app/items/person/?filter={"team":"Team Rocket"}](https://fdnd.directus.app/items/person/?filter=%7B%22team%22:%22Team%20Rocket%22%7D)
 
+Ga met je team aan een eigen tafel zitten en schrijf je naam en id op het whiteboard.
+Vul daarna in de [WHOIS admin](https://whois.fdnd.nl/admin/) je favoriete design kleur, favoriete HTML tag en attribuut, favoriete CSS property en JS web api.
+
 #### Bron
-Zie de documentatie van Directus over filteren: https://directus.io/docs/guides/connect/query-parameters#filter
+- Zie de documentatie van Directus over filteren: https://directus.io/docs/guides/connect/query-parameters#filter
+- [MDN HTML reference](https://developer.mozilla.org/docs/Web/HTML/Reference)
+- [MDN CSS reference](https://developer.mozilla.org/docs/Web/CSS/Reference)
+- [MDN Web API](https://developer.mozilla.org/docs/Web/API)
 
-
-
-<!--Met behulp van de whois data? 
-Nieuwe data invullen en die gebruiken om teams mee te maken? -->
 
 ### Analyseren
-Lees de instructies van deze leertaak met je team door. Bespreek met jouw team wat je aan werk verwacht en maak een planning op basis van wat er op de programma website staat, welke workshops staan op het programma, wat heb je nodig voor de code/design review van vrijdag, en wat ga je presenteren tijdens de expo volgende week vrijdag?
+Lees de instructies van de hele leertaak met je team door. Bespreek met jouw team wat je aan werk verwacht en maak een planning op basis van wat er op de programma website staat, welke workshops staan op het programma, wat heb je nodig voor de code/design review van vrijdag, en wat ga je presenteren tijdens de expo volgende week vrijdag?
 
 ### Team Canvas
 Als je in een team gaat werken, is het belangrijk om afspraken te maken over de samenwerking, zodat alle teamleden goed op één lijn zitten. Vul met jouw team een Team Canvas in om een goed vertrekpunt voor jouw teamproject te hebben. 
@@ -49,14 +51,19 @@ Zorg ervoor dat je de reflectie van sprint 4 meeneemt in jullie teamafspraken. T
 #### Bronnen Team Canvas
 - [Workshop Team Canvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md)
 
-
-
-<!-- Voor het Team canavas kijken naar de learnings uit sprint 1 en sprint 4 -->
-
 ### Inrichten ontwikkelomgeving
-
 Jullie gaan de eerste week op je eigen repo werken. Vrijdag brengen jullie de ideeen samen en gaan jullie op 1 repo verder werken. 
-<!--Wat gaat er dan gebeuren met commits en pushen? Dan moet je wel even afspraken maken-->
+
+Als het goed is heb je NodejS al geinstalleerd, dus dat hoe je niet nog een keer te doen. 
+
+Fork deze leertaak van [connect-your-tribe-squad-pade](https://github.com/fdnd-task/connect-your-tribe-squad-page/) en *clone* deze op jouw computer.
+
+Open deze leertaak in Visual Studio Code, voer eerst een `npm install` uit om alle _afhankelijkheden_ voor dit project te installeren. Start daarna de voorbeeld squad page met het commando `npm start`. 
+
+*Voor een stap voor stap uitleg over het Inrichten ontwikkelomgeving kan je nog even spieken bij de workshop visitekaart-met-nodejs van vorige week*
+
+
+<!--Wat gaat er volgende week gebeuren met commits en pushen? Dan moet je wel even afspraken maken-->
 
 ## Ideeen bedenken
 In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenken en schetsen. 
