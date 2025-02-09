@@ -2,7 +2,7 @@
 # Connect Your Tribe - Squad page
 
 ## Squad page ontwerpen
-Over het ontwerpen van een interface met veel data
+In deze workshop ga je met een team ideeen bedenken en uitwerken in een ontwerp. 
 
 ### Aanpak
 
