@@ -105,7 +105,7 @@ Wie is de jongste op de lijst? Je kan de sort order omdraaien. Kijk op https://d
 
 Filteren van data hebben we al een keer gedaan. Als je data filtert, krijg je een deelverzameling.
 
-Filter eens op alle studenten die als favoriete HTML element `body` hebben ingevuld; gebruik hiervoor `filter={"fav_tag":"<body>"}` in de URL. Aj, zijn er geen interessante mensen die de body tag hebben ingevuld? Filter dan op het HTML element dat jij zelf hebt ingevuld. Nu krijg je alle mensen die dit element hebben ingevuld. Wie heeft dezelfde als jij?
+Filter eens op alle studenten die als favoriete HTML element `<body>` hebben ingevuld; gebruik hiervoor `filter={"fav_tag":"<body>"}` in de URL. Aj, zijn er geen interessante mensen die de body tag hebben ingevuld? Filter dan op het HTML element dat jij zelf hebt ingevuld. Nu krijg je alle mensen die dit element hebben ingevuld. Wie heeft dezelfde als jij?
 
 Filter op alle studenten die als favoriete kleur rood hebben ingevuld; gebruik hiervoor `filter={"fav_color":"red"}`.
 
