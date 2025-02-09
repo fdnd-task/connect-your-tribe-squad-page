@@ -68,7 +68,7 @@ Jullie gaan de eerste week op je eigen repo werken. Vrijdag brengen jullie de id
 
 Als het goed is, heb je NodeJS al geïnstalleerd, dus dat hoe je niet nog een keer te doen. 
 
-Fork deze leertaak van [connect-your-tribe-squad-pade](https://github.com/fdnd-task/connect-your-tribe-squad-page/) en *clone* deze op jouw computer.
+Fork deze leertaak van [connect-your-tribe-squad-page](https://github.com/fdnd-task/connect-your-tribe-squad-page/) en *clone* deze op jouw computer.
 
 Open deze leertaak in Visual Studio Code, voer eerst een `npm install` uit om alle _afhankelijkheden_ voor dit project te installeren. Start daarna de voorbeeld squad page met het commando `npm start`. 
 
