@@ -3,7 +3,7 @@
 
 ## Filteren en sorteren
 
-In deze workshop ga je leren hoe je de data uit Directus kan filteren en sorteren en hoe je dit in je NodeJS project kan fetchen, en met Express en Liquid kan verwerken. 
+In deze workshop leer je hoe je de data uit Directus kan filteren en sorteren en hoe je dit in je NodeJS project kan fetchen, en met Express en Liquid kan verwerken. 
 
 ### Aanpak
 
