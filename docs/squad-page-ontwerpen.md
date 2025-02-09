@@ -14,44 +14,39 @@ Volgende week dan forms, POST en de parallel naar query params voor POST request
 Kunnen we morgen oefenen met de query parameters/filters van Directus zelf (wat opdrachten aan de hand van de documentatie van Directus), en dan woensdag oefenen met query params in hun eigen routes toevoegen en gebruiken?
 -->
 
-Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). In een team ga je met deze data een website ontwerpen en maken, zodat je met elkaar in contact kan blijven. Met de website wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
+Met een team van 3 ga je met de WHOIS data een website ontwerpen en maken, zodat je met elkaar in contact kan blijven. Met de website wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders.
 
-Eerst gaan we teams maken en de sprint planning doorlopen. Daarna ga je met je team ideeen bedenken, ontwerpen en beginnen met bouwen. 
+Eerst gaan we teams maken en de Sprint Planning doorlopen. Daarna ga je met je team ideeen bedenken, ontwerpen en beginnen met bouwen. 
 
 ## Sprint Planning
 
 Tijdens de Sprint Planning ga je met je team de opdracht analyseren.
 
 ### Team maken
-Studenten gaan teams van 3 maken. Teams maken in de squad, het liefst met studenten waar ze normaliter niet mee aan tafel zitten. 
+Je wordt ingedeeld in een team van 3 studenten uit jouw squad. Ga met je team aan eigen een tafel zitten. 
+
+Welk team zit jij? 
+Je bent al ingedeeld in een team, zoek in Directus op in welk team je zit, en filter wie jouw teamgenoten zijn. 
+
+In Directus kun je de JSON data sorteren, filteren en doorzoeken Een filter toepassen doe je door de parameter `?filter` mee te geven aan de url. Dit is bijvoorbeeld team Rocket:  [https://fdnd.directus.app/items/person/?filter={"team":"Team Rocket"}](https://fdnd.directus.app/items/person/?filter=%7B%22team%22:%22Team%20Rocket%22%7D)
+
+#### Bron
+Zie de documentatie van Directus over filteren: https://directus.io/docs/guides/connect/query-parameters#filter
+
+
+
 <!--Met behulp van de whois data? 
 Nieuwe data invullen en die gebruiken om teams mee te maken? -->
 
 ### Analyseren
-Met je team gaan zitten en de opdracht analyseren.
-
-
-
-Wat voor workshops krijgen jullie en wanneer moet het af zijn?
-<!-- In de eerste week van deze opdracht ideeen bedenken met whois data, leren hoe je  met directus kan filteren en sorteren. (get)
-In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken. 
--->
-
-Wat kan je allemaal met de whosi data op Directus? 
-<!--Met je team spelen met de Directus whois api...
-
-**Oefenen met de query parameters/filters van Directus zelf (wat opdrachten aan de hand van de documentatie van Directus)**
-Woensdag oefenen met query params in hun eigen routes toevoegen en gebruiken? 
--->
+Lees de instructies van deze leertaak met je team door. Bespreek met jouw team wat je aan werk verwacht en maak een planning op basis van wat er op de programma website staat, welke workshops staan op het programma, wat heb je nodig voor de code/design review van vrijdag, en wat ga je presenteren tijdens de expo volgende week vrijdag?
 
 ### Team Canvas
-
 Als je in een team gaat werken, is het belangrijk om afspraken te maken over de samenwerking, zodat alle teamleden goed op één lijn zitten. Vul met jouw team een Team Canvas in om een goed vertrekpunt voor jouw teamproject te hebben. 
 
 Zorg ervoor dat je de reflectie van sprint 4 meeneemt in jullie teamafspraken. Toen heb je tijdens de kampvuursessie gereflecteerd wat er goed ging en wat er beter kon. 
 
 #### Bronnen Team Canvas
-
 - [Workshop Team Canvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md)
 
 
@@ -69,6 +64,18 @@ In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenk
 1. Ideegeneratie: Eerst bedenk je met je team verschillende ideeën voor de website.
 2. Maak een breakdown van de schets, bedenk welke data je uit de WHOIS API kan gebruiken voor je ontwerp. 
 3. Werk je schets netjes uit in Figma
+
+<!-- In de eerste week van deze opdracht ideeen bedenken met whois data, leren hoe je  met directus kan filteren en sorteren. (get)
+In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken. 
+-->
+
+Wat kan je allemaal met de whosi data op Directus? 
+<!--Met je team spelen met de Directus whois api...
+
+**Oefenen met de query parameters/filters van Directus zelf (wat opdrachten aan de hand van de documentatie van Directus)**
+Woensdag oefenen met query params in hun eigen routes toevoegen en gebruiken? 
+-->
+
 
 
 
