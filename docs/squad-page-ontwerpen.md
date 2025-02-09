@@ -53,7 +53,7 @@ en project klaarzetten.
 Jullie gaan de eerste week op je eigen repo werken. Vrijdag brengen jullie de ideeen samen en gaan jullie op 1 repo verder werken. 
 <!--Wat gaat er dan gebeuren met commits en pushen? Dan moet je wel even afspraken maken-->
 
-### Ideeen bedenken
+## Ideeen bedenken
 In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenken en schetsen. 
 
 1. Ideegeneratie: Eerst bedenk je met je team verschillende ideeën voor de website.
