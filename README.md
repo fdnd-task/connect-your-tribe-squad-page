@@ -1,6 +1,6 @@
 # Squad page
 
-Ontwerp en maak een website voor je squad met Node en JSON.
+Ontwerp en maak met een team een website met NodeJS en JSON.
 
 De instructie vind je in: [INSTRUCTIONS](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/INSTRUCTIONS.md)
 
