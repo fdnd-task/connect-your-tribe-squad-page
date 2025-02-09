@@ -30,6 +30,8 @@ Nieuwe data invullen en die gebruiken om teams mee te maken? -->
 ### Analyseren
 Met je team gaan zitten en de opdracht analyseren.
 
+
+
 Wat voor workshops krijgen jullie en wanneer moet het af zijn?
 <!-- In de eerste week van deze opdracht ideeen bedenken met whois data, leren hoe je  met directus kan filteren en sorteren. (get)
 In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken. 
@@ -42,9 +44,17 @@ Wat kan je allemaal met de whosi data op Directus?
 Woensdag oefenen met query params in hun eigen routes toevoegen en gebruiken? 
 -->
 
-### Teamcanvas
-Team canavas invullen 
-en project klaarzetten. 
+### Team Canvas
+
+Als je in een team gaat werken, is het belangrijk om afspraken te maken over de samenwerking, zodat alle teamleden goed op één lijn zitten. Vul met jouw team een Team Canvas in om een goed vertrekpunt voor jouw teamproject te hebben. 
+
+Zorg ervoor dat je de reflectie van sprint 4 meeneemt in jullie teamafspraken. Toen heb je tijdens de kampvuursessie gereflecteerd wat er goed ging en wat er beter kon. 
+
+#### Bronnen Team Canvas
+
+- [Workshop Team Canvas](https://github.com/fdnd-task/your-tribe-squad-page/blob/main/docs/team-canvas.md)
+
+
 
 <!-- Voor het Team canavas kijken naar de learnings uit sprint 1 en sprint 4 -->
 
