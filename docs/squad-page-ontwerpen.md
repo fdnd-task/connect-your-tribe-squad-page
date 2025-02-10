@@ -101,7 +101,7 @@ Hoe is deze lijst standaard gesorteerd?
 
 Je kunt op alle velden in de WHOIS API sorteren.
 
-Sorteer nu de lijst alfabetisch, voeg de query parameter `sort=name` toe aan de url in je browser, waardoor je `https://fdnd.directus.app/items/person/?sort=name` krijgt. (Meerdere query parameters splits je met het `&`-teken, de eerste query parameter van een URL krijgt een `?` ervoor)
+Sorteer nu de lijst alfabetisch, voeg de query parameter `sort=name` toe aan de URL in je browser, waardoor je `https://fdnd.directus.app/items/person/?sort=name` krijgt.
 
 Wie is de eerste persoon als je op naam sorteert?
 
@@ -125,6 +125,8 @@ Waar kan je nog meer op filteren? Filter op alle mensen in de database van wie d
 Je kunt dus ook nog _filter rules_ meegeven aan Directus. Wat kan je hier nog meer mee doen? Check https://directus.io/docs/guides/connect/filter-rules en probeer er een paar uit. Schrijf wat je hebt geleerd op het whiteboard. 
 
 Filter nu op alle studenten die in hun bio het woord "frontend" hebben staan. Frontenders ahoy!
+
+Filteren en sorteren kun je combineren, met de `filter` en `sort` query parameters. Meerdere query parameters splits je met het `&`-teken, de eerste query parameter van een URL krijgt een `?` ervoor.
 
 <!-- `filter={"bio":{"_icontains":"frontend"}}` -->
 
