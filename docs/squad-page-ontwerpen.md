@@ -160,56 +160,17 @@ Vrijdag ga je met je team kijken wat jullie hebben gemaakt en maken jullie een n
 In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken. 
 -->
 
+## Iteratief werken
+
+Met je team ga je iteratief aan de opdracht werken, dat betekent dat jullie eerst zelf verschillende ideeën gaan uitwerken in code, deze ga je bespreken en vervolgens breng je dit samen in een nieuw ontwerp. 
+
+Door de DLC meerdere keren te doorlopen kan je stap voor stap een ontwerpprobleem, of ontwerpvraag, oplossen
+
+![](experimenteren-varieren.png)
+
+Dit heet ook wel 'convergeren en divergeren' Meerdere ideeen uitwerken en analyseren, daarna keuzes maken om tot de beste oplossing te komen. 
+
+![](convergeren-divergeren.png)
 
 
-<!--
-### Analyseren
 
-In de analysefase inventariseer je wat er moet gebeuren om een taak uit te voeren en formuleer je een aantal uitgangspunten waar je ontwerp aan moet voldoen. 
-
-1. Lees de instructies van deze leertaak zorgvuldig door.
-2. Onderzoek wat je allemaal kan doen met de [WHOIS API](https://whois.fdnd.nl).
-3. Bespreek met jouw team wat je aan werk verwacht, en vul een [teamvanvas](https://github.com/fdnd-task/your-tribe-team-canvas) in
-4. Bedenk hoe jullie gaan samenwerken en plan de belangrijke momenten in. Gebruik Github Projectboard om dit te organiseren
-
-#### Bronnen
-
-- [WHOIS API](https://whois.fdnd.nl)
-- [Learn about projects on Github](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
-- [teamvanvas](https://github.com/fdnd-task/your-tribe-team-canvas)
-
-
-### Bouwen
-In de bouwfase werken alle teamleden een ander idee uit met Node en JSON.
-
- 1. Fork deze leertaak en clone deze op jouw computer.
- 2. Open deze leertaak in jouw editor (bijv. Visual Studio Code).
- 3. Open de terminal en voer het commando `npm install` in. Je gebruikt NPM om Express inclusief alle afhankelijkheden te installeren.
- 4. Start je server met `npm start`, en onderzoek wat de code op dit moment doet.
- 5. Pas alles aan naar eigen wens.
-
-#### Bronnen
-
-- [JSON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
-- [EJS - Embedded JavaScript templating](https://ejs.co)
-- [Control Flow in JavaScript: Loops](https://dev.to/pszponder/control-flow-in-javascript-loops-26bd)
-
-### Integreren
-Als je online wil testen moet je je project publiceren op internet. Omdat we met Node werken, kan dat niet met GitHub Pages, omdat daar alleen statische pagina's kunnen worden gehost. Voor een Node project moet een serveromgeving opgestart worden. Wij gebruiken cyclic.sh als hostingpartij maar je mag natuurlijk je eigen voorkeur volgen als die anders is.
-
-1. Commit en Push jouw project naar GitHub
-2. Login bij [cyclic.sh](https://www.cyclic.sh/)
-3. Klik op Deploy om een nieuwe App aan te maken
-4. Selecteer het tabblad _Link Your Own_ om jouw project te publiceren.
-5. Zoek de juiste repository. Cyclic importeert jouw code en voert `npm start` uit.
-6. Er wordt een unieke naam voor jouw project gegenereerd. Op jouw Cyclic pagina zie je alle apps die je hebt aangemaakt
-7. Open je squad page in je browser, check of alles werkt en voeg de url van de App toe aan jouw repository op GitHub. 
-
-#### Bronnen
-
-- [Cyclic Hosting](https://www.cyclic.sh/)
-
-### Testen
-In de testfase controleer je of jouw website voldoet aan standaarden. 
-Jouw team kiest daarna het beste, mooiste of meest originele ontwerp en deze presenteren jullie aan de squad. 
--->
