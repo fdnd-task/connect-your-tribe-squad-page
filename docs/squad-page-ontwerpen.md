@@ -148,12 +148,13 @@ Eerst bedenk met je team verschillende ideeën voor jullie website. Je kan hierv
 
 ![](ideeen.png)
 
-Schets met je team minimaal 6 verschillende ideeën op het whiteboard. Noteer bij elk idee hoe je de data kan filteren of sorteren, en welke velden in de WHOIS API je daarvoor nodig hebt, of moeten worden aangemaakt. 
+Schets allemaal 6 ideeën op papier voor het tonen, sorteren en filteren van de frontenders. 
+
+Bespreek de schetsen en werk daarna 6 verschillende ideeën uit op het whiteboard. Noteer bij elk idee hoe je de data kan filteren of sorteren, en welke velden in de WHOIS API je daarvoor nodig hebt, of moeten worden aangemaakt. 
 
 Kies daarna allemaal een idee om deze week aan te werken. Maak in een gezamenlijk Figma file een high-res ontwerp van je idee. Help elkaar met styling en gebruik dezelfde stijl elementen. 
 
 Vrijdag ga je met je team kijken wat jullie hebben gemaakt en maken jullie een nieuw ontwerp om daarna gezamenlijk aan te werken. 
-
 
 
 <!-- In de eerste week van deze opdracht ideeen bedenken met whois data, leren hoe je  met directus kan filteren en sorteren. (get)
