@@ -55,7 +55,10 @@ Lees de instructies van de hele leertaak met je team door. Bespreek met jouw tea
 
 Als je in een team gaat werken, is het belangrijk om afspraken te maken over de samenwerking, zodat alle teamleden goed op één lijn zitten. Vul met jouw team een Team Canvas in om een goed vertrekpunt voor jouw teamproject te hebben. 
 
-Zorg ervoor dat je je reflectie van Sprint 4 in Portflow doorneemt, en meeneemt in jullie teamafspraken. Je hebt toen tijdens de kampvuursessie gereflecteerd op wat er goed ging en wat er beter kon. Dit is een goed moment om deze inzichten met je nieuwe team te bespreken. Maak niet alleen afspraken over de hard skills (code, conventies, GitHub, commits, etc), maar ook over de soft skills (hoe communiceren we, op welke dagen werken we, waar heb je moeite mee, welke feedback heb je op je assessment gehad, waar kun je hulp bij gebruiken, waar kun je anderen mee helpen, etc).
+Zorg ervoor dat je je reflectie van Sprint 4 in Portflow doorneemt, en meeneemt in jullie teamafspraken. 
+Je hebt toen tijdens de kampvuursessie gereflecteerd op wat er goed ging en wat er beter kon. 
+Dit is een goed moment om deze inzichten met je nieuwe team te bespreken. 
+Maak niet alleen afspraken over de hard skills (code, conventies, GitHub, commits, etc), maar ook over de soft skills (hoe gaan jullie communiceren, waar heb je moeite mee, welke feedback heb je op je assessment gehad, waar kun je hulp bij gebruiken, waar kun je anderen mee helpen, etc).
 
 #### Bronnen Team Canvas
 
