@@ -166,7 +166,7 @@ In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken.
 
 ## Iteratief werken
 
-Met je team ga je iteratief aan de opdracht werken. Dat betekent dat jullie eerst zelf verschillende ideeën gaan uitwerken in code, deze ga je bespreken en vervolgens breng je dit samen in een nieuw ontwerp. 
+Met je team ga je iteratief aan de opdracht werken. Dat betekent dat jullie eerst zelf verschillende ideeën gaan uitwerken in code. Deze ga je bespreken en vervolgens breng je dit samen in een nieuw ontwerp.
 
 Door de DLC meerdere keren te doorlopen kan je stap voor stap een ontwerpprobleem, of ontwerpvraag, oplossen.
 
