@@ -148,11 +148,10 @@ Nu je een beetje hebt gespeeld met filteren, sorteren en zoeken, kunnen jullie m
 
 <!-- Met de website wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders. -->
 
+Schets allemaal 6 ideeën op papier voor het tonen, sorteren en filteren van de frontenders. 
 Eerst bedenk met je team verschillende ideeën voor jullie website. Je kan hiervoor de formulier velden gebruiken die al bestaan. Maar misschien heb je nog een veel beter of gekker idee? Dan kunnen we ook nieuwe velden toevoegen!
 
 ![](ideeen.png)
-
-Schets allemaal 6 ideeën op papier voor het tonen, sorteren en filteren van de frontenders. 
 
 Bespreek de schetsen en werk daarna 6 verschillende ideeën uit op het whiteboard. Noteer bij elk idee hoe je de data kunt filteren of sorteren, en welke velden in de WHOIS API je daarvoor nodig hebt, of moeten worden aangemaakt. 
 
