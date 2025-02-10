@@ -171,7 +171,7 @@ Door de DLC meerdere keren te doorlopen kan je stap voor stap een ontwerpproblee
 
 ![](experimenteren-varieren.png)
 
-Dit heet ook wel “divergeren en convergeren”. Eerst werk verschillende ideeën uit, experimenteren met technieken, met design en/of de interface, daarna analyseren wat goed werkt en er mooi uit ziet, keuzes maken, en een nieuwe iteratie beginnen om tot de beste oplossing te komen. 
+Dit heet ook wel “divergeren en convergeren”. Eerst werken jullie verschillende ideeën uit, eperimenteer met technieken, design en/of de interface, daarna analyseren wat goed werkt en er mooi uit ziet, keuzes maken, en een nieuwe iteratie beginnen om tot de beste oplossing te komen. 
 
 ![](convergeren-divergeren.png)
 
