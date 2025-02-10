@@ -80,7 +80,9 @@ Open deze leertaak in Visual Studio Code, voer eerst een `npm install` uit om al
 
 In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenken en schetsen.
 
-Het is belangrijk om eerst te weten wat je allemaal kan met de data uit de WHOIS API. Onderzoek met je team hoe je met Directus kan sorteren, filteren en zoeken. Doe de opdrachtjes met je team op 1 computer en schrijf op het whiteboard hoe dit werk in Directus:
+Het is belangrijk om eerst te weten wat je allemaal kan met de data uit de WHOIS API. 
+Onderzoek met je team hoe je met Directus kan sorteren, filteren en zoeken. 
+Doe de opdrachtjes met je team op 1 computer, bespreek de opdrachtjes en schrijf op het whiteboard het antwoord en de techniek dit jullie hebben toegepast:
 
 <!--Met je team spelen met de Directus whois api...-->
 
