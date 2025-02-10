@@ -66,7 +66,7 @@ Zorg ervoor dat je je reflectie van Sprint 4 in Portflow doorneemt, en meeneemt 
 
 Jullie gaan de eerste week op je eigen repo werken. Vrijdag brengen jullie de ideeën samen en gaan jullie op 1 repo verder werken. 
 
-Als het goed is, heb je NodeJS al geïnstalleerd, dus dat hoe je niet nog een keer te doen. 
+Als het goed is, heb je NodeJS al geïnstalleerd, dus dat hoef je niet nog een keer te doen. 
 
 Fork deze leertaak van [connect-your-tribe-squad-page](https://github.com/fdnd-task/connect-your-tribe-squad-page/) en *clone* deze op jouw computer.
 
