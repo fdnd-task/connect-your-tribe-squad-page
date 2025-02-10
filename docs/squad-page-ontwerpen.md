@@ -155,7 +155,7 @@ Eerst bedenk met je team verschillende ideeën voor jullie website. Je kan hierv
 
 Bespreek de schetsen en werk daarna 6 verschillende ideeën uit op het whiteboard. Noteer bij elk idee hoe je de data kunt filteren of sorteren, en welke velden in de WHOIS API je daarvoor nodig hebt, of moeten worden aangemaakt. 
 
-Kies daarna allemaal een idee om deze week aan te werken. Maak in een gezamenlijk Figma file een high-res ontwerp van je idee. Help elkaar met styling en gebruik dezelfde stijl elementen. 
+Kies daarna allemaal een idee om deze week aan te werken. Maak in een gezamenlijk Figma file een high-res ontwerp van je idee. Help elkaar met styling, gebruik dezelfde stijl elementen of bedenk zelf een stijl. 
 
 Vrijdag ga je met je team kijken wat jullie hebben gemaakt en maken jullie een nieuw ontwerp om daarna gezamenlijk aan te werken.
 
