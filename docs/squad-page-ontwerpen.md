@@ -42,9 +42,9 @@ Vul daarna in de [WHOIS admin](https://whois.fdnd.nl/admin/) je favoriete design
 #### Bron
 
 - Zie de documentatie van Directus over filteren: https://directus.io/docs/guides/connect/query-parameters#filter
-- [MDN HTML reference](https://developer.mozilla.org/docs/Web/HTML/Reference)
-- [MDN CSS reference](https://developer.mozilla.org/docs/Web/CSS/Reference)
-- [MDN JS feature](https://developer.mozilla.org/docs/Web/API)
+- Kies je favo HTML uit de lijst [MDN HTML reference](https://developer.mozilla.org/docs/Web/HTML/Reference)
+- Kies je favo CSS [MDN CSS reference](https://developer.mozilla.org/docs/Web/CSS/Reference)
+- Kies je favo JS [MDN JS feature](https://developer.mozilla.org/docs/Web/API)
 
 
 ### Analyseren
