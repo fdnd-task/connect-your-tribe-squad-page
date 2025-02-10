@@ -76,7 +76,7 @@ Open deze leertaak in Visual Studio Code, voer eerst een `npm install` uit om al
 
 <!--Wat gaat er volgende week gebeuren met commits en pushen? Dan moet je wel even afspraken maken-->
 
-Als iedereen van het team het nieuw NodeJS project heeft draaien, ga dan samen verder met "ideeën bedenken".
+Als iedereen van het team dit NodeJS project heeft draaien, ga dan samen verder met "ideeën bedenken".
 
 ## Ideeën bedenken
 
