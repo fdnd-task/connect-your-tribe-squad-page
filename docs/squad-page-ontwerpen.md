@@ -84,7 +84,7 @@ In de ontwerpfase ga je met je team verschillende ideeën voor de website bedenk
 
 Het is belangrijk om eerst te weten wat je allemaal kan met de data uit de WHOIS API. 
 Onderzoek met je team hoe je met Directus kan sorteren, filteren en zoeken. 
-Doe de opdrachtjes met je team op 1 computer, bespreek de opdrachtjes en schrijf op het whiteboard het antwoord en de techniek dit jullie hebben toegepast:
+Doe de opdrachtjes met je team op 1 computer, bespreek de opdrachtjes en schrijf op het whiteboard het antwoord en de techniek die jullie hebben toegepast:
 
 <!--Met je team spelen met de Directus whois api...-->
 
