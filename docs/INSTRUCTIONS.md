@@ -3,7 +3,7 @@
 Ontwerp en maak met een team een website met NodeJS en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
 
 ## Context
-Deze leertaak hoort bij sprint 7 "Connect Your Tribe". Dit is een leertaak die je in een team uitvoert.
+Deze leertaak hoort bij Sprint 7, “Connect Your Tribe”. Dit is een leertaak die je in een team uitvoert.
 
 ## Briefing
 Elke frontender bij FDND staat in een database die te bereiken is via de API op [whois.fdnd.nl](https://whois.fdnd.nl). In een team ga je met deze data een website ontwerpen en maken, zodat je met elkaar in contact kan blijven.
