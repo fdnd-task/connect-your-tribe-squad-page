@@ -1,7 +1,5 @@
-{% render 'partials/head.liquid' %}
+{% render 'partials/head.liquid', title: person.name %}
 
 <a href="/">Back</a>
-
-<h2>{{ person.name }}</h2>
 
 {% render 'partials/foot.liquid', squads: squads %}
