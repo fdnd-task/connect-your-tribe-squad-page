@@ -149,7 +149,7 @@ Zoals we van onze Directus API weten, moeten we onze `fetch` dan aanpassen. Dat 
 ```
 
 
-### Aan de gang met Liquid
+## Aan de gang met Liquid
 
 Als je de juiste routes klaar hebt staan, je haalt de juiste data op de juiste plekken op, en je geeft de juiste data mee aan je views, kun je weer aan de slag met Liquid en frontend code.
 
