@@ -30,7 +30,7 @@ Push je eigen code naar GitHub, en zet je repository live met Render. Volg hierv
 ### Bronnen
 
 - [Directus `fields` parameter](https://directus.io/docs/guides/connect/query-parameters#fields)
-- [Inrichten ontwikkelomgeving (maandag)](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen.md#inrichten-ontwikkelomgeving)
+<!-- - [Inrichten ontwikkelomgeving (maandag)](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen.md#inrichten-ontwikkelomgeving) -->
 - [Integreren met Render (Sprint 7)](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-integreren-en-live-testen)
 
 
