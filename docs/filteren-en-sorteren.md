@@ -76,9 +76,9 @@ Dit mag je dus helemaal zelf bedenken. Net wat je mooi vindt. Maar overleg hier 
 
 ## Eigen routes en query parameters toevoegen
 
-De volgende stap is het toevoegen van de _routes_ die je net hebt bedacht. Dit doe je in `server.js`. Maak net als vorige week verschillende routes aan, voor elk van de schermen in je Wireflow(s).
+De volgende stap is het toevoegen van de _routes_ die je net hebt bedacht. En het gebruiken van de _query parameters_ die je verzonnen hebt. Dit doe je in `server.js`.
 
-Als je zelf ook query parameters wilt gebruiken in je server, kun je die in een bestaande route uitlezen. Je hoeft voor `/` en `/?zoeken=kaas` dus niet twee verschillende routes aan te maken. Voor `/` en bijvoorbeeld `/kaas` wel.
+Maak net als vorige week verschillende routes aan, voor elk van de schermen in je Wireflow(s). Als je zelf ook query parameters wilt gebruiken in je server, kun je die in een bestaande route uitlezen. Je hoeft voor `/` en `/?zoeken=kaas` dus niet twee verschillende routes aan te maken. Voor `/` en bijvoorbeeld `/kaas` wel.
 
 Stel dat we een optie om andersom te sorteren op naam toe willen voegen aan onze squad page. En dat willen we op de URL `/?sorteer=andersom`. Dit is de code waar we mee begonnen:
 
@@ -123,7 +123,9 @@ Zoals we van onze Directus API weten, moeten we onze `fetch` dan aanpassen. Dat 
   const personResponse = await fetch(personURL)
 ```
 
-💪 Wil je al wat verder gaan met URL design? Kijk dan eens naar _Route parameters_ en `req.params` bij de Bronnen.
+<!-- Dit is nog vaag.. Wat doen we hier? -->
+
+💪 Wil je al wat verder gaan met URL design? Kijk dan eens naar _Route parameters_ en `req.params` bij de Bronnen. Er staat al een voorbeeld met `/student/:id` voor je klaar in de server.
 
 ### Bronnen
 
