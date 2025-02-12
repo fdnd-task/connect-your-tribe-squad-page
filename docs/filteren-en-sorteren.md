@@ -160,4 +160,3 @@ Wees hier creatief, en zet dynamische content in voor het maken van een dynamisc
 - [The Liquid Template Language](https://liquidjs.com/tutorials/intro-to-liquid.html)
 - [Liquid Filters](https://liquidjs.com/filters/overview.html)
 - [Liquid Tags](https://liquidjs.com/tags/overview.html)
->>>>>>> Stashed changes
