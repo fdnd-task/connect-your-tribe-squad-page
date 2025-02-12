@@ -17,17 +17,18 @@ Eerst gaan jullie je teamleden helpen met het ophalen en gebruiken van de juiste
 
 Ga weer in de teams zitten waarin je maandag ingedeeld bent. Zet je naam op het bord, en schrijf achter je naam een soort titel voor het ontwerp dat je aan het maken bent. Schrijf eronder een vraag die je nog hebt (over Directus, JSON, NodeJS, Liquid, etc).
 
-Leg elkaar de ontwerpen en ideeën uit, als jullie dat maandag nog niet gedaan hebben.
+Leg elkaar je ontwerp en idee uit, als jullie dat maandag nog niet gedaan hebben.
 
 Laat elkaar zien welke API URL(s) je gaat gebruiken, en welke query parameters je daarin gebruikt hebt. Onderzoek met elkaar de [`fields` query parameter van Directus](https://directus.io/docs/guides/connect/query-parameters#fields) en maak de API URL(s) zo klein mogelijk, zodat je alleen de data die je echt nodig hebt ook terugkrijgt. De ene zal misschien alleen namen en favoriete kleuren nodig hebben, de ander ook geboortedata en GitHub handles.
 
-Als je lokaal een werkend prototype hebt, met de data die je nodig hebt, zet dan een krul achter je naam op het whiteboard.
+Als je lokaal een werkend prototype hebt, met de data die je nodig hebt, zet dan een krul achter je naam op het whiteboard. Als dat je nog niet is gelukt, vraag dan om hulp van je team. Als het je wel is gelukt, bied dan je hulp aan aan teamleden.
 
-Push je eigen code naar GitHub, en zet je repository live, met [de stappen uit het Visitekaartje van vorige week](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-integreren-en-live-testen). Help elkaar met Render als je er niet uit komt.
+Push je eigen code naar GitHub, en zet je repository live met Render. Volg hiervoor de stappen uit het Visitekaartje van vorige week. Help elkaar met Render als je er niet uit komt. Zet een tweede krul achter je naam als je de boel op Render hebt staan, en je jouw link hebt toegevoegd aan de About van je repository. Let op: je squad page hoeft nog niet “af” te zijn. We kiezen hier bewust voor deze fase van de development lifecycle.
 
 ### Bronnen
 
 - [Directus `fields` parameter](https://directus.io/docs/guides/connect/query-parameters#fields)
+- [Inrichten ontwikkelomgeving (maandag)](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen.md#inrichten-ontwikkelomgeving)
 - [Integreren met Render (Sprint 7)](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-integreren-en-live-testen)
 
 
@@ -37,7 +38,7 @@ In je ontwerp heb je ook een filter bedacht, of een sorteermogelijkheid. Dit is 
 
 Gebruik [de workshop uit Sprint 5](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/user-interface-design.md#wireflow): maak een Wireflow schets van jouw interactie. Het JavaScript 3 stappenplan komt in dit geval dus te vervallen. (Heb je meerdere soorten filters, of sorteermogelijkheden, maak dan meerdere Wireflows aan.)
 
-We gaan voor deze interactie _terug naar jouw server_, waarschijnlijk via simpele `<a>` links, met een `href` attribuut en een link; de verschillende schermen van jouw interactie zijn op verschillende URLs (routes) beschikbaar. Deze URLs moet je dus ook _ontwerpen_, net als dat je bij een micro-interactie _feedforward_ en _feedback_ ontwerpt (en bouwt). Directus heeft in hun URL ontwerp een aantal keuzes gemaakt (met query parameters, zoals `filter`, `sort` en `fields`), maar die moet jij nu ook gaan maken. Misschien wil je wel alleen maar Nederlandse URLs gebruiken. Breid je Wireflows dus met onderstaande tips uit met eigen URLs. Schrijf ze onder je schermen met een andere kleur. Dit worden later de _routes_ in je server, dus je gaat ze nodig hebben.
+We gaan voor deze interactie _terug naar jouw server_, waarschijnlijk via simpele `<a>` tags, met een `href` attribuut; de verschillende schermen van jouw interactie zijn op verschillende URLs (routes) beschikbaar. Deze URLs moet je dus ook _ontwerpen_, net als dat je bij een micro-interactie _feedforward_ en _feedback_ ontwerpt (en bouwt). Directus heeft in hun URL ontwerp een aantal keuzes gemaakt (met query parameters, zoals `filter`, `sort` en `fields`), maar die moet jij nu ook gaan maken. Misschien wil je wel alleen maar Nederlandse URLs gebruiken bijvoorbeeld.
 
 Als je bijvoorbeeld een Nederlandse squad page met hoofden aan het maken bent, waarop je kunt filteren op haarkleur, en kunt sorteren op haarlengte, kom je misschien wel tot de volgende URLs/routes voor je verschillende schermen (of pagina's):
 
@@ -61,9 +62,11 @@ Of je bedenkt dit:
 | Sorteren op haarlengte, van kort naar lang | `/kort` |
 | Sorteren op haarlengte, van lang naar kort | `/lang` |
 
+Breid je Wireflows uit met eigen URLs. Schrijf ze onder je schermen met een andere kleur. Dit worden later de _routes_ in je server, dus je gaat ze nodig hebben.
+
 Dit mag je dus helemaal zelf bedenken. Net wat je mooi vindt. Maar overleg hier wel even over met je team. Of vraag de mening van een docent. Je zult zien dat URLs ontwerpen toch best ingewikkeld is. #NamingThings
 
-💪 Wil je al gebruik gaan maken van formulieren voor filters? Pas dan URL design toe op het `action` attribuut van je `<form>` en de verschillende `name` attributen van je `<input>` elementen. We zijn nu bezig met _`GET` requests_ (data ophalen). Volgende week komen hier ook _`POST` requests_ bij (data opslaan).
+💪 Wil je al gebruik gaan maken van formulieren voor filters? Pas dan URL design toe op het `action` attribuut van je `<form>` en de verschillende `name` attributen van je `<input>` elementen. We zijn nu bezig met _`GET` requests_ (om gegevens op te halen). Volgende week komen hier ook _`POST` requests_ bij (om gegevens op te slaan).
 
 ### Bronnen
 
@@ -75,9 +78,9 @@ Dit mag je dus helemaal zelf bedenken. Net wat je mooi vindt. Maar overleg hier 
 
 De volgende stap is het toevoegen van de _routes_ die je net hebt bedacht. Dit doe je in `server.js`. Maak net als vorige week verschillende routes aan, voor elk van de schermen in je Wireflow(s).
 
-Als je zelf ook query parameters wilt gebruiken op je server, kun je die in een bestaande route uitlezen. Je hoeft voor `/` en `/?zoeken=kaas` dus niet twee verschillende routes aan te maken. Voor `/` en `/kaas` wel.
+Als je zelf ook query parameters wilt gebruiken in je server, kun je die in een bestaande route uitlezen. Je hoeft voor `/` en `/?zoeken=kaas` dus niet twee verschillende routes aan te maken. Voor `/` en bijvoorbeeld `/kaas` wel.
 
-Stel dat we een optie om andersom te sorteren op naam toe willen voegen aan onze squad page, en dat willen we op de route `/?sorteer=andersom`. Dit is de code waar we mee begonnen:
+Stel dat we een optie om andersom te sorteren op naam toe willen voegen aan onze squad page. En dat willen we op de URL `/?sorteer=andersom`. Dit is de code waar we mee begonnen:
 
 ```js
 // Om Views weer te geven, heb je Routes nodig
