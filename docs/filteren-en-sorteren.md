@@ -10,7 +10,7 @@ In deze workshop leer je hoe je de data uit Directus kan filteren en sorteren en
 
 Afgelopen maandag hebben jullie ideeën bedacht voor jullie squadpage en zijn jullie begonnen met ontwerpen en bouwn. Waarschijnlijk ben je al begonnen met een prototype uitwerken in statische HTML. Misschien heb je al wat dynamische data uit de API gebruikt. Vandaag ga je leren hoe je JSON data kan filteren en sorteren en gebruiken in je NodeJS project.
 
-Eerst gaan jullie je teamleden helpen met het ophalen en gebruiken van de juiste data. Daarna gaan jullie eigen URLs, query parameters, routes en views bedenken en ontwerpen, aan de hand van een wireflow.
+Vandaag gaan jullie eerst je teamleden helpen met het ophalen en gebruiken van de juiste data. Daarna gaan jullie eigen URLs, query parameters, routes en views bedenken en ontwerpen, aan de hand van een wireflow.
 
 
 ## Vorderingen bespreken
@@ -147,3 +147,16 @@ Zoals we van onze Directus API weten, moeten we onze `fetch` dan aanpassen. Dat 
   // Haal alle personen uit de WHOIS API op, van dit jaar
   const personResponse = await fetch(personURL)
 ```
+
+
+## Aan de gang met Liquid
+
+Als je de juiste routes klaar hebt staan, je haalt de juiste data op de juiste plekken op, en je geeft de juiste data mee aan je views, kun je weer aan de slag met Liquid en frontend code.
+
+Wees hier creatief, en zet dynamische content in voor het maken van een dynamische interface.
+
+#### Bronnen
+
+- [The Liquid Template Language](https://liquidjs.com/tutorials/intro-to-liquid.html)
+- [Liquid Filters](https://liquidjs.com/filters/overview.html)
+- [Liquid Tags](https://liquidjs.com/tags/overview.html)
