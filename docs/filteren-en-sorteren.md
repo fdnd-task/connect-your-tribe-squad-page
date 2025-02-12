@@ -69,7 +69,7 @@ Of je bedenkt dit:
 
 Breid je Wireflows uit met eigen URLs. Schrijf ze onder je schermen met een andere kleur. Dit worden later de _routes_ in je server, dus je gaat ze nodig hebben.
 
-![wireflow-squadpage-met-nodejs](https://github.com/user-attachments/assets/0f712120-ddbd-42e7-aed6-06a7d0352d18)
+![wireflow-squadpage-met-nodejs](wireflow.jpg)
 *In de Wireflow schets geef je aan welke URLs de pagina's nodig hebben, welke routes daarbij horen en met welke query parameters je de data kan fetchen van Directus*
 
 Dit mag je dus helemaal zelf bedenken. Net wat je mooi vindt. Maar overleg hier wel even over met je team. Of vraag de mening van een docent. Je zult zien dat URLs ontwerpen toch best ingewikkeld is. #NamingThings
