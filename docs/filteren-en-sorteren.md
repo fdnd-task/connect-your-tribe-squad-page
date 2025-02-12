@@ -147,3 +147,17 @@ Zoals we van onze Directus API weten, moeten we onze `fetch` dan aanpassen. Dat 
   // Haal alle personen uit de WHOIS API op, van dit jaar
   const personResponse = await fetch(personURL)
 ```
+
+
+### Aan de gang met Liquid
+
+Als je de juiste routes klaar hebt staan, je haalt de juiste data op de juiste plekken op, en je geeft de juiste data mee aan je views, kun je weer aan de slag met Liquid en frontend code.
+
+Wees hier creatief, en zet dynamische content in voor het maken van een dynamische interface.
+
+#### Bronnen
+
+- [The Liquid Template Language](https://liquidjs.com/tutorials/intro-to-liquid.html)
+- [Liquid Filters](https://liquidjs.com/filters/overview.html)
+- [Liquid Tags](https://liquidjs.com/tags/overview.html)
+>>>>>>> Stashed changes
