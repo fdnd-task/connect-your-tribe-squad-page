@@ -13,16 +13,18 @@ Afgelopen maandag hebben jullie ideeeen bedacht voor jullie squadpage en zijn ju
 Eerst gaan jullie je teamleden helpen met het ophalen en gebruiken van de juiste data. Daarna gaan jullie eigen URLs, query parameters, routes en views bedenken en ontwerpen, aan de hand van een wireflow.
 
 
-## Elkaar helpen
+## Vorderingen bespreken
 
-Ga weer in de teams zitten waarin je maandag ingedeeld bent. Zet je naam op het bord, en schrijf achter je naam een soort titel voor het ontwerp dat je aan het maken bent. Schrijf eronder een vraag die je nog hebt (over Directus, JSON, NodeJS, Liquid, etc).
+Ga weer in de teams zitten waarin je maandag ingedeeld bent. Zet je naam op het bord, en schrijf achter je naam een titel van het ontwerp dat je aan het maken bent. Schrijf eronder een vraag die je hebt (over Directus, JSON, NodeJS, Liquid, etc).
 
 Leg elkaar je ontwerp en idee uit, als jullie dat maandag nog niet gedaan hebben.
 
-Laat elkaar zien welke API URL(s) je gaat gebruiken, en welke query parameters je daarin gebruikt hebt. Onderzoek met elkaar de [`fields` query parameter van Directus](https://directus.io/docs/guides/connect/query-parameters#fields) en maak de API URL(s) zo klein mogelijk, zodat je alleen de data die je echt nodig hebt ook terugkrijgt. De ene zal misschien alleen namen en favoriete kleuren nodig hebben, de ander ook geboortedata en GitHub handles.
+### Query parameters
+Bespreek met elkaar welke API URL(s) je nodig hebt, en welke query parameters je daarin gebruikt hebt. Lees met elkaar de [`fields` query parameter van Directus](https://directus.io/docs/guides/connect/query-parameters#fields) en maak de API URL(s) zo klein mogelijk, zodat je alleen de data die je echt nodig hebt ook terugkrijgt. De ene zal misschien alleen namen en favoriete kleuren nodig hebben, de ander ook geboortedata en GitHub handles.
 
 Als je lokaal een werkend prototype hebt, met de data die je nodig hebt, zet dan een krul achter je naam op het whiteboard. Als dat je nog niet is gelukt, vraag dan om hulp van je team. Als het je wel is gelukt, bied dan je hulp aan aan teamleden.
 
+### Integreren naar Render
 Push je eigen code naar GitHub, en zet je repository live met Render. Volg hiervoor de stappen uit het Visitekaartje van vorige week. Help elkaar met Render als je er niet uit komt. Zet een tweede krul achter je naam als je de boel op Render hebt staan, en je jouw link hebt toegevoegd aan de About van je repository. Let op: je squad page hoeft nog niet “af” te zijn. We kiezen hier bewust voor deze fase van de development lifecycle.
 
 ### Bronnen
