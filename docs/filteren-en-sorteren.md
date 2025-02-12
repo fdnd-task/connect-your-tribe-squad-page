@@ -94,8 +94,15 @@ Maak daarna net als vorige week verschillende routes aan, voor elk van de scherm
 
 💪 Wil je al wat verder gaan met URL design? Kijk dan eens naar _Route parameters_ en `req.params` bij de Bronnen. Er staat al een voorbeeld met `/student/:id` voor je klaar in de server.
 
+#### Bronnen
 
-#### Voorbeeld van eigen query parameters
+- [`app.get(path, callback)` @ Express](https://expressjs.com/en/5x/api.html#app.get.method)
+- [`req.query` @ Express](https://expressjs.com/en/5x/api.html#req.query)
+- [Route parameters @ Express](https://expressjs.com/en/guide/routing.html#route-parameters)
+- [`req.params` @ Express](https://expressjs.com/en/5x/api.html#req.params)
+
+
+### Voorbeeld van eigen query parameters gebruiken
 
 Stel dat we een optie om andersom te sorteren op naam toe willen voegen aan onze squad page. En dat willen we op de URL `/?sorteer=andersom`. Dit is de code waar we mee begonnen:
 
@@ -140,11 +147,3 @@ Zoals we van onze Directus API weten, moeten we onze `fetch` dan aanpassen. Dat 
   // Haal alle personen uit de WHOIS API op, van dit jaar
   const personResponse = await fetch(personURL)
 ```
-
-#### Bronnen
-
-- [`app.get(path, callback)` @ Express](https://expressjs.com/en/5x/api.html#app.get.method)
-- [`req.query` @ Express](https://expressjs.com/en/5x/api.html#req.query)
-- [Route parameters @ Express](https://expressjs.com/en/guide/routing.html#route-parameters)
-- [`req.params` @ Express](https://expressjs.com/en/5x/api.html#req.params)
-
