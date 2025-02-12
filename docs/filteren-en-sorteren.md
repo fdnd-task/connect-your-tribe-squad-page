@@ -8,7 +8,7 @@ In deze workshop leer je hoe je de data uit Directus kan filteren en sorteren en
 
 ### Aanpak
 
-Afgelopen maandag heb je uit al je ideeën eentje gekozen waar je deze week aan werkt. Waarschijnlijk ben je al begonnen met een prototype uitwerken in statische HTML. Misschien heb je al wat dynamische data uit de API gebruikt. Vandaag gaan we zorgen dat iedereen hun idee kan uitvoeren.
+Afgelopen maandag hebben jullie ideeeen bedacht voor jullie squadpage en zijn jullie begonnen met ontwerpen en bouwn. Waarschijnlijk ben je al begonnen met een prototype uitwerken in statische HTML. Misschien heb je al wat dynamische data uit de API gebruikt. Vandaag ga je leren hoe je JSON data kan filteren en sorteren en gebruiken in je NodeJS project.
 
 Eerst gaan jullie je teamleden helpen met het ophalen en gebruiken van de juiste data. Daarna gaan jullie eigen URLs, query parameters, routes en views bedenken en ontwerpen, aan de hand van een wireflow.
 
