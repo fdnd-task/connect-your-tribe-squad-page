@@ -7,7 +7,6 @@ In deze workshop leer je hoe je de data uit Directus kan filteren en sorteren en
 
 
 ### Aanpak
-
 Afgelopen maandag hebben jullie ideeeen bedacht voor jullie squadpage en zijn jullie begonnen met ontwerpen en bouwn. Waarschijnlijk ben je al begonnen met een prototype uitwerken in statische HTML. Misschien heb je al wat dynamische data uit de API gebruikt. Vandaag ga je leren hoe je JSON data kan filteren en sorteren en gebruiken in je NodeJS project.
 
 Eerst gaan jullie je teamleden helpen met het ophalen en gebruiken van de juiste data. Daarna gaan jullie eigen URLs, query parameters, routes en views bedenken en ontwerpen, aan de hand van een wireflow.
@@ -27,19 +26,19 @@ Als je lokaal een werkend prototype hebt, met de data die je nodig hebt, zet dan
 ### Integreren naar Render
 Push je eigen code naar GitHub, en zet je repository live met Render. Volg hiervoor de stappen uit het Visitekaartje van vorige week. Help elkaar met Render als je er niet uit komt. Zet een tweede krul achter je naam als je de boel op Render hebt staan, en je jouw link hebt toegevoegd aan de About van je repository. Let op: je squad page hoeft nog niet “af” te zijn. We kiezen hier bewust voor deze fase van de development lifecycle.
 
-### Bronnen
-
+#### Bronnen
 - [Directus `fields` parameter](https://directus.io/docs/guides/connect/query-parameters#fields)
 <!-- - [Inrichten ontwikkelomgeving (maandag)](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen.md#inrichten-ontwikkelomgeving) -->
 - [Integreren met Render (Sprint 7)](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-integreren-en-live-testen)
 
 
-## Wireflow + URL Design
+## Wireflow schetsen
 
-In je ontwerp heb je ook een filter bedacht, of een sorteermogelijkheid. Dit is een interactie, die je net als in Sprint 5 en 6 met een Wireflow uit kunt werken. Toen deden we dit voor een micro-interactie, maar deze interactie is wat groter. Er moet waarschijnlijk nieuwe data opgehaald worden uit de API. Of de data moet net even anders gefilterd of gesorteerd worden, voordat je het weer toont.
+In je ontwerp heb je een filter bedacht, of een sorteermogelijkheid. Dit is een interactie, die je net als in Sprint 5 en 6 met een Wireflow uit kunt werken. Toen deden we dit voor een micro-interactie, maar deze interactie is wat groter. Er moet waarschijnlijk nieuwe data opgehaald worden uit de API. Of de data moet net even anders gefilterd of gesorteerd worden, voordat je het weer toont.
 
-Gebruik [de workshop uit Sprint 5](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/user-interface-design.md#wireflow): maak een Wireflow schets van jouw interactie. Het JavaScript 3 stappenplan komt in dit geval dus te vervallen. (Heb je meerdere soorten filters, of sorteermogelijkheden, maak dan meerdere Wireflows aan.)
+Maak een Wireflow schets van jouw interactie. Gebruik [de workshop uit Sprint 5](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/user-interface-design.md#wireflow). Heb je meerdere soorten filters of sorteermogelijkheden? Schets dan meerdere Wireflows.
 
+### URL Design
 We gaan voor deze interactie _terug naar jouw server_, waarschijnlijk via simpele `<a>` tags, met een `href` attribuut; de verschillende schermen van jouw interactie zijn op verschillende URLs (routes) beschikbaar. Deze URLs moet je dus ook _ontwerpen_, net als dat je bij een micro-interactie _feedforward_ en _feedback_ ontwerpt (en bouwt). Directus heeft in hun URL ontwerp een aantal keuzes gemaakt (met query parameters, zoals `filter`, `sort` en `fields`), maar die moet jij nu ook gaan maken. Misschien wil je wel alleen maar Nederlandse URLs gebruiken bijvoorbeeld.
 
 Als je bijvoorbeeld een Nederlandse squad page met hoofden aan het maken bent, waarop je kunt filteren op haarkleur, en kunt sorteren op haarlengte, kom je misschien wel tot de volgende URLs/routes voor je verschillende schermen (of pagina's):
@@ -70,14 +69,12 @@ Dit mag je dus helemaal zelf bedenken. Net wat je mooi vindt. Maar overleg hier 
 
 💪 Wil je al gebruik gaan maken van formulieren voor filters? Pas dan URL design toe op het `action` attribuut van je `<form>` en de verschillende `name` attributen van je `<input>` elementen. We zijn nu bezig met _`GET` requests_ (om gegevens op te halen). Volgende week komen hier ook _`POST` requests_ bij (om gegevens op te slaan).
 
-### Bronnen
-
+#### Bronnen
 - [User Interface Design - Wireflow (Sprint 5)](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/user-interface-design.md#wireflow)
 - [Guidelines for URL Design @ CSS Tricks](https://css-tricks.com/guidelines-for-uri-design/)
 
 
-## Eigen routes en query parameters toevoegen
-
+### Routes en query parameters
 De volgende stap is het toevoegen van de _routes_ die je net hebt bedacht. En het gebruiken van de _query parameters_ die je verzonnen hebt. Dit doe je in `server.js`.
 
 Maak net als vorige week verschillende routes aan, voor elk van de schermen in je Wireflow(s). Als je zelf ook query parameters wilt gebruiken in je server, kun je die in een bestaande route uitlezen. Je hoeft voor `/` en `/?zoeken=kaas` dus niet twee verschillende routes aan te maken. Voor `/` en bijvoorbeeld `/kaas` wel.
@@ -129,8 +126,7 @@ Zoals we van onze Directus API weten, moeten we onze `fetch` dan aanpassen. Dat 
 
 💪 Wil je al wat verder gaan met URL design? Kijk dan eens naar _Route parameters_ en `req.params` bij de Bronnen. Er staat al een voorbeeld met `/student/:id` voor je klaar in de server.
 
-### Bronnen
-
+#### Bronnen
 - [`req.query` @ Express](https://expressjs.com/en/5x/api.html#req.query)
 - [Route parameters @ Express](https://expressjs.com/en/guide/routing.html#route-parameters)
 - [`req.params` @ Express](https://expressjs.com/en/5x/api.html#req.params)
