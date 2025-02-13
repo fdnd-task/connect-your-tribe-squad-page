@@ -36,7 +36,7 @@ Bekijk samen het werk van alle teamleden en schrijf per squadpage op het whitebo
 - Wat kan beter?  
 - Wat werkt (nog) niet goed?  
 
-### Schets een nieuw ontwerp
+### Schets nieuwe ontwerpen
 Maak op basis van jullie inzichten nieuwe schetsen. Ieder teamlid maakt drie nieuwe ontwerpen voor een squadpage. Gebruik de sterke punten uit de bestaande squadpages en/of bedenk oplossingen voor dingen die nog niet goed werkten. 
 
 Bespreek daarna de verschillende ontwerpen met elkaar. Wat vinden jullie goed aan de concepten en de uitwerking? Benoem dit bij elkaar.
