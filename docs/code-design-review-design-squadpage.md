@@ -40,7 +40,7 @@ Ga op basis van de inzichten die jullie zojuist hebben opgedaan opnieuw schetsen
 
 Bespreek de verschillende ontwerpen met elkaar. 
 
+![Scherm­afbeelding 2025-02-13 om 19 14 41](https://github.com/user-attachments/assets/b6a26289-052e-4dca-b343-28c5dcbdb220)
+
 ### Maak één ontwerp
 Maak samen met elkaar één nieuw ontwerp voor een squadpage. Maak hiervoor eerst een grove schets en werk dit later eventueel uit in een hifi-schets of in Figma. De komende week gaan jullie samen verder werken aan dit nieuwe ontwerp. In de workshop van maandag 24 februari (na de vakantie) gaan we hiermee aan de slag. 
-
-![Scherm­afbeelding 2025-02-13 om 19 14 41](https://github.com/user-attachments/assets/b6a26289-052e-4dca-b343-28c5dcbdb220)
