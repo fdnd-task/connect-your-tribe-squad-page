@@ -101,7 +101,7 @@ Hoe is deze lijst standaard gesorteerd?
 
 Je kunt op alle velden in de WHOIS API sorteren.
 
-Sorteer nu de lijst alfabetisch, voeg de query parameter `sort=name` toe aan de URL in je browser, waardoor je `https://fdnd.directus.app/items/person/?sort=name` krijgt.
+Sorteer nu de lijst alfabetisch, voeg de query parameter `sort=name` toe aan de URL in je browser, waardoor je `https://fdnd.directus.app/items/person/?sort=name` krijgt. Meerdere query parameters splits je met het `&`-teken, de eerste query parameter van een URL krijgt een `?` ervoor.
 
 Wie is de eerste persoon als je op naam sorteert?
 
