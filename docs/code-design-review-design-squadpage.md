@@ -23,10 +23,8 @@ Kies samen met jouw team een ander team uit. Gezamenlijk kijken jullie naar de r
 ## Design en concept-review
 Deze week hebben jullie meerdere schetsen gemaakt om een creatieve squadpage te ontwikkelen. Dit gaan we reviewen! De docenten komen langs bij jullie tafels om te kijken naar de schetsen en concepten. We letten op het ontwerp, de creativiteit van het concept en in hoeverre jullie het idee al hebben kunnen realiseren. Hierop ontvang je feedback van een docent.  
 
-## Kill Your Darlings (Ouch!)  
-Itereren betekent het herhalen en verbeteren van een ontwerp of product op basis van feedback en nieuwe inzichten. Dit zorgt ervoor dat je stap voor stap tot een beter resultaat komt. In de development lifecycle is iteratie essentieel: het zorgt voor een continue cyclus van ontwerpen, ontwikkelen, testen en verbeteren, wat leidt tot een gebruiksvriendelijker en beter functionerend eindproduct.  
-
-Afgelopen week (zie workshop [Squadpage](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen.md)) hebben jullie hier al mee geoefend. Jullie hebben zes ideeën geschetst voor de squadpage en één daarvan verder uitgewerkt in code. Vandaag maken jullie opnieuw een iteratie, dit keer binnen het team.  
+## Samen verder itereren  
+Deze week zijn jullie gezamenlijk begonnen en individueel verder gaan werken. Vandaag gaan we naar elkaars werk kijken binnen het team en benoemen we wat goed gaat én wat nog beter kan. Vervolgens gaan we opnieuw terug naar de tekentafel om deze tips en tops te verwerken in nieuwe schetsen. Van elke iteratie wordt je werk beter!
 
 ### Analyseer het gemaakte werk
 Bekijk samen het werk van alle teamleden en schrijf per squadpage op het whiteboard:  
@@ -43,8 +41,3 @@ Bespreek daarna de verschillende ontwerpen met elkaar. Wat vinden jullie goed aa
 
 ![Scherm­afbeelding 2025-02-13 om 19 14 41](https://github.com/user-attachments/assets/b6a26289-052e-4dca-b343-28c5dcbdb220)  
 
-### Maak één ontwerp
-Kies samen één ontwerp en werk dit verder uit. Maak eerst een grove schets en werk dit later eventueel uit in een hi-fi schets of in Figma. De komende week gaan jullie verder met dit nieuwe ontwerp. In de workshop van maandag 24 februari (na de voorjaarsvakantie) gaan we verder werken vanaf dit ontwerp.  
-
-
-⚠️ WARNING: Het kan pijnlijk zijn om los te laten waar je aan hebt gewerkt, maar trust the process. Door itereren wordt het werk beter!  
