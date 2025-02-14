@@ -6,7 +6,8 @@ Deze week hebben jullie gewerkt aan gezamenlijke ideeën voor de squadpage en he
 ### Aanpak
 Vandaag ga je met je team de ideeën en uitwerkingen van een ander team bekijken. Samen voer je een code-review uit op de squadpages van drie andere studenten (uit één team). Tegelijkertijd krijg je een design/concept-review van je co-teacher en squad-leader. 
 
-Klaar met de code-review? Dan ga je met je team aan de slag om jullie ideeën samen te brengen. Kill your darlings...  
+Klaar met de code-review? 
+Dan ga je met je team aan de slag om jullie ideeën samen te brengen en nieuwe ideeen te bedenken.
 
 ## Code-review
 Zorg ervoor dat de laatste aanpassingen zijn gepusht naar GitHub, zet de issues open en zet je squadpage live via Render. Check [hier](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-integreren-en-live-testen) hoe je jouw website ook alweer live zet met Render.  
