@@ -15,6 +15,17 @@ Kunnen we morgen oefenen met de query parameters/filters van Directus zelf (wat 
 
 en dan woensdag oefenen met query params in hun eigen routes toevoegen en gebruiken?
 
+Volgende stap:
+- oefenen met POSTen
+- messages object live meecoden in je eigen squad page
+- Nieuwe GET route maken voor berichten, /berichten
+- Nieuwe view maken, met een formulier erop, method=post, action=/berichten
+- app.post('/', ...) veranderen naar /berichten
+- let messages = [], meetikken naar view
+- messages array aanpassen bij POST, redirect, nieuwe messages laten zien
+
+- Stap naar opslaan in Directus hier al maken? (Boilerplate patch code voor nodig, veel gedoe..)
+
 -->
 
 <!-- Kill Your darlings (vervolg van vrijdag)
@@ -29,9 +40,19 @@ Afgelopen week (zie workshop [Squadpage](https://github.com/fdnd-task/connect-yo
 ### Maak één ontwerp
 Kies samen één ontwerp en werk dit verder uit. Maak eerst een grove schets en werk dit later eventueel uit in een hi-fi schets of in Figma. De komende week gaan jullie verder met dit nieuwe ontwerp. In de workshop van maandag 24 februari (na de voorjaarsvakantie) gaan we verder werken vanaf dit ontwerp.  
 
+Toevoeging: iets met User Generated Content maken
 
 ⚠️ WARNING: Het kan pijnlijk zijn om los te laten waar je aan hebt gewerkt, maar trust the process. Door itereren wordt het werk beter!  
 
 Ook de foto van 'u bent nu hier' aanpassen en hier plaatsen, maar dan het pijltje een stapje verder plaatsen
 -->
 
+<!--
+
+- Nieuwe repo klaarzetten voor samenwerking (connect-your-tribe-team-squad-page?) -> collaborators, issues/taken, assignment
+- Boilerplate server.js met POST afhandeling
+- const teamName = '' // Vul hier je team in
+- Error bij opstarten server als teamName niet ingevuld is
+- person.custom.sprint7[teamName] vullen met POST data, zodat ieder team een eigen plek heeft om dingen op te slaan
+
+-->
