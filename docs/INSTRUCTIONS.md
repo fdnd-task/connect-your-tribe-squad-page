@@ -13,12 +13,12 @@ Met je team werk je iteratief aan de opdracht, jullie werken verschillende idee√
 
 Deze leertaak wordt behandeld in week 2 & 3 van Sprint 7 met verschillende workshops en practica:
 
-- [Squad page ontwerpen](squad-page-ontwerpen.md)
-- [Filteren en Sorteren](filteren-en-sorteren.md)
-- [Code/Design review design van jullie squadpage](code-design-review-design-squadpage.md)
-- [User Genereated Content](user-generated-content.md)
-- [Wrap-up](wrap-up.md)
-- Expo
+- [Squad page ontwerpen](squad-page-ontwerpen.md) - Maandag
+- [Filteren en Sorteren](filteren-en-sorteren.md) - Woensdag
+- [Code/Design review design van jullie squadpage](code-design-review-design-squadpage.md) - Vrijdag
+- [User Genereated Content](user-generated-content.md) - Maandag
+- [Wrap-up](wrap-up.md) - Woensdag
+- Expo - Vrijdag
 
 ## Definition of done
 
