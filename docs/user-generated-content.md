@@ -36,7 +36,7 @@ Maak in je squad-page repository in `server.js` een nieuwe `messages` _array_ aa
 
 Maak ook een nieuwe `GET` route aan in `server.js`, bijvoorbeeld naar `/berichten`. Laat op deze route een nieuwe view renderen, bijvoorbeeld `messages.liquid`, en geef de `messages` array mee aan die view.
 
-Maak in `messages.liquid` een formulier aan. Geef het formulier het `method="POST"` als attribuut. Voeg een invoerveld met de naam `message` en een submit button toe. Alleen formuliervelden met een `name` attribuut worden in een `POST` request meegestuurd door de browser.
+Maak in `messages.liquid` een formulier aan. Geef het formulier `method="POST"` als attribuut. Voeg een invoerveld met de naam `message` en een submit button toe. Alleen formuliervelden met een `name` attribuut worden in een `POST` request meegestuurd door de browser.
 
 Laat onder het formulier alle huidige berichten zien, in een Liquid `for` loop. Als het goed is, is deze nog leeg.
 
