@@ -149,7 +149,7 @@ Nu je een beetje hebt gespeeld met filteren, sorteren en zoeken, kunnen jullie m
 <!-- Met de website wil je op een (interactieve) manier mede-studenten kunnen opzoeken, gegevens bekijken, een student pingen, een vraag kunnen stellen, of iets anders. -->
 
 Schets allemaal 6 ideeën op papier voor het tonen, sorteren en filteren van de frontenders. 
-Eerst bedenk met je team verschillende ideeën voor jullie website. Je kan hiervoor de formulier velden gebruiken die al bestaan. Maar misschien heb je nog een veel beter of gekker idee? Dan kunnen we ook nieuwe velden toevoegen!
+Eerst bedenk je met je team verschillende ideeën voor jullie website. Je kan hiervoor de formulier velden gebruiken die al bestaan. Maar misschien heb je nog een veel beter of gekker idee? Dan kunnen we ook nieuwe velden toevoegen!
 
 ![](ideeen.png)
 
@@ -168,7 +168,7 @@ In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken.
 
 Met je team ga je iteratief aan de opdracht werken. Dat betekent dat jullie eerst zelf verschillende ideeën gaan uitwerken in code. Deze ga je bespreken en vervolgens breng je dit samen in een nieuw ontwerp. De code uit deze repository geeft je een heel basic begin van een squad page. Het is natuurlijk de bedoeling dat je deze code van jezelf maakt en helemaal aanpast naar het eigen idee dat je hebt.
 
-Door de DLC meerdere keren te doorlopen kan je stap voor stap een ontwerpprobleem, of ontwerpvraag, oplossen.
+Door de DLC meerdere keren te doorlopen, kan je stap voor stap een ontwerpprobleem, of ontwerpvraag, oplossen.
 
 ![](experimenteren-varieren.png)
 
