@@ -17,13 +17,14 @@ We gaan eerst oefenen met een simpel formulier en een _`POST` request_. Daarna g
 Tot nu toe heb je—misschien onbewust—vooral met `GET` requests gewerkt. Zowel in je eigen NodeJS server, als bij de API calls naar onze WHOIS database in Directus. Vandaag komen daar `POST` requests bij.
 
 ### HTTP
-Maar eerst moeten we wat meer vertellen over _HTTP_ 
+Maar eerst moeten we wat meer vertellen over _HTTP_.
+
 HTTP is een _protocol_ waarmee browsers tegen servers kunnen praten. HTTP maakt gebruik van URLs; adressen van _resources_, zoals HTML, CSS, afbeeldingen, fonts, JSON bestanden, etc. Een browser kan zo'n URL via HTTP binnenhalen (_fetchen_). En onze NodeJS server kan een URL via HTTP binnenhalen van bijvoorbeeld Directus. URLs voor je eigen server en website mag je zelf bepalen, via _routing_. URLs binnen Directus staan redelijk vast. Tot zover niks nieuws.
 
-### GET
+### `GET`
 Voor elke URL die je opvraagt, moet je ook bepalen met welke _method_ dat gebeurt. Standaard is dat `GET`. Elk adres dat je invoert jn je browser, en elke `<a href="/een-url">` link die je bezoekt, zorgt voor een `GET` request. `GET` requests halen alleen gegevens op: `GET /something`, that's it.
 
-### POST
+### `POST`
 Bij het maken van een `<form action="/een-url">` kun je de method veranderen naar `method="POST"`, waarmee je aangeeft dat je iets gaat veranderen. Je wilt nieuwe gegevens opslaan, een bericht toevoegen, een like uitdelen aan een recept, of een product toevoegen aan je wensenlijst. Al deze acties zorgen voor _User Generated Content_, en daarvoor hebben we dus `POST` requests nodig.
 
 Als frontender heb je vooral te maken met `POST` requests als je formulieren ontwerpt en maakt. Bedenk hierbij dat eigenlijk alles wat iets verandert in een database een formulier nodig heeft. Ook als dat formulier niet als een standaard formulier met invoervelden is ontworpen. Denk hierbij aan “Add to cart” buttons, “Like” buttons, “Favorite” buttons, etc. Je houdt hier rekening mee als je een ontwerp omzet naar HTML.
@@ -32,7 +33,15 @@ Als frontender heb je vooral te maken met `POST` requests als je formulieren ont
 
 ⏯️ En nog ingewikkelder: niet elke `<button>` hoeft altijd een `POST` request uit te voeren, of in een `<form>` te staan. Sommige knoppen voeren een micro-interactie uit, zoals je in Sprint 5 hebt geleerd. Hoe meer je werkt met formulieren en User Generated Content, hoe beter je leert inschatten wanneer je wat moet gebruiken.
 
-### Oefenen met een POST
+### Bronnen
+
+- [What's HTTP?](https://wizardzines.com/comics/whats-http/)
+- [Anatomy of an HTTP request](https://wizardzines.com/comics/anatomy-http-request/)
+- [HTTP request methods](https://wizardzines.com/comics/request-methods-1/)
+- [HTTP status codes](https://wizardzines.com/comics/status-codes/)
+
+
+## Oefenen met een POST
 
 Om te oefenen, gaan we een pagina met een formulier toevoegen aan onze squad page. Hiermee kunnen we berichten achterlaten.
 
@@ -58,16 +67,12 @@ Daarom gaan we eerst een nieuwe website ontwerpen.
 
 ### Bronnen
 
-- [What's HTTP?](https://wizardzines.com/comics/whats-http/)
-- [Anatomy of an HTTP request](https://wizardzines.com/comics/anatomy-http-request/)
-- [HTTP request methods](https://wizardzines.com/comics/request-methods-1/)
-- [HTTP status codes](https://wizardzines.com/comics/status-codes/)
 - [Basic routing in Express](https://expressjs.com/en/starter/basic-routing.html)
 - [`<form>`: The Form element @ MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
 - [For loop in Liquid](https://liquidjs.com/tags/for.html)
 
 
-## Kill Your Darlings (Ouch!)  
+## Kill Your Darlings (Ouch!)
 
 Itereren betekent het herhalen en verbeteren van een ontwerp of product, op basis van feedback en nieuwe inzichten. Dit zorgt ervoor dat je stap voor stap tot een beter resultaat komt. In de _development lifecycle_ is iteratie essentieel: het zorgt voor een continue cyclus van ontwerpen, ontwikkelen, testen en verbeteren, wat leidt tot een gebruiksvriendelijker en beter functionerend eindproduct.
 
@@ -86,6 +91,8 @@ Schets allemaal 3 nieuwe ideeën op papier, op basis van wat jullie de afgelopen
 
 Kies samen één schets en werk dit verder uit. Maak eerst een grove schets en werk dit eventueel uit in een hi-fi schets of in Figma. Deze week gaan jullie samen verder met dit nieuwe ontwerp.
 
+Werk ook [een Wireflow uit voor de interacties](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/filteren-en-sorteren.md#wireflow-schetsen), en overleg over jullie [URL design](https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/filteren-en-sorteren.md#url-design).
+
 <!--
 Ook de foto van 'u bent nu hier' aanpassen en hier plaatsen, maar dan het pijltje een stapje verder plaatsen
 -->
@@ -93,15 +100,17 @@ Ook de foto van 'u bent nu hier' aanpassen en hier plaatsen, maar dan het pijltj
 
 ## Maak één squad page
 
-Kies één persoon uit jullie team die de nieuwe [team-squad-page repository](https://github.com/fdnd-task/connect-your-tribe-team-squad-page) forkt. Deze persoon voegt de rest van het team toe als _Collaborators_.
+Kies één persoon uit jullie team die de nieuwe [team-squad-page repository](https://github.com/fdnd-task/connect-your-tribe-team-squad-page) forkt. Deze persoon voegt de rest van het team toe als _Collaborators_. Let op: dit is dus _niet_ de bestaande squad-page repository, waar je tot nu toe in werkte, maar een nieuwe.
 
 Clone daarna allemaal _die_ fork, en onderzoek lokaal hoe deze repository werkt. Gebruik `npm install` en `npm start` om de site bij jou lokaal te laten werken, en help elkaar als je er niet uit komt. Er zit wat voorbeeld code in waarmee je gegevens op kunt slaan in onze API. Dit gebeurt via een `POST` request (`fetch()`) naar Directus. Waarschijnlijk heeft jullie idee ook zoiets nodig.
 
 Bedenk samen hoe jullie het werk gaan verdelen en uit gaan voeren deze week. Maak behapbare taken en issues aan, en verdeel het werk eerlijk binnen het team. Oefen met het opsplitsen van grote taken in kleinere, zodat je taken van bijvoorbeeld 1 tot 2 uur overhoudt. Denk na over de volgorde van werk, en hoe de verschillende fases van de development lifecycle in taken terugkomen. Hoe gaan jullie om met testen? En hoe met integreren? Maak duidelijke afspraken en gebruik _issue assignment_ als dat jullie handig lijkt. Denk nog eens goed aan wat je na Sprint 4 wilde verbeteren, en pas dat nu toe. Ook hierbij: help elkaar om verder te komen, wees open over wat je wel en (nog) niet kunt, en gebruik deze week om meer te leren over het werken met NodeJS, JSON APIs, Liquid en dynamische data.
 
+Zorg dat je kleine commits maakt, en vaak pusht. Leer jezelf het gebruik van _Partial Commits_ aan, als je dat nog niet gedaan hebt. Je maakt hiermee het samenwerken makkelijker.
+
 Pro-tip: maak een HTML prototype van de nieuwe concepten die jullie verzonnen hebben, zodat je snel kunt testen of je ook echt iets op kunt slaan.
 
-💪 Wil je iets veranderen of toevoegen in het `custom` field van een `person`? Dan heb je bij Directus [een `PATCH` request](https://directus.io/docs/api/items#update-an-item) nodig.
+💪 En wil je iets veranderen of toevoegen in het `custom` field van een `person`? Dan heb je bij Directus [een `PATCH` request](https://directus.io/docs/api/items#update-an-item) nodig.
 
 
 ### Bronnen
@@ -114,3 +123,5 @@ Pro-tip: maak een HTML prototype van de nieuwe concepten die jullie verzonnen he
 - [Directus Docs](https://directus.io/docs/api)
 - [Express Docs](https://expressjs.com/en/5x/api.html)
 - [Integreren met Render (Sprint 7)](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-integreren-en-live-testen)
+- [Partial commits in GitHub Desktop](https://github.blog/news-insights/product-news/partial-commits-in-github-for-windows/)
+- [Committing and reviewing changes to your project in GitHub Desktop](https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop)
