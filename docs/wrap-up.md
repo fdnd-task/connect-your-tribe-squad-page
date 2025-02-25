@@ -20,7 +20,7 @@ Helpdesk voor interface vragen
 Beetje voorbereiden wat we ze in de retro gaan vragen
 
 Leren vermogen 5.2 & 5.3
-- Hoe gaat het NodeJS, Express, Liquid? 
+- Hoe gaat het NodeJS, Express, Liquid? Vragenlijst uit 2324 gebruiken? 
 Routing? 
 Url design? 
 Loop in liquid? 
@@ -28,6 +28,7 @@ Data gebruiken in Liquid?
 GET
 POST
 formulieren
+Misschien ook al meer advanced stuff vragen? 
 
 Probleemoplossend vermogen 4.3
 Uitleggen, zie DOD's
