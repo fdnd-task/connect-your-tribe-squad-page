@@ -5,7 +5,7 @@
 Tijdens de *Wrap up* ga je met je team bekijken en bespreken hoe ver jullie zijn, taken verdelen en plannen voor de oplevering van vrijdag.
 
 
-## Stand-up
+## Standup
 
 Als je in een team werkt, en je hebt taken verdeeld, zal je regelmatig moeten overleggen en bespreken hoe het gaat.
 Hiervoor wordt in de praktijk de *Daily standup* gebruikt, waarin het team kort de status en plannen bespreekt.
