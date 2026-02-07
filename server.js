@@ -13,8 +13,8 @@ import { Liquid } from 'liquidjs';
 // Gebruik hiervoor de documentatie van https://directus.io/docs/guides/connect/query-parameters
 // En de oefeningen uit https://github.com/fdnd-task/connect-your-tribe-squad-page/blob/main/docs/squad-page-ontwerpen.md
 
-// Haal alle eerstejaars squads uit de WHOIS API op van dit jaar (2024–2025)
-const squadResponse = await fetch('https://fdnd.directus.app/items/squad?filter={"_and":[{"cohort":"2425"},{"tribe":{"name":"FDND Jaar 1"}}]}')
+// Haal bijvoorbeeld alle eerstejaars squads uit de WHOIS API op van dit jaar (2025–2026)
+const squadResponse = await fetch('https://fdnd.directus.app/items/squad?filter[cohort]=2526&filter[tribe][name]=FDND Jaar 1')
 
 // Lees van de response van die fetch het JSON object in, waar we iets mee kunnen doen
 const squadResponseJSON = await squadResponse.json()
@@ -45,8 +45,9 @@ app.use(express.urlencoded({extended: true}))
 // Om Views weer te geven, heb je Routes nodig
 // Maak een GET route voor de index
 app.get('/', async function (request, response) {
+
   // Haal alle personen uit de WHOIS API op, van dit jaar
-  const personResponse = await fetch('https://fdnd.directus.app/items/person/?sort=name&fields=*,squads.squad_id.name,squads.squad_id.cohort&filter={"_and":[{"squads":{"squad_id":{"tribe":{"name":"FDND Jaar 1"}}}},{"squads":{"squad_id":{"cohort":"2425"}}}]}')
+  const personResponse = await fetch('https://fdnd.directus.app/items/person/?sort=name&fields=*,squads.squad_id.name,squads.squad_id.cohort&filter[squads][squad_id][cohort]=2526&filter[squads][squad_id][tribe][name]=FDND Jaar 1')
 
   // En haal daarvan de JSON op
   const personResponseJSON = await personResponse.json()
