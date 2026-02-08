@@ -27,9 +27,5 @@ Deze opdracht is done als:
 - [ ] Je hebt met een team een website voor je squad ontworpen en gemaakt met NodeJS en de WHOIS API
 - [ ] Gebruikers kunnen op de website data filteren, sorteren en zoeken
 - [ ] gebruikers kunnen op de website iets achterlaten
-- [ ] Je hebt met een team iteratief gewerkt en jullie hebben divergeren en convergeren toegepast in het ontwerp en de uitwerking
-- [ ] Jullie hebben de samenwerking besproken in een kampvuursessie en elkaar feedback gegeven
-- [ ] Je website is online gepubliceerd
-
- 
- 
+- [ ] Je hebt met een team iteratief gewerkt, je hebt een eigen website ontworpen en gemaakt en samengevoegd tot een gezamenlijk ontwerp
+- [ ] Je hebt met je team een kampvuursessie gehouden, de samenwerking besproken en elkaar feedback gegeven
