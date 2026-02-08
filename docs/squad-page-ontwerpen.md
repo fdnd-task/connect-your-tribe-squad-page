@@ -135,6 +135,8 @@ Filters en sortering kun je combineren, met de `filter` en `sort` query paramete
 
 <!-- filter[birthdate][_nnull]=true&sort=-birthdate -->
 
+13) 💪💪 Meer uitdaging nodig? Filter eens op alle studenten uit jouw squad..
+
 
 ### Zoeken
 
@@ -142,7 +144,7 @@ Je kunt ook zoeken in de database. De zoekfunctie van Directus speurt in alle ve
 
 Zoek maar eens op een hobby, gebruik hiervoor de query parameter `search=frisbee` in de URL. Weer geen interessante mensen gevonden? Zoek dan maar op je eigen naam ... ego. Bron: https://directus.io/docs/guides/connect/query-parameters#search
 
-13) Schrijf 3 termen op waar je op gezocht hebt, en zet daarbij hoeveel personen je gevonden hebt.
+14) Schrijf 3 termen op waar je op gezocht hebt, en zet daarbij hoeveel personen je gevonden hebt.
 
 
 ### Schetsen
