@@ -28,4 +28,4 @@ Deze opdracht is done als:
 - [ ] Gebruikers kunnen op de website data filteren, sorteren en zoeken
 - [ ] gebruikers kunnen op de website iets achterlaten
 - [ ] Je hebt met een team iteratief gewerkt, je hebt een eigen website ontworpen en gemaakt en samengevoegd tot een gezamenlijk ontwerp
-- [ ] Je hebt met je team een kampvuursessie gehouden, de samenwerking besproken en elkaar feedback gegeven
+- [ ] Je hebt met je team een kampvuursessie gehouden, de samenwerking en elkaars functioneren besproken 
