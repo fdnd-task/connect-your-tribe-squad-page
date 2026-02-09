@@ -160,7 +160,7 @@ Eerst bedenk je met je team verschillende ideeën voor jullie website. Je kan hi
 
 Bespreek de schetsen en werk daarna 6 verschillende ideeën uit op het whiteboard. Noteer bij elk idee hoe je de data kunt filteren of sorteren, en welke velden in de WHOIS API je daarvoor nodig hebt, of moeten worden aangemaakt. 
 
-Kies daarna allemaal een eigen idee om deze week aan te werken. Maak in een gezamenlijk Figma file allemaal een eigen een high-res ontwerp van je idee. Help elkaar met styling, gebruik dezelfde stijl elementen of bedenk zelf een stijl.
+Kies daarna allemaal een eigen idee om deze week aan te werken. Maak in een gezamenlijk Figma file allemaal een eigen een high-res ontwerp van je idee. Help elkaar met vormgeving, gebruik dezelfde stijl elementen of bedenk zelf een stijl.
 
 Vrijdag ga je met je team kijken wat jullie hebben gemaakt en maken jullie een nieuw ontwerp om daarna gezamenlijk aan te werken.
 
@@ -171,7 +171,9 @@ In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken.
 
 ## Iteratief werken
 
-Met je team ga je iteratief aan de opdracht werken. Dat betekent dat jullie eerst zelf verschillende ideeën gaan uitwerken in code. Deze ga je bespreken en vervolgens breng je dit samen in een nieuw ontwerp. De code uit deze repository geeft je een heel basic begin van een squad page. Het is natuurlijk de bedoeling dat je deze code van jezelf maakt en helemaal aanpast naar het eigen idee dat je hebt.
+Met je team ga je deze sprint iteratief aan de opdracht werken. Dat betekent dat jullie eerst (deze week) zelf verschillende ideeën gaan uitwerken in code. Deze ga je vrijdag bespreken en volgende week breng je dit _samen_ in een nieuw ontwerp en uitwerking.
+
+De code uit deze repository geeft je een heel basic begin van een squad page. Het is natuurlijk de bedoeling dat je deze code van jezelf maakt en helemaal aanpast naar het eigen idee dat je hebt. Misschien kun je je _routes_ en _views_ al voorbereiden op dynamische data? En je kunt vandaag en morgen met HTML en CSS al een (statisch) prototype maken in de Liquid bestanden die je van ons krijgt. Alles wat je in Semester 1 hebt geleerd, kun je ook toepassen in Liquid.
 
 Door de DLC meerdere keren te doorlopen, kan je stap voor stap een ontwerpprobleem, of ontwerpvraag, oplossen.
 
