@@ -173,8 +173,6 @@ In de de tweede leren hoe je data kan opslaan (POST) en op 1 codebase werken.
 
 Met je team ga je deze sprint iteratief aan de opdracht werken. Dat betekent dat jullie eerst (deze week) zelf verschillende ideeën gaan uitwerken in code. Deze ga je vrijdag bespreken en volgende week breng je dit _samen_ in een nieuw ontwerp en uitwerking.
 
-De code uit deze repository geeft je een heel basic begin van een squad page. Het is natuurlijk de bedoeling dat je deze code van jezelf maakt en helemaal aanpast naar het eigen idee dat je hebt. Misschien kun je je _routes_ en _views_ al voorbereiden op dynamische data? En je kunt vandaag en morgen met HTML en CSS al een (statisch) prototype maken in de Liquid bestanden die je van ons krijgt. Alles wat je in Semester 1 hebt geleerd, kun je ook toepassen in Liquid.
-
 Door de DLC meerdere keren te doorlopen, kan je stap voor stap een ontwerpprobleem, of ontwerpvraag, oplossen.
 
 ![](experimenteren-varieren.png)
@@ -183,5 +181,10 @@ Dit heet ook wel “divergeren en convergeren”. Eerst werken jullie verschille
 
 ![](convergeren-divergeren.png)
 
+## Aan de slag met code
 
+Blijf vanmiddag lekker doorwerken in de FDND studio.
 
+De code uit deze repository geeft je een heel basic begin van een squad page. Het is natuurlijk de bedoeling dat je deze code van jezelf maakt en helemaal aanpast naar het eigen idee dat je hebt. Misschien kun je je _routes_ en _views_ al voorbereiden op dynamische data? En je kunt met HTML en CSS al een (statisch) prototype maken in de Liquid bestanden die je van ons krijgt. Alles wat je in Semester 1 hebt geleerd, kun je ook toepassen in Liquid. Woensdag gaan we meer uitleggen over dynamische data ophalen in NodeJS, maar laat dat je niet tegenhouden.
+
+En heb je al gezien dat er morgen een CSS challenge over _Container Queries_ is? Meld je aan!
