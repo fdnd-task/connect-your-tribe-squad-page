@@ -20,7 +20,7 @@ Daarna gaan jullie eigen URLs, query parameters, routes en views bedenken en ont
 
 Ga weer in de teams zitten waarin je maandag ingedeeld bent. Zet je naam op het bord, en schrijf achter je naam een titel van het ontwerp dat je aan het maken bent. Schrijf eronder een vraag die je hebt (over Directus, JSON, NodeJS, Liquid, etc).
 
-Leg elkaar je ontwerp en idee uit, als jullie dat maandag nog niet gedaan hebben.
+Leg elkaar je ontwerp en idee uit, en laat elkaar zien hoe ver je bent.
 
 ### API query parameters
 
