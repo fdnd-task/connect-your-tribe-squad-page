@@ -61,10 +61,11 @@ app.get('/', async function (request, response) {
 
     // Combineer meerdere filters
     'filter[squads][squad_id][tribe][name]': 'FDND Jaar 1',
+    'filter[squads][squad_id][cohort]': '2526',
+    
     // Filter eventueel alleen op een bepaalde squad
     // 'filter[squads][squad_id][name]': '1I',
     // 'filter[squads][squad_id][name]': '1J',
-    'filter[squads][squad_id][cohort]': '2526'
   }
   const personResponse = await fetch('https://fdnd.directus.app/items/person/?' + new URLSearchParams(params))
 
