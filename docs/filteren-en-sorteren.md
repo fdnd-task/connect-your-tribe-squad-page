@@ -24,7 +24,8 @@ Leg elkaar je ontwerp en idee uit, en laat elkaar zien hoe ver je bent.
 
 ### API query parameters
 
-Bespreek met elkaar welke API URL(s) je nodig hebt, en welke query parameters je daarin gebruikt hebt. Lees met elkaar de [`fields` query parameter van Directus](https://directus.io/docs/guides/connect/query-parameters#fields) en maak de API URL(s) zo klein mogelijk, zodat je alleen de data die je echt nodig hebt ook terugkrijgt. De ene zal misschien alleen namen en favoriete kleuren nodig hebben, de ander ook geboortedata en GitHub handles.
+Bespreek met elkaar welke API URL(s) je nodig hebt, en welke query parameters je daarin gebruikt hebt. 
+Lees met elkaar de [`fields` query parameter van Directus](https://directus.io/docs/guides/connect/query-parameters#fields) en maak de API URL(s) zo klein mogelijk, zodat je alleen de data die je echt nodig hebt ook terugkrijgt. De ene zal misschien alleen namen en favoriete kleuren nodig hebben, de ander ook geboortedata en GitHub handles.
 
 Als je lokaal een werkend prototype in HTML hebt, met de data die je nodig hebt, zet dan een krul achter je naam op het whiteboard. Als dat je nog niet is gelukt, vraag dan om hulp van je team. Als het je wel is gelukt, bied dan je hulp aan aan teamleden.
 
