@@ -123,6 +123,7 @@ Dit is de code waar we mee begonnen, die je van ons hebt gekregen:
 ```js
 // Om Views weer te geven, heb je Routes nodig
 // Maak een GET route voor de homepage
+// Deze functie wordt dus uitgevoerd als de browser naar /?sorteer=andersom gaat
 app.get('/', async function (request, response) {
 
   // Haal alle personen uit de WHOIS API op, van dit jaar, gesorteerd op naam
@@ -154,6 +155,7 @@ Dat zou bijvoorbeeld zo kunnen, met een [`if...else` statement](https://develope
 ```js
 // Om Views weer te geven, heb je Routes nodig
 // Maak een GET route voor de homepage
+// Deze functie wordt dus uitgevoerd als de browser naar /?sorteer=andersom gaat
 app.get('/', async function (request, response) {
 
   // Haal alle personen uit de WHOIS API op, van dit jaar, gesorteerd op naam
@@ -195,6 +197,7 @@ Of zo, met een [_ternaire operator_](https://developer.mozilla.org/en-US/docs/We
 ```js
 // Om Views weer te geven, heb je Routes nodig
 // Maak een GET route voor de homepage
+// Deze functie wordt dus uitgevoerd als de browser naar /?sorteer=andersom gaat
 app.get('/', async function (request, response) {
 
   // Haal alle personen uit de WHOIS API op, van dit jaar, gesorteerd op naam
