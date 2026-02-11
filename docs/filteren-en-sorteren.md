@@ -251,7 +251,7 @@ In Liquid kun je ook [`if` statements](https://liquidjs.com/tags/if.html) gebrui
 ```liquid
 {% if person.avatar %}
   <img src="{{ person.avatar }}">
-{% endfor %}
+{% endif %}
 ```
 
 En [`else`](https://liquidjs.com/tags/if.html#elsif-else):
