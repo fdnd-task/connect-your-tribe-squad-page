@@ -1,7 +1,7 @@
 # Connect Your Tribe - Squad Page
 
 ## Code/Design-review over het design van jullie squadpage
-Deze week hebben jullie gewerkt aan gezamenlijke ideeën voor de squadpage en heeft ieder teamlid één optie uitgewerkt. Je hebt kennisgemaakt met filteren en sorteren en dit toegepast op de squadpage.  
+Deze week hebben jullie gewerkt aan gezamenlijke ideeën voor de squadpage en heeft ieder teamlid één optie uitgewerkt. Je hebt kennisgemaakt met filteren, sorteren en zoeken en dit toegepast op de squadpage.  
 
 ### Aanpak
 Vandaag ga je met je team de ideeën en uitwerkingen van een ander team bekijken. Samen voer je een code-review uit op de squadpages van drie andere studenten (uit één team). Tegelijkertijd krijg je een design/concept-review van je co-teacher en squad-leader. 
