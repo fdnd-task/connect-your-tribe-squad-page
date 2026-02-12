@@ -9,22 +9,23 @@ Vandaag ga je met je team de ideeën en uitwerkingen van een ander team bekijken
 Klaar met de code-review? 
 Dan ga je met je team aan de slag om jullie ideeën samen te brengen en nieuwe ideeen te bedenken.
 
-## Code-review
+## 1. Code-review
 Zorg ervoor dat de laatste aanpassingen zijn gepusht naar GitHub, zet de issues open en zet je squadpage live via Render. Check [hier](https://github.com/fdnd-task/connect-your-tribe-profile-card/blob/main/docs/visitekaartje-met-nodejs.md#visitekaartje-integreren-en-live-testen) hoe je jouw website ook alweer live zet met Render.  
 
-Schrijf op het whiteboard per persoon drie punten op waarop je graag feedback wilt ontvangen. Op het bord staan van elk teamlid minimaal drie punten om feedback op te krijgen. Denk bijvoorbeeld aan:  
+Bedenk per teamlid drie punten op waarop je graag feedback wilt ontvangen. Noteer dit op het whiteboard. Van elk team staan er dus minimaal 9 punten om feedback op te ontvangen. Voorbeelden om feedback over te vragen:  
 
-- Je hebt het idee dat je jezelf vaak herhaalt in de code. Hoe kan je dit slimmer aanpakken? (Tip: DRY)  
-- Een probleem waar je maar niet uitkomt. De afbeeldingen worden niet geladen in `index.liquid`. Waar kan dat aan liggen? 
-- De _query parameters van de URL_ die je gaat fetchen staan nog niet helemaal goed. Je wilt namelijk alle studenten uit squad 1G mét een GitHub-handle laten zien. Nu zie je de GitHub handles van alle studenten uit jaar één. Op regel 25 van `server.js` vind je de huidige URL.
+- Ik herhaal mezelf in vode. Hoe kan ik dit slimmer aanpakken? (Tip: DRY)  
+- De afbeeldingen worden niet geladen in `index.liquid`. Waar kan dat aan liggen?
+- Is mijn wireflow navolgbaar? Zouden jullie met deze wireflow nu zelf de routes kunnen aanmaken en de data kunnen ophalen?
+- Er gaat iets mis bij de _query parameters_ op de homepagina. Ik wil alle studenten met een GitHub handle uit 1J laten zien. Nu zie je de GitHub handles van alle studenten uit het eerste jaar, ook dus van de andere squad. Op regel 25 van `server.js` vind je de huidige URL.
 - Wat denken jullie van de semantiek van mijn HTML uit de `index.liquid`?
 
-Kies samen met jouw team een ander team uit. Gezamenlijk kijken jullie naar de repo's van de studenten uit het andere team en geven jullie feedback op de gevraagde punten. Schrijf rechtsboven op het whiteboard jullie teamnaam als je een team hebt gekozen om te gaan reviewen. Zo kun je zien welk team nog geen review heeft ontvangen.
+Kies een ander team uit om te reviewen. Schrijf rechtsboven op het whiteboard de naam het team wat jullie gaan reviewen. Gezamenlijk kijken jullie naar de repo's van de studenten uit het andere team en geven jullie feedback op de gevraagde punten. 
 
-## Design en concept-review
+## 2. Design en concept-review
 Deze week hebben jullie meerdere schetsen gemaakt om een creatieve squadpage te ontwikkelen. Dit gaan we reviewen! De docenten komen langs bij jullie tafels om te kijken naar de schetsen en concepten. We letten op het ontwerp, de creativiteit van het concept en in hoeverre jullie het idee al hebben kunnen realiseren. Hierop ontvang je feedback van een docent.  
 
-## Samen verder itereren  
+## 3. Samen verder itereren  
 Deze week zijn jullie gezamenlijk begonnen en individueel verder gaan werken. Vandaag gaan we naar elkaars werk kijken binnen het team en benoemen we wat goed gaat én wat nog beter kan. Vervolgens gaan we opnieuw terug naar de tekentafel om deze tips en tops te verwerken in nieuwe schetsen. Van elke iteratie wordt je werk beter!
 
 ### Analyseer het gemaakte werk
