@@ -14,7 +14,7 @@ Zorg ervoor dat de laatste aanpassingen zijn gepusht naar GitHub, zet de issues 
 
 Bedenk per teamlid drie punten op waarop je graag feedback wilt ontvangen. Noteer dit op het whiteboard. Van elk team staan er dus minimaal 9 punten om feedback op te ontvangen. Voorbeelden om feedback over te vragen:  
 
-- Ik herhaal mezelf in vode. Hoe kan ik dit slimmer aanpakken? (Tip: DRY)  
+- Ik herhaal mezelf in code. Hoe kan ik dit slimmer aanpakken? (Tip: DRY)  
 - De afbeeldingen worden niet geladen in `index.liquid`. Waar kan dat aan liggen?
 - Is mijn wireflow navolgbaar? Zouden jullie met deze wireflow nu zelf de routes kunnen aanmaken en de data kunnen ophalen?
 - Er gaat iets mis bij de _query parameters_ op de homepagina. Ik wil alle studenten met een GitHub handle uit 1J laten zien. Nu zie je de GitHub handles van alle studenten uit het eerste jaar, ook dus van de andere squad. Op regel 25 van `server.js` vind je de huidige URL.
