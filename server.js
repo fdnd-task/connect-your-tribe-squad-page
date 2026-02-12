@@ -18,7 +18,9 @@ const params = {
   'filter[cohort]': '2526',
   'filter[tribe][name]': 'FDND Jaar 1'
 }
-const squadResponse = await fetch('https://fdnd.directus.app/items/squad?' + new URLSearchParams(params))
+const apiURL = 'https://fdnd.directus.app/items/squad?' + new URLSearchParams(params)
+// console.log('API URL:', apiURL)
+const squadResponse = await fetch(apiURL)
 
 // Lees van de response van die fetch het JSON object in, waar we iets mee kunnen doen
 const squadResponseJSON = await squadResponse.json()
@@ -67,7 +69,11 @@ app.get('/', async function (request, response) {
     // 'filter[squads][squad_id][name]': '1I',
     // 'filter[squads][squad_id][name]': '1J',
   }
-  const personResponse = await fetch('https://fdnd.directus.app/items/person/?' + new URLSearchParams(params))
+
+  const apiURL = 'https://fdnd.directus.app/items/person/?' + new URLSearchParams(params)
+  // console.log('API URL:', apiURL)
+
+  const personResponse = await fetch(apiURL)
 
   // En haal daarvan de JSON op
   const personResponseJSON = await personResponse.json()
@@ -93,7 +99,11 @@ app.post('/', async function (request, response) {
 // Zie de documentatie van Express voor meer info: https://expressjs.com/en/guide/routing.html#route-parameters
 app.get('/student/:id', async function (request, response) {
   // Gebruik de request parameter id en haal de juiste persoon uit de WHOIS API op
-  const personDetailResponse = await fetch('https://fdnd.directus.app/items/person/' + request.params.id)
+
+  const apiURL = 'https://fdnd.directus.app/items/person/' + request.params.id
+  // console.log('API URL:', apiURL)
+
+  const personDetailResponse = await fetch(apiURL)
   // En haal daarvan de JSON op
   const personDetailResponseJSON = await personDetailResponse.json()
   
