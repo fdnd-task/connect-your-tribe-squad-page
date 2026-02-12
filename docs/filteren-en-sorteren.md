@@ -251,7 +251,7 @@ In Liquid kun je ook [`if` statements](https://liquidjs.com/tags/if.html) gebrui
 ```liquid
 {% if person.avatar %}
   <img src="{{ person.avatar }}">
-{% endfor %}
+{% endif %}
 ```
 
 En [`else`](https://liquidjs.com/tags/if.html#elsif-else):
@@ -274,7 +274,7 @@ In de `index.liquid` die je van ons kreeg, zat het volgende:
 </ul>
 ```
 
-Dit heet [een _for loop_](https://liquidjs.com/tags/for.html), waardoor je niet meerdere keren dezelfde HTML hoeft te schrijven. Liquid wandelt voor jou automatisch door alle personen heen, en _herhaalt voor élke persoon_ de HTML die je _in de loop_ zet. Zie ook dit voorbeeld:
+Dit heet [een _for loop_](https://liquidjs.com/tags/for.html), waardoor je niet meerdere keren “dezelfde” HTML hoeft te schrijven. Liquid wandelt voor jou automatisch door alle personen heen, en _herhaalt voor élke persoon_ de HTML die je _in de loop_ zet. For loops werken voor _arrays_. Zie ook dit voorbeeld:
 
 ```liquid
 {% for person in persons %}
