@@ -31,13 +31,13 @@ Deze week zijn jullie gezamenlijk begonnen en individueel verder gaan werken. Va
 ### Analyseer het gemaakte werk
 Bekijk samen het werk van alle teamleden en schrijf per squad page op het whiteboard. Volgende week ga je intensief samenwerken en sluit je de week af met een kampvuursessie. Blik nu alvast met elkaar terug hoe deze eerste week was als team. Bekijk het werk van elkaar en bespreek ook wat jullie opvalt aan de samenwerking:  
 
-Feedback op het werk:
+Geef alle teamleden feedback op de gemaakte squadpage:
 - Wat werkt goed?  
 - Wat ziet er mooi uit?  
 - Wat kan beter?  
 - Wat werkt (nog) niet goed?
 
-Feedback op de samenwerking:
+En geef per teamlid feedback op de samenwerking:
 - Geef twee tips en tops op de samenwerking
 
 ### Schets nieuwe ontwerpen
