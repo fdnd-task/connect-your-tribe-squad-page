@@ -29,12 +29,16 @@ Deze week hebben jullie meerdere schetsen gemaakt om een creatieve squad page te
 Deze week zijn jullie gezamenlijk begonnen en individueel verder gaan werken. Vandaag gaan we naar elkaars werk kijken binnen het team en benoemen we wat goed gaat én wat nog beter kan. Vervolgens gaan we opnieuw terug naar de tekentafel om deze tips en tops te verwerken in nieuwe schetsen. Van elke iteratie wordt je werk beter!
 
 ### Analyseer het gemaakte werk
-Bekijk samen het werk van alle teamleden en schrijf per squad page op het whiteboard:  
+Bekijk samen het werk van alle teamleden en schrijf per squad page op het whiteboard. Volgende week ga je intensief samenwerken en sluit je de week af met een kampvuursessie. Blik nu alvast met elkaar terug hoe deze eerste week was als team. Bekijk het werk van elkaar en bespreek ook wat jullie opvalt aan de samenwerking:  
 
+Feedback op het werk:
 - Wat werkt goed?  
 - Wat ziet er mooi uit?  
 - Wat kan beter?  
-- Wat werkt (nog) niet goed?  
+- Wat werkt (nog) niet goed?
+
+Feedback op de samenwerking:
+- Geef twee tips en tops op de samenwerking
 
 ### Schets nieuwe ontwerpen
 Maak op basis van jullie inzichten nieuwe schetsen. Ieder teamlid maakt drie nieuwe ontwerpen voor een squad page. Gebruik de sterke punten uit de bestaande squad pages en/of bedenk oplossingen voor dingen die nog niet goed werkten. 
