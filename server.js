@@ -7,7 +7,7 @@ import { Liquid } from 'liquidjs';
 
 
 /*
-Je kunt de volgende URLs uit onze WHOIS API gebruiken:
+Je kunt de volgende URLs (endpoints) uit onze WHOIS API gebruiken:
 - https://fdnd.directus.app/items/tribe
 - https://fdnd.directus.app/items/squad
 - https://fdnd.directus.app/items/person
