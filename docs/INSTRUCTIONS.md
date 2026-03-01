@@ -1,6 +1,6 @@
 
 # Connect Your Tribe - Squad page
-Ontwerp en maak met een team een website met NodeJS en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
+Ontwerp en maak met een team een website met NodeJS, Express, Liquid en data uit de [whois.fdnd.nl](https://whois.fdnd.nl) API.
 
 ## Context
 Deze leertaak hoort bij Sprint 7, “Connect Your Tribe”. Dit is een leertaak die je in een team uitvoert.
